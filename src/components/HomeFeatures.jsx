@@ -195,7 +195,7 @@ const HomeFeatures = () => {
           </div>
         </div>
       </section>
-      {/* button */}
+      {/* button featuers */}
       <div className="flex justify-center py-10">
         <button className="bg-white px-6 py-2 rounded-full flex items-center border">View all industry <img src="/images/Group 1000002679.png" alt="" className="ms-3" /></button>
       </div>
