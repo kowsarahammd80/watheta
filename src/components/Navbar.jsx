@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,23 +9,52 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navBar, setNavBar] = useState(false);
   const [active, setActive] = useState("Home");
+  
+  useEffect(() => {
+    const changeBgScroll = () => {
+      if (window.scrollY <= 50) {
+        setNavBar(false);
+      } else {
+        setNavBar(true);
+      }
+    };
 
-  const changeBgScroll = () => {
-    if (window.scrollY <= 50) {
-      setNavBar(false);
-    } else {
-      setNavBar(true);
+    // Attach event listener when the component mounts
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", changeBgScroll);
     }
-  };
+
+    // Cleanup event listener when component unmounts
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("scroll", changeBgScroll);
+      }
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+  // const changeBgScroll = () => {
+  //   if (window.scrollY <= 50) {
+  //     setNavBar(false);
+  //   } else {
+  //     setNavBar(true);
+  //   }
+  // };
 
-  window.addEventListener("scroll", changeBgScroll);
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
+  // const closeMenu = () => {
+  //   setIsMenuOpen(false);
+  // };
+
+  // window.addEventListener("scroll", changeBgScroll);
   return (
     <div
       className={
