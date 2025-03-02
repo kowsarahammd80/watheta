@@ -123,18 +123,7 @@ body {
   border: 1.5px solid #6cc17b;
   border-radius: 2.5rem;
 }
-/* .homeCardImgDiv{
-  width: 20px;
-  height: 16px;
-}
-.homeCardImg{
-  width: 100%;
-  height: 100%;
-}
-.homeNoCardText{
-  color: #292D32;
-  font-size: 1rem;
-} */
+
 .homeScheduleButton {
   border: 1.5px solid #6cc17b;
   padding: 0.5rem 1.5rem;
@@ -315,23 +304,137 @@ body {
 }
 
 /* intrergrations */
-.intrergrationsImgDiv {
-  /* position: absolute; */
-  /* background-image: url("/images/integrations.png"); */
-  background-size: cover;
-  background-position: center;
+.intregeteDivBG{
+  background-image: url('/images/integrations.png');
   background-repeat: no-repeat;
-  align-items: center;
+  background-position-x: center;
+  height: 697px;
   width: 100%;
-  height: 64.54vh;
 }
-.intrergrationsImg {
+.integrationsText{
+  font-size: 18px;
+}
+.intregeteHeadline{
+  font-size: 3rem;
+  /* font-size: 3.375rem; */
+  font-weight: 600;
+  width: 852px;
+}
+
+/* happyclients */
+.HappyClientSaysBg{
+  background-color: #292d32;
+  height: 841px;
+}
+.happyClientsSaysText{
+  font-size: 54px;
+  font-weight: 600;
+}
+.happyClientsSaysImgDiv{
+  width: 60px;
+  height: 60px;
+}
+.happyClientsSaysImg{
   width: 100%;
   height: 100%;
 }
-.intrergrationsTextDiv {
-  /* position: relative; */
+.clientSaySliderPera{
+  font-size: 18px;
+  font-weight: 400;
 }
+
+
+/* whaychooseWatheta */
+.whaychooseWathetabg{
+ background-color: #F1F0FF;
+}
+.whyChooseWaThetaText{
+  font-size: 54px;
+  font-weight: 600;
+  width: 70%;
+}
+.whyChooseWaThetaPera{
+  font-size: 16px;
+  width: 60%;
+}
+.whyChooseWathetaCardImgDiv{
+  width: 94px;
+  height: 100px;  
+}
+.whyChooseCardImg{
+  width: 100%;
+  height: 100%;
+}
+.whyChooseCardHeadline{
+  font-size: 24px;
+  font-weight: 600;
+  /* width: 60%; */
+}
+/* conversational */
+.conversationalbg{
+  background-color: #F6F6F6;
+}
+.conversationalHeadline{
+  font-size: 54px;
+  font-weight: 600;
+  width: 50%;
+}
+.conversationalCardTitle{
+  font-size: 26px;
+  font-weight: 600;
+}
+.conversationallearnMoreButton{
+ font-size: 16px;
+ color: #292D32;
+}
+.conversationalArrowDiv{
+  width: 5vw;  /* Adjust based on design */
+  height: 5vw;
+  max-width: 36px;
+  max-height: 36px;
+}
+.conversationalArrow{
+  width: 100%;
+  height: 100%;
+}
+.conversationalIconDiv{
+  width: 6vw;
+  height: 6vw;
+  max-width: 46px;
+  max-height: 46px;
+}
+.conversationalIcon{
+  width: 100%;
+  height: 100%;
+}
+.viewallindustryButtonText{
+  font-size: 1rem;
+}
+
+/* rescon to switch */
+.resonToSwitchHeadline{
+  font-size: 3.375rem;
+  font-weight: 600;
+  width: 60%;
+}
+.resonIconDiv{
+  width: 5vw;  
+  height: 5vw;
+}
+.resonIcon{
+  width: 100%;
+  height: 100%;
+}
+.resonCardHeadline{
+  font-size: 24px;
+  font-weight: 600;
+}
+.resonCardPera{
+  font-size: 18px;
+  color: #7A7A7A;
+}
+
+
 
 /* media query */
 /* Mobile Styles */

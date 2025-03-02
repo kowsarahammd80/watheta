@@ -1,3 +1,5 @@
+import Conversational from "@/components/Conversational";
+import HappyClientSays from "@/components/HappyClientSays";
 import HomeBroadcaster from "@/components/HomeBroadcaster";
 import HomeConnectors from "@/components/HomeConnectors";
 import HomeCrm from "@/components/HomeCrm";
@@ -6,10 +8,12 @@ import HomeFeatures from "@/components/HomeFeatures";
 import HomeGenerativeAI from "@/components/HomeGenerativeAI";
 import HomeHero from "@/components/HomeHero";
 import HomeIntegrations from "@/components/HomeIntegrations";
+import ResonToSwitch from "@/components/ResonToSwitch";
 import Teambox from "@/components/Teambox";
 import TrustedCustomers from "@/components/TrustedCustomers";
 import WhatsAppChatBots from "@/components/WhatsAppChatBots";
 import WhtasAppCommerce from "@/components/WhtasAppCommerce";
+import WhyChooseWaTheta from "@/components/WhyChooseWaTheta";
 // import Image from "next/image";
 
 export default function Home() {
@@ -26,7 +30,11 @@ export default function Home() {
         <HomeDrip/>
         <HomeConnectors/>
         <HomeGenerativeAI/>
-        {/* <HomeIntegrations/> */}
+        <HappyClientSays/>
+        <WhyChooseWaTheta/>
+        <HomeIntegrations/>
+        <Conversational/>
+        <ResonToSwitch/>
     </div>
   );
 }

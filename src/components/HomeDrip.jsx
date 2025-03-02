@@ -6,7 +6,7 @@ const HomeDrip = () => {
       {/*  */}
       <section className="grid grid-cols-2 gap-10 mx-48">
         {/* text div */}
-        <div className="ms-16">
+        <div className="">
           <div>
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center">
               {" "}
