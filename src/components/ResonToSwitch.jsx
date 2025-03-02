@@ -98,6 +98,9 @@ const ResonToSwitch = () => {
                   />
                 </div>
                 <p className="resonCardHeadline pt-3 w-8/12">
+                  Conversational Support
+                </p>
+                <p className="resonCardPera py-4">
                   Shared inbox, chatbot, customer satisfaction report with
                   others.
                 </p>
