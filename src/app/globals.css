@@ -415,7 +415,7 @@ body {
 .resonToSwitchHeadline{
   font-size: 3.375rem;
   font-weight: 600;
-  width: 60%;
+  width: 60vw;
 }
 .resonIconDiv{
   width: 5vw;  
@@ -430,7 +430,7 @@ body {
   font-weight: 600;
 }
 .resonCardPera{
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #7A7A7A;
 }
 
