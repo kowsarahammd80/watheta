@@ -1,5 +1,6 @@
 import Conversational from "@/components/Conversational";
 import HappyClientSays from "@/components/HappyClientSays";
+import HomeBlogs from "@/components/HomeBlogs";
 import HomeBroadcaster from "@/components/HomeBroadcaster";
 import HomeConnectors from "@/components/HomeConnectors";
 import HomeCrm from "@/components/HomeCrm";
@@ -35,6 +36,7 @@ export default function Home() {
         <HomeIntegrations/>
         <Conversational/>
         <ResonToSwitch/>
+        <HomeBlogs/>
     </div>
   );
 }

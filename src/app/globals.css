@@ -433,6 +433,51 @@ body {
   font-size: 1.1rem;
   color: #7A7A7A;
 }
+/* homeBlogs */
+.homeBlogsBg{
+  background-color: #F6F6F6;
+}
+.homeBlogsHeadline{
+  font-size: 54px;
+  font-weight: 600;
+}
+.homeBlogsCols2ImgDiv{
+  width: 100%;
+  height: 42vh;
+}
+.homeBlogsCols2Img{
+  width: 100%;
+  height: 100%;
+}
+.homeBlogsCols1-1stImgDiv{
+  width: 100%;
+  height: 42vh;
+}
+.homeBlogsCols1-1stImg{
+  width: 100%;
+  height: 100%;
+}
+.homeBlogCardHeadline{
+  font-size: 1.625rem;
+  font-weight: 600;
+  width: 84%;
+}
+.dayOrCounttext{
+  font-size: 1rem;
+  color: #7A7A7A;
+}
+.homeBlogCard2ndHeadline{
+  font-size: 1.375rem;
+  font-weight: 600;
+  width: 95%;
+}
+.homeBlogsCols1-2ndImgDiv{
+  width: 100%;
+  height: 25vh;
+}
+
+
+
 
 
 
