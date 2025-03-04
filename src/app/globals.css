@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  height: 9vh;
+  height: 8.3vh;
 }
 .navLogoDiv {
   width: 12vw;
@@ -89,7 +89,8 @@ body {
   background-color: #f6f6f6;
 }
 .homeHeroHeadLinkDiv {
-  width: 47.56rem;
+  /* width: 47.56rem; */
+  width: 100%;
 }
 .homeHeroHeadline {
   font-size: 4.9rem;
@@ -140,6 +141,14 @@ body {
   font-size: 1rem;
   border-radius: 2.25rem;
   box-shadow: gainsboro 2px 8px 4px;
+}
+.homeHeroImgaDiv{
+  width: 105%;
+  height: 484px;
+}
+.homeHeroImga{
+  width: 100%;
+  height: 100%;
 }
 
 /* trusted coustomers logo */
@@ -240,6 +249,14 @@ body {
 .whatsAppChatBotsBg {
   background-color: #f8f4e9;
 }
+.whatsAppChatbotsImgDiv{
+  width: 100%;
+  height: 600px;
+}
+.whatsAppChatbotsImg{
+  width: 100%;
+  height: 100%;
+}
 .whatsAppChatBotsText {
   font-size: 16px;
   color: #292d32;
@@ -304,17 +321,17 @@ body {
 }
 
 /* intrergrations */
-.intregeteDivBG{
-  background-image: url('/images/integrations.png');
+.intregeteDivBG {
+  background-image: url("/images/integrations.png");
   background-repeat: no-repeat;
   background-position-x: center;
   height: 697px;
   width: 100%;
 }
-.integrationsText{
+.integrationsText {
   font-size: 18px;
 }
-.intregeteHeadline{
+.intregeteHeadline {
   font-size: 3rem;
   /* font-size: 3.375rem; */
   font-weight: 600;
@@ -322,163 +339,263 @@ body {
 }
 
 /* happyclients */
-.HappyClientSaysBg{
+.HappyClientSaysBg {
   background-color: #292d32;
   height: 841px;
 }
-.happyClientsSaysText{
+.happyClientsSaysText {
   font-size: 54px;
   font-weight: 600;
 }
-.happyClientsSaysImgDiv{
+.happyClientsSaysImgDiv {
   width: 60px;
   height: 60px;
 }
-.happyClientsSaysImg{
+.happyClientsSaysImg {
   width: 100%;
   height: 100%;
 }
-.clientSaySliderPera{
+.clientSaySliderPera {
   font-size: 18px;
   font-weight: 400;
 }
 
-
 /* whaychooseWatheta */
-.whaychooseWathetabg{
- background-color: #F1F0FF;
+.whaychooseWathetabg {
+  background-color: #f1f0ff;
 }
-.whyChooseWaThetaText{
+.whyChooseWaThetaText {
   font-size: 54px;
   font-weight: 600;
-  width: 70%;
+  /* width: 70%; */
 }
-.whyChooseWaThetaPera{
+.whyChooseWaThetaPera {
   font-size: 16px;
   width: 60%;
 }
-.whyChooseWathetaCardImgDiv{
+.whyChooseWathetaCardImgDiv {
   width: 94px;
-  height: 100px;  
+  height: 100px;
 }
-.whyChooseCardImg{
+.whyChooseCardImg {
   width: 100%;
   height: 100%;
 }
-.whyChooseCardHeadline{
+.whyChooseCardHeadline {
   font-size: 24px;
   font-weight: 600;
   /* width: 60%; */
 }
 /* conversational */
-.conversationalbg{
-  background-color: #F6F6F6;
+.conversationalbg {
+  background-color: #f6f6f6;
 }
-.conversationalHeadline{
+.conversationalHeadline {
   font-size: 54px;
   font-weight: 600;
-  width: 50%;
+  /* width: 50%; */
 }
-.conversationalCardTitle{
+.conversationalCardTitle {
   font-size: 26px;
   font-weight: 600;
 }
-.conversationallearnMoreButton{
- font-size: 16px;
- color: #292D32;
+.conversationallearnMoreButton {
+  font-size: 16px;
+  color: #292d32;
 }
-.conversationalArrowDiv{
-  width: 5vw;  /* Adjust based on design */
+.conversationalArrowDiv {
+  width: 5vw; /* Adjust based on design */
   height: 5vw;
   max-width: 36px;
   max-height: 36px;
 }
-.conversationalArrow{
+.conversationalArrow {
   width: 100%;
   height: 100%;
 }
-.conversationalIconDiv{
+.conversationalIconDiv {
   width: 6vw;
   height: 6vw;
   max-width: 46px;
   max-height: 46px;
 }
-.conversationalIcon{
+.conversationalIcon {
   width: 100%;
   height: 100%;
 }
-.viewallindustryButtonText{
+.viewallindustryButtonText {
   font-size: 1rem;
 }
 
 /* rescon to switch */
-.resonToSwitchHeadline{
+.resonToSwitchHeadline {
   font-size: 3.375rem;
   font-weight: 600;
-  width: 60vw;
+  /* width: 60vw; */
 }
-.resonIconDiv{
-  width: 5vw;  
+.resonIconDiv {
+  width: 5vw;
   height: 5vw;
 }
-.resonIcon{
+.resonIcon {
   width: 100%;
   height: 100%;
 }
-.resonCardHeadline{
+.resonCardHeadline {
   font-size: 24px;
   font-weight: 600;
 }
-.resonCardPera{
+.resonCardPera {
   font-size: 1.1rem;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 /* homeBlogs */
-.homeBlogsBg{
-  background-color: #F6F6F6;
+.homeBlogsBg {
+  background-color: #f6f6f6;
 }
-.homeBlogsHeadline{
-  font-size: 54px;
+.homeBlogsHeadline {
+  font-size: 3.375rem;
   font-weight: 600;
 }
-.homeBlogsCols2ImgDiv{
+.homeBlogsCols2ImgDiv {
   width: 100%;
   height: 42vh;
 }
-.homeBlogsCols2Img{
+.homeBlogsCols2Img {
   width: 100%;
   height: 100%;
 }
-.homeBlogsCols1-1stImgDiv{
+.homeBlogsCols1-1stImgDiv {
   width: 100%;
   height: 42vh;
 }
-.homeBlogsCols1-1stImg{
+.homeBlogsCols1-1stImg {
   width: 100%;
   height: 100%;
 }
-.homeBlogCardHeadline{
+.homeBlogCardHeadline {
   font-size: 1.625rem;
   font-weight: 600;
   width: 84%;
 }
-.dayOrCounttext{
+.dayOrCounttext {
   font-size: 1rem;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
-.homeBlogCard2ndHeadline{
+.homeBlogCard2ndHeadline {
   font-size: 1.375rem;
   font-weight: 600;
   width: 95%;
 }
-.homeBlogsCols1-2ndImgDiv{
+.homeBlogsCols1-2ndImgDiv {
   width: 100%;
   height: 25vh;
 }
 
-
-
-
+/* HomegettingStart */
+.gettingBg {
+  background-color: black;
+  height: 55vh;
+}
+.gettingHeadlin {
+  font-size: 3.375rem;
+  font-weight: 600;
+  color: #f4f4f4;
+}
+.gettingPera{
+  font-size: 1.120rem;
+  color: #f4f4f4;
+}
+.gettingGetButton{
+  background: linear-gradient(to bottom, #6cc17b, #46ba85);
+  color: white;
+}
+/* High Performer */
+.heighPrfomerLogoDiv{
+  width: 100%;
+  height: 18.375vh;
+}
+.heighPrfomerLogo{
+  width: 100%;
+  height: 100%;
+}
+/* Home FAQ */
+.homeFaqHEeadLine{
+  font-size: 3.375rem;
+  font-weight: 600;
+}
+.homeFaqButtonDiv{
+  width: 255px;
+  /* background-color: #DDF2E6; */
+  text-align: start;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.homeFaqButtonDivActive{
+  width: 255px;
+  background-color: #DDF2E6;
+  text-align: start;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.homeFaqButton{
+  height: 38px;
+  text-align: start;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+.homeFaqButtonActive{
+  height: 38px;
+  text-align: start;
+  padding-left: 10px;
+  border-left: 4px solid #5FBF7F;
+  border-radius: 4px;
+  font-size: 16px;
+}
+/* Fetueres */
+.featuresHeroDiv{
+  width: 100%;
+  height: 570px;
+}
+.featuresHeroBg{
+  position: absolute;
+  width: 100%;
+  height: 570px;
+}
+.featuresHeadlineDiv{
+  position: relative;
+}
+.featuresHeadline{
+  font-size: 64px;
+  font-weight: 600;
+}
+.featuresPera{
+  font-size: 20px;
+  line-height: 33px;
+}
+.cardHover{
+  cursor: pointer;
+  box-shadow: 0px 0px 0px  rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.cardHover:hover{
+  cursor: pointer;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);;
+}
+.featuresCardLogoDiv{
+  width: 60px;
+  height: 60px;
+}
+.featuresCardLogo{
+  width: 100%;
+  height: 100%;
+}
+.featuresCardHeadline{
+  font-size: 1rem;
+  font-weight: 600;
+}
 
 
 /* media query */

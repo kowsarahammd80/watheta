@@ -5,6 +5,8 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
+
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navBar, setNavBar] = useState(false);
@@ -88,7 +90,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/"
+              href="/features"
               className={`nav-item ${active === "Features" ? "active" : ""}`}
               onClick={() => setActive("Features")}
             >

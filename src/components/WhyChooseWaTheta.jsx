@@ -7,7 +7,7 @@ const WhyChooseWaTheta = () => {
         {/* headline */}
         <div className="flex justify-between ">
           <div className="w-full">
-            <h1 className="whyChooseWaThetaText">Why Choose WaTheta</h1>
+            <h1 className="whyChooseWaThetaText">Why Choose <br /> WaTheta</h1>
           </div>
           <div className="flex justify-end pt-4">
             <p className="whyChooseWaThetaPera">
@@ -20,7 +20,7 @@ const WhyChooseWaTheta = () => {
         </div>
         {/* card */}
         <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 pt-10 gap-10">
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
                 <img
@@ -41,7 +41,7 @@ const WhyChooseWaTheta = () => {
               </p>
             </div>
           </div>
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
                 <img
@@ -62,7 +62,7 @@ const WhyChooseWaTheta = () => {
               </p>
             </div>
           </div>
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
                 <img

@@ -5,7 +5,10 @@ const WhatsAppChatBots = () => {
     <div className="whatsAppChatBotsBg py-20">
       {/*  */}
       <section className="grid grid-cols-2 gap-10 mx-48">
-        <div>{/* ok */}</div>
+        {/* content */}
+        <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
+           <img className="whatsAppChatbotsImg" src="https://watheta.com/wp-content/uploads/2023/09/63febbc449df0b1092ec79e9_Discovery-p-800.png" alt="" />
+        </div>
         {/* text div */}
         <div className="ms-16">
           <div>

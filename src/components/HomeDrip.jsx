@@ -122,7 +122,9 @@ const HomeDrip = () => {
           </div>
         </div>
         {/*  */}
-        <div>{/* ok */}</div>
+        <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
+           <img className="whatsAppChatbotsImg" src="https://watheta.com/wp-content/uploads/2023/09/63a19e17caf10ccde59965b2_Abandoned-Cart-Messages-p-800-1.webp" alt="" />
+        </div>
       </section>
     </div>
   );

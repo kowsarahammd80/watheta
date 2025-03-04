@@ -120,7 +120,9 @@ const WhtasAppCommerce = () => {
           </div>
         </div>
         {/*  */}
-        <div>{/* ok */}</div>
+        <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
+           <img className="whatsAppChatbotsImg" src="https://watheta.com/wp-content/uploads/2023/09/63a19169d6b22941f451ecd7_Customer-Subscribed-to-WhatsApp-p-800-1.webp" alt="" />
+        </div>
       </section>
     </div>
   );

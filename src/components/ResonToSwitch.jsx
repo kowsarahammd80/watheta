@@ -15,7 +15,7 @@ const ResonToSwitch = () => {
       {/* Headline */}
       <div className="resonToSwitchHeadline">
         <h1 className="mx-48 py-5">
-          04 Reasons To Switch To Add Whatsapp Business API
+          04 Reasons To Switch To <br /> Add Whatsapp Business API
         </h1>
       </div>
 
@@ -114,7 +114,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="absolute -top-20 right-52 flex space-x-5">
+        <div className="absolute -top-20 right-44 flex space-x-5">
           {/* Left Button */}
           <button
             className={`custom-prev bg-white p-3 rounded-full  border transition-all ${

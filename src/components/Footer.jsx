@@ -1,9 +1,7 @@
 "use client";
 
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { regular, envelope } from "@fortawesome/free-solid-svg-icons";
-// import metaLogo from '../../public/assets/metaLogo.png';
+
 
 const Footer = () => {
   return (
@@ -48,12 +46,6 @@ const Footer = () => {
                 71-75 Shelton Street, Covent Garden London, WC2H 9JQ, UK
               </p>
             </div>
-            {/* <div className="my-4">
-              <p className="footerInfoHeadlineSub">Register Address (BD):</p>
-              <p className="footerPera pt-1">
-                11/A, Main Road-3, Plot-10 Pallabi, Mirpur <br /> Dhaka -1216
-              </p>
-            </div> */}
             <div className="my-4">
               <p className="footerInfoHeadlineSub">Support Office:</p>
               <p className="footerPera pt-1">
@@ -62,7 +54,6 @@ const Footer = () => {
               </p>
             </div>
             <div className="my-4 pb-4">
-              {/* <p className="footerInfoHeadlineSub">Support Office:</p> */}
               <p className="footerPera pt-1 flex items-center">
                 {" "}
                 <span className="text-sm me-2">
@@ -179,36 +170,6 @@ const Footer = () => {
               </div>
               <p className="footerPera pt-1 ms-2"> Facebook</p>
             </div>
-            {/* <div className="my-4 flex items-center">
-              <div className="foterSocialIconDiv">
-                <img
-                  className="foterSocialIcon"
-                  src="/images/teli.png"
-                  alt=""
-                />
-              </div>
-              <p className="footerPera pt-1 ms-2"> Telegram</p>
-            </div> */}
-            {/* <div className="my-4 flex items-center">
-              <div className="foterSocialIconDiv">
-                <img
-                  className="foterSocialIcon"
-                  src="/images/line.png"
-                  alt=""
-                />
-              </div>
-              <p className="footerPera pt-1 ms-2"> Line</p>
-            </div> */}
-            {/* <div className="my-4 flex items-center">
-              <div className="foterSocialIconDiv">
-                <img
-                  className="foterSocialIcon"
-                  src="/images/vaider.png"
-                  alt=""
-                />
-              </div>
-              <p className="footerPera pt-1 ms-2"> Viber</p>
-            </div> */}
           </div>
         </div>
         {/* Copyright */}

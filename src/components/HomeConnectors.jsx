@@ -6,7 +6,13 @@ const HomeConnectors = () => {
       {/*  */}
       <section className="grid grid-cols-2 gap-10 mx-48">
         {/*  */}
-        <div>{/* ok */}</div>
+        <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
+          <img
+            className="whatsAppChatbotsImg"
+            src="https://watheta.com/wp-content/uploads/2023/09/63a1a55a1daf147a16150c06_Shipping-Notifications-p-800-1.webp"
+            alt=""
+          />
+        </div>
         {/* text div */}
         <div className="ms-16">
           <div>

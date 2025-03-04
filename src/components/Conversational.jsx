@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Conversational = () => {
   return (
     <div className="conversationalbg p-16">
@@ -7,12 +8,12 @@ const Conversational = () => {
         {/* healdline */}
         <div className="flex justify-center py-5">
           <h1 className="conversationalHeadline text-center">
-            Conversational Automation For Every Industry
+            Conversational Automation <br /> For Every Industry
           </h1>
         </div>
         {/* card */}
         <div className="grid grid-cols-3 gap-x-12 gap-y-8 pt-10 ">
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">BFSI</h2>
               <div className="py-5 flex justify-between items-center">
@@ -33,7 +34,7 @@ const Conversational = () => {
             </div>
           </div>
           {/*  */}
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">Retail</h2>
               <div className="py-5 flex justify-between items-center">
@@ -54,7 +55,7 @@ const Conversational = () => {
             </div>
           </div>
           {/*  */}
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">Food & Beverage</h2>
               <div className="py-5 flex justify-between items-center">
@@ -75,7 +76,7 @@ const Conversational = () => {
             </div>
           </div>
           {/*  */}
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">Education</h2>
               <div className="py-5 flex justify-between items-center">
@@ -96,7 +97,7 @@ const Conversational = () => {
             </div>
           </div>
           {/*  */}
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">Healthcare</h2>
               <div className="py-5 flex justify-between items-center">
@@ -117,7 +118,7 @@ const Conversational = () => {
             </div>
           </div>
           {/*  */}
-          <div className="card card-border bg-base-100 rounded-3xl">
+          <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">Travel</h2>
               <div className="py-5 flex justify-between items-center">

@@ -34,21 +34,29 @@ const HomeCrm = () => {
               </div>
               <div>
                 <p className="text-2xl font-semibold">0%</p>
-                <p className="w-1/2 pt-2 persentText">Missed Leads or Opportunities</p>
+                <p className="w-1/2 pt-2 persentText">
+                  Missed Leads or Opportunities
+                </p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
                 <p className="persentTextNumber">50%</p>
-                <p className="w-1/2 pt-2 persentText">Boost in Employee Productivity</p>
+                <p className="w-1/2 pt-2 persentText">
+                  Boost in Employee Productivity
+                </p>
               </div>
               <div>
                 <p className="persentTextNumber">50%</p>
-                <p className="w-1/2 pt-2 persentText">Save on Operational Costs Y-O-Y</p>
+                <p className="w-1/2 pt-2 persentText">
+                  Save on Operational Costs Y-O-Y
+                </p>
               </div>
               <div>
                 <p className="persentTextNumber">75%</p>
-                <p className="w-5/12 pt-2 persentText">Reduced Data Entry Efforts</p>
+                <p className="w-5/12 pt-2 persentText">
+                  Reduced Data Entry Efforts
+                </p>
               </div>
             </div>
             <div className="pt-6 flex items-center">
@@ -184,7 +192,13 @@ const HomeCrm = () => {
           </div>
         </div>
         {/*  */}
-        <div>{/* ok */}</div>
+        <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
+          <img
+            className="whatsAppChatbotsImg"
+            src="https://watheta.com/wp-content/uploads/2023/09/63febbdf40f8cefd8d79f7e7_Engagement-p-800.png"
+            alt=""
+          />
+        </div>
       </section>
     </div>
   );
