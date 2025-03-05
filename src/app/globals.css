@@ -142,11 +142,11 @@ body {
   border-radius: 2.25rem;
   box-shadow: gainsboro 2px 8px 4px;
 }
-.homeHeroImgaDiv{
+.homeHeroImgaDiv {
   width: 105%;
   height: 484px;
 }
-.homeHeroImga{
+.homeHeroImga {
   width: 100%;
   height: 100%;
 }
@@ -249,11 +249,11 @@ body {
 .whatsAppChatBotsBg {
   background-color: #f8f4e9;
 }
-.whatsAppChatbotsImgDiv{
+.whatsAppChatbotsImgDiv {
   width: 100%;
   height: 600px;
 }
-.whatsAppChatbotsImg{
+.whatsAppChatbotsImg {
   width: 100%;
   height: 100%;
 }
@@ -502,29 +502,29 @@ body {
   font-weight: 600;
   color: #f4f4f4;
 }
-.gettingPera{
-  font-size: 1.120rem;
+.gettingPera {
+  font-size: 1.12rem;
   color: #f4f4f4;
 }
-.gettingGetButton{
+.gettingGetButton {
   background: linear-gradient(to bottom, #6cc17b, #46ba85);
   color: white;
 }
 /* High Performer */
-.heighPrfomerLogoDiv{
+.heighPrfomerLogoDiv {
   width: 100%;
   height: 18.375vh;
 }
-.heighPrfomerLogo{
+.heighPrfomerLogo {
   width: 100%;
   height: 100%;
 }
 /* Home FAQ */
-.homeFaqHEeadLine{
+.homeFaqHEeadLine {
   font-size: 3.375rem;
   font-weight: 600;
 }
-.homeFaqButtonDiv{
+.homeFaqButtonDiv {
   width: 255px;
   /* background-color: #DDF2E6; */
   text-align: start;
@@ -532,71 +532,70 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.homeFaqButtonDivActive{
+.homeFaqButtonDivActive {
   width: 255px;
-  background-color: #DDF2E6;
+  background-color: #ddf2e6;
   text-align: start;
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.homeFaqButton{
+.homeFaqButton {
   height: 38px;
   text-align: start;
   padding-left: 10px;
   border-radius: 4px;
 }
-.homeFaqButtonActive{
+.homeFaqButtonActive {
   height: 38px;
   text-align: start;
   padding-left: 10px;
-  border-left: 4px solid #5FBF7F;
+  border-left: 4px solid #5fbf7f;
   border-radius: 4px;
   font-size: 16px;
 }
 /* Fetueres */
-.featuresHeroDiv{
+.featuresHeroDiv {
   width: 100%;
   height: 570px;
 }
-.featuresHeroBg{
+.featuresHeroBg {
   position: absolute;
   width: 100%;
   height: 570px;
 }
-.featuresHeadlineDiv{
+.featuresHeadlineDiv {
   position: relative;
 }
-.featuresHeadline{
+.featuresHeadline {
   font-size: 64px;
   font-weight: 600;
 }
-.featuresPera{
+.featuresPera {
   font-size: 20px;
   line-height: 33px;
 }
-.cardHover{
+.cardHover {
   cursor: pointer;
-  box-shadow: 0px 0px 0px  rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
 }
-.cardHover:hover{
+.cardHover:hover {
   cursor: pointer;
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
-.featuresCardLogoDiv{
-  width: 60px;
-  height: 60px;
+.featuresCardLogoDiv {
+  width: 4vw;
+  height: 4vw;
 }
-.featuresCardLogo{
+.featuresCardLogo {
   width: 100%;
   height: 100%;
 }
-.featuresCardHeadline{
+.featuresCardHeadline {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
-
 
 /* media query */
 /* Mobile Styles */
@@ -675,7 +674,7 @@ body {
     height: 100vh;
     padding: 20px 0;
     transform: translateX(100%);
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
   }
   .nav-links.active {
     display: flex;

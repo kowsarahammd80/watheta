@@ -1,17 +1,16 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navBar, setNavBar] = useState(false);
-  const [active, setActive] = useState("Home");
-  
+  const pathname = usePathname(); // Get the current route
+
   useEffect(() => {
     const changeBgScroll = () => {
       if (window.scrollY <= 50) {
@@ -21,12 +20,10 @@ const Navbar = () => {
       }
     };
 
-    // Attach event listener when the component mounts
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", changeBgScroll);
     }
 
-    // Cleanup event listener when component unmounts
     return () => {
       if (typeof window !== "undefined") {
         window.removeEventListener("scroll", changeBgScroll);
@@ -41,29 +38,10 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
-  // const changeBgScroll = () => {
-  //   if (window.scrollY <= 50) {
-  //     setNavBar(false);
-  //   } else {
-  //     setNavBar(true);
-  //   }
-  // };
 
-  // const toggleMenu = () => {
-  //   setIsMenuOpen(!isMenuOpen);
-  // };
-  // const closeMenu = () => {
-  //   setIsMenuOpen(false);
-  // };
-
-  // window.addEventListener("scroll", changeBgScroll);
   return (
     <div
-      className={
-        navBar
-          ? "fixed z-50 w-full shadow-md bg-white"
-          : "fixed z-50 w-full bg-transparent"
-      }
+      className={`fixed z-50 w-full ${navBar ? "shadow-md bg-white" : "bg-transparent"}`}
     >
       <div className="mx-1 lg:mx-36 xl:mx-36 md:mx-5">
         <nav className="navbar">
@@ -73,64 +51,37 @@ const Navbar = () => {
               <img
                 className="navLog"
                 src="https://watheta.com/wp-content/uploads/2023/08/Web-format-1024x204.png"
-                alt=""
+                alt="Logo"
               />
             </div>
           </Link>
+
           {/* Navigation Links */}
-          <ul
-            onClick={closeMenu}
-            className={`nav-links ${isMenuOpen ? "active" : ""}`}
-          >
-            <Link
-              href="/"
-              className={`nav-item ${active === "Home" ? "active" : ""}`}
-              onClick={() => setActive("Home")}
-            >
-              Home
-            </Link>
-            <Link
-              href="/features"
-              className={`nav-item ${active === "Features" ? "active" : ""}`}
-              onClick={() => setActive("Features")}
-            >
-              Features
-            </Link>
-            <Link
-              href="/"
-              className={`nav-item ${active === "Pricing" ? "active" : ""}`}
-              onClick={() => setActive("Pricing")}
-            >
-              Pricing
-            </Link>
-            <Link
-              href="/"
-              className={`nav-item ${active === "Blogs" ? "active" : ""}`}
-              onClick={() => setActive("Blogs")}
-            >
-              Blogs
-            </Link>
-            <Link
-              href="/"
-              className={`nav-item ${active === "Comparison" ? "active" : ""}`}
-              onClick={() => setActive("Comparison")}
-            >
-              Comparison
-            </Link>
-            <Link
-              href="/"
-              className={`nav-item ${active === "Help" ? "active" : ""}`}
-              onClick={() => setActive("Help")}
-            >
-              Help
-            </Link>
+          <ul onClick={closeMenu} className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+            {[
+              { name: "Home", href: "/" },
+              { name: "Features", href: "/features" },
+              { name: "Pricing", href: "/pricing" },
+              { name: "Blogs", href: "/blogs" },
+              { name: "Comparison", href: "/comparison" },
+              { name: "Help", href: "/help" },
+            ].map((link) => (
+              <Link
+                key={link.name}
+                href={link.href}
+                className={`nav-item ${pathname === link.href ? "active" : ""}`}
+              >
+                {link.name}
+              </Link>
+            ))}
+
             <button className="block lg:hidden xl:hidden">Log In</button>
             <button className="get-started block lg:hidden xl:hidden rounded-3xl">
               Get Started
             </button>
           </ul>
 
-          {/* Get Started and logIn Button for pc */}
+          {/* Desktop Buttons */}
           <div className="flex justify-end w-auto">
             <button className="me-1 lg:me-5 xl:me-5 md:me-5 hidden lg:block xl:block md:hidden">
               Log In
@@ -139,7 +90,8 @@ const Navbar = () => {
               Get Started
             </button>
           </div>
-          {/* Breadcrumb (Hamburger Menu) */}
+
+          {/* Hamburger Menu */}
           <div className="breadcrumb w-auto" onClick={toggleMenu}>
             <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
           </div>

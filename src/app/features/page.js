@@ -10,6 +10,7 @@ import WhatsAppChatBots from "@/components/WhatsAppChatBots";
 import React from "react";
 
 
+
 const FeturesPage = () => {
   return (
     <div className="pt-20">
@@ -29,7 +30,7 @@ const FeturesPage = () => {
             </p>
           </div>
           {/* card */}
-          <section className="pt-16 grid grid-cols-8 gap-2">
+          <section className="pt-16 grid grid-cols-8 xl:grid-cols-8 gap-2">
             <div className="card bg-base-100 cardHover cursor-pointer">
               <div className="card-body">
                 <div className="flex justify-center">
@@ -41,10 +42,12 @@ const FeturesPage = () => {
                     />
                   </div>
                 </div>
-                <p className="text-center featuresCardHeadline pt-2">
-                  {" "}
-                  Chatbots{" "}
-                </p>
+                <div className="flex justify-center">
+                  <p className="text-center featuresCardHeadline pt-2">
+                    {" "}
+                    Chatbots{" "}
+                  </p>
+                </div>
               </div>
             </div>
             <div className="card bg-base-100 cardHover cursor-pointer">
@@ -60,7 +63,7 @@ const FeturesPage = () => {
                 </div>
                 <p className="text-center featuresCardHeadline pt-2">
                   {" "}
-                  Modular CRM{" "}
+                  Modular <br /> CRM{" "}
                 </p>
               </div>
             </div>
@@ -92,10 +95,12 @@ const FeturesPage = () => {
                     />
                   </div>
                 </div>
-                <p className="text-center featuresCardHeadline pt-2">
-                  {" "}
-                  Broadcaster{" "}
-                </p>
+                <div className="flex justify-center">
+                  <p className="text-center featuresCardHeadline pt-2">
+                    {" "}
+                    Broadcaster{" "}
+                  </p>
+                </div>
               </div>
             </div>
             <div className="card bg-base-100 cardHover cursor-pointer">
@@ -109,10 +114,14 @@ const FeturesPage = () => {
                     />
                   </div>
                 </div>
-                <p className="text-center featuresCardHeadline pt-2">
-                  {" "}
-                  WhatsApp Commerce{" "}
-                </p>
+                <div>
+                  <div className="flex justify-center">
+                    <p className="text-center featuresCardHeadline pt-2">
+                      {" "}
+                      WhatsApp Commerce{" "}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="card bg-base-100 cardHover cursor-pointer">
@@ -126,10 +135,12 @@ const FeturesPage = () => {
                     />
                   </div>
                 </div>
-                <p className="text-center featuresCardHeadline pt-2">
-                  {" "}
-                  Drip Campanigns{" "}
-                </p>
+                <div className="flex justify-center">
+                  <p className="text-center featuresCardHeadline pt-2">
+                    {" "}
+                    Drip <br /> Campanigns{" "}
+                  </p>
+                </div>
               </div>
             </div>
             <div className="card bg-base-100 cardHover cursor-pointer">
@@ -143,10 +154,12 @@ const FeturesPage = () => {
                     />
                   </div>
                 </div>
-                <p className="text-center featuresCardHeadline pt-2">
-                  {" "}
-                  Connectors{" "}
-                </p>
+                <div className="flex justify-center">
+                  <p className="text-center featuresCardHeadline pt-2">
+                    {" "}
+                    Connectors{" "}
+                  </p>
+                </div>
               </div>
             </div>
             <div className="card bg-base-100 cardHover cursor-pointer">
@@ -160,10 +173,12 @@ const FeturesPage = () => {
                     />
                   </div>
                 </div>
-                <p className="text-center featuresCardHeadline pt-2">
-                  {" "}
-                  Connectors{" "}
-                </p>
+                <div className="flex justify-center">
+                  <p className="text-center featuresCardHeadline pt-2">
+                    {" "}
+                    Connectors{" "}
+                  </p>
+                </div>
               </div>
             </div>
           </section>
