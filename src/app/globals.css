@@ -615,96 +615,187 @@ body {
 .blogsHeroHeadPera {
   font-size: 1.5vw;
 }
-
-.blogs2ndHeroBgImgDiv{
-  position: relative; 
+.blogs2ndHeroBgImgDiv {
+  position: relative;
   width: 100%;
-  height: 70vh; 
+  height: 70vh;
   overflow: hidden;
-} 
-.blogs2ndHeroBgImg{
+}
+.blogs2ndHeroBgImg {
   position: absolute;
   width: 100%;
   height: 70vh;
 }
-.blogs2ndHeroContectDiv{
+.blogs2ndHeroContectDiv {
   position: relative;
   height: 70vh;
 }
-.blogsStartupsButton{
+.blogsStartupsButton {
   background: #4f4f4f;
   backdrop-filter: blur(10px);
   color: white;
-  font-size: .9vw;
+  font-size: 0.9vw;
 }
-.blogs2ndHeroHealdline{
+.blogs2ndHeroHealdline {
   font-size: 2vw;
   color: white;
   width: 40vw;
 }
-.blogs2ndHeroPera{
+.blogs2ndHeroPera {
   font: 1.5vw;
   color: white;
   width: 40vw;
 }
-.blogsReadArticleButton{
-  /* color: white; */
+.blogsReadArticleButton {
   background-color: white;
   font-size: 1.2vw;
 }
-.blogPageImgeDiv{
+.blogPageImgeDiv {
   width: 100%;
   height: 40vh;
 }
-.blogPageImge{
+.blogPageImge {
   width: 100%;
   height: 100%;
 }
-.blogProductText{
+.blogProductText {
   font-size: 14px;
   font-weight: 600;
 }
-.blogProductMinText{
+.blogProductMinText {
   font-size: 14px;
   font-weight: 400;
-  color: #292D32;
+  color: #292d32;
 }
-.blogPageHeadline{
+.blogPageHeadline {
   font-size: 1.375rem;
   color: #000000;
   font-weight: 500;
   width: 96%;
 }
-.blogReadMoreText{
+.blogReadMoreText {
   font-size: 1rem;
-  color: #292D32;
+  color: #292d32;
 }
-.blogRecentBlog{
-  background-color: #E9F8E3;
+.blogRecentBlog {
+  background-color: #e9f8e3;
 }
-.blogPageReasentHeadline{
+.blogPageReasentHeadline {
   font-size: 3.375rem;
   font-weight: 600;
 }
-.blogePageResentBlogsImgDiv{
+.blogePageResentBlogsImgDiv {
   width: 100%;
-  /* height: 19.375rem; */
-  /* height: 19vw; */
   height: 310px;
 }
-.blogePageResentBlogsImg{
+.blogePageResentBlogsImg {
   width: 100%;
   height: 100%;
 }
-.blogPageResentImgDiv2nd{
+.blogPageResentImgDiv2nd {
   /* width: 13vw; */
   width: 100%;
   height: 140px;
 }
-.blogPageResent2Img{
+.blogPageResent2Img {
   width: 100%;
   height: 100%;
 }
+.joinOurNewsletterbgImgDiv {
+  position: relative;
+  width: 100%;
+  height: 404px;
+}
+.joinOurNewsletterbgImg {
+  position: absolute;
+  width: 100%;
+  height: 404px;
+}
+.joinOurNewsletterContentDiv {
+  position: relative;
+  height: 404px;
+}
+.JoinournewsletterText {
+  font-size: 3.375rem;
+  font-weight: 500;
+}
+.joinournewsletterPeraText {
+  color: white;
+  font-size: 1.125rem;
+}
+.joinournewsletterInputDiv{
+  position: relative;
+  width: 636px;
+  height: 60px;
+}
+.joinournewsletterInput {
+  position: absolute;
+  background: rgba(46, 51, 57, 0.6); 
+  backdrop-filter: blur(5px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  color: white; 
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+.joinournewsletterSubscribeButton{
+  position: relative;
+  /* left: 76%; */
+  float: right;
+  background: #46BA85;
+  color: white;
+  height: 60px;
+}
+/* single blogs */
+.singleBlogsHeadline{
+   font-size: 4rem;
+}
+.singleStartupButton{
+  font-size: 1rem;
+}
+.singleBlogImgDiv{
+  width: 100%;
+  height: 487px;
+}
+.singleBlogImg{
+  width: 100%;
+  height: 100%;
+}
+.inThisArticleText{
+  font-size: 1.25rem;
+}
+.inthisSingleButtons{
+  font-size: 1rem;
+  width: 180px;
+  height: 36px;
+}
+.inthisSingleButtonsDiv{
+  border-left: 4px solid #c6e7ce;
+}
+.inthisSingleButtonsDivActive{
+  border-left: 4px solid #46BA85;
+}
+.shearAricleText{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.singleBlogsPeraText{
+  font-size:  1.125rem;
+  color: #292D32;
+}
+.singleContentImgDiv{
+  width: 100%;
+  height: 426px;
+}
+.singleContentImg{
+  width: 100%;
+  height: 100%;
+}
+
 
 
 

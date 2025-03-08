@@ -1,4 +1,5 @@
 import HomeFAQ from "@/components/HomeFAQ";
+import Link from "next/link";
 import React from "react";
 
 const BlogsPage = () => {
@@ -83,10 +84,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -113,10 +115,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -143,10 +146,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -173,10 +177,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -203,10 +208,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -233,10 +239,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/*  */}
@@ -263,10 +270,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/*  */}
@@ -293,10 +301,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/*  */}
@@ -323,10 +332,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -393,7 +403,7 @@ const BlogsPage = () => {
                 <div className="blogPageResentImgDiv2nd border rounded-3xl col-span-1">
                   <img
                     className="blogPageResent2Img"
-                    src="/images/imager (1).png"
+                    src="/images/imager (2).png"
                     alt=""
                   />
                 </div>
@@ -413,7 +423,7 @@ const BlogsPage = () => {
                 <div className="blogPageResentImgDiv2nd border rounded-3xl col-span-1">
                   <img
                     className="blogPageResent2Img"
-                    src="/images/imager (1).png"
+                    src="/images/imager (3).png"
                     alt=""
                   />
                 </div>
@@ -456,10 +466,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -486,10 +497,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -516,10 +528,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -546,10 +559,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -576,10 +590,11 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/* card */}
@@ -606,17 +621,49 @@ const BlogsPage = () => {
               </h1>
             </div>
             <div className="pt-5">
-              <button className="border-b border-gray-500 blogReadMoreText">
-                {" "}
-                Read more{" "}
-              </button>
+              <Link href="/blogs/1">
+                <button className="border-b border-gray-500 blogReadMoreText">
+                  Read more
+                </button>
+              </Link>
             </div>
           </div>
           {/*  */}
-          
         </div>
       </section>
-      <HomeFAQ/>
+      {/* join our */}
+      <section className="mx-48 pt-5">
+        <div className="joinOurNewsletterbgImgDiv">
+          <img
+            className="joinOurNewsletterbgImg"
+            src="/images/Group 1000002862.png"
+            alt=""
+          />
+          <div className="joinOurNewsletterContentDiv flex justify-center items-center">
+            <div className="">
+              <h1 className="text-white JoinournewsletterText text-center">
+                Join our newsletter
+              </h1>
+              <p className="joinournewsletterPeraText text-center pt-2 leading-relaxed">
+                Subscribe our newsletter to receive the latest news and <br />
+                exclusive offers every week. No spam,
+              </p>
+              {/* input */}
+              <div className="pt-6 w-full joinournewsletterInputDiv">
+                <input
+                  className="joinournewsletterInput border-4 w-full"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button className="joinournewsletterSubscribeButton px-10 py-2 rounded-full">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <HomeFAQ />
     </div>
   );
 };

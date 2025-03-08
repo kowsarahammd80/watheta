@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navBar, setNavBar] = useState(false);
@@ -41,7 +42,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed z-50 w-full ${navBar ? "shadow-md bg-white" : "bg-transparent"}`}
+      className={`fixed z-50 w-full ${navBar ? " bg-white" : "bg-transparent"}`}
     >
       <div className="mx-1 lg:mx-36 xl:mx-36 md:mx-5">
         <nav className="navbar">
