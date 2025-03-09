@@ -796,6 +796,81 @@ body {
   height: 100%;
 }
 
+/* Integrations */
+.integrateHeroBg{
+  background-image: url('/images/imageIntreget 314.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 434px;
+}
+.inregrationPageButton{
+  font-size: 1.125rem;
+}
+.integrationsPageHeadLine{
+  font-size: 4rem;
+  font-weight: 600;
+  width: 889px;
+  text-align: center;
+  line-height: 80px;
+}
+.integetSearchInputDiv{
+  position: relative;
+  width: 730px;
+  height: 60px;
+}
+.integetSearchInput{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.searchIconButton{
+  position: relative;
+  top: 0;
+  height: 60px;
+}
+.searchInconDiv{
+  width: 24px;
+  height: 24px;
+}
+.searchIncon{
+  width: 100%;
+  height: 100%;
+}
+.integetCategoryText{
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.integratonCard{
+  box-shadow: 1px 5px 4px #888f98;
+}
+.intreInconDiv{
+  width: 56px;
+  height: 41px;
+}
+.intreIncon{
+  width: 100%;
+  height: 100%;
+}
+.interCategoryPera{
+  font-size: 15px;
+  color: #292d32;
+}
+.interCategoryLearnButton{
+  border-bottom: 1px solid #000000;
+  color: #292D32;
+}
+.interCategoryLearnButton:hover{
+  border-bottom: 1px solid #7D10D1;
+  color: #7D10D1;
+}
+.categoryButtonBg{
+  background-color: #EDEDED;
+}
+.categoryButtonBgActive{
+  background-color: #E4C1FF;
+}
 
 
 

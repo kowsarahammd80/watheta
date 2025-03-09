@@ -16,6 +16,7 @@ const BlogSingleDetails = () => {
           Back
         </Link>
       </div>
+      {/* HERO and blog */}
       <section className="pt-16 mx-48">
         <div className="mx-16 ">
           <div className="space-x-3">
@@ -191,7 +192,7 @@ const BlogSingleDetails = () => {
         </div>
       </section>
       {/* resent blog */}
-      <section className="py-20 blogRecentBlog">
+      <section className="py-20 blogRecentBlog mt-16">
         <div className="mx-48">
           <h1 className="blogPageReasentHeadline">Related Blogs</h1>
           <div className="grid grid-cols-3 gap-10 pt-10">
@@ -287,7 +288,7 @@ const BlogSingleDetails = () => {
         </div>
       </section>
       {/* Join our newsletter */}
-      <section className="mx-48 pt-16">
+      <section className="mx-48 pt-20">
         <div className="joinOurNewsletterbgImgDiv">
           <img
             className="joinOurNewsletterbgImg"
