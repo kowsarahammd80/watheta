@@ -923,6 +923,187 @@ body {
   .breadcrumb {
     display: block;
   }
+
+  /* home hero */
+  .HomeHeroDivHeight {
+    height: 100vh;
+  }
+  .homeHerobg {
+    background-color: #f6f6f6;
+  }
+  .homeHeroHeadLinkDiv {
+    /* width: 47.56rem; */
+    width: 100%;
+  }
+  .homeHeroHeadline {
+    font-size: 38px;
+    font-weight: 700;
+    color: #292d32;
+    line-height: 50px;
+  }
+  .homeHeroPeraDiv {
+    /* width: 27rem; */
+    width: 100%;
+    text-align: start;
+  }
+  .homeHeroPera {
+    font-size: 16px;
+    color: #292d32;
+  }
+  .homeHeroGetButton {
+    background: linear-gradient(to bottom, #6cc17b, #46ba85);
+    padding: 0.3rem 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 1.5px solid #6cc17b;
+    border-radius: 2.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .homeHeroGetButton:hover {
+    background: #f6f6f6;
+    padding: 0.5rem 1rem;
+    color: black;
+    box-shadow: gainsboro 2px 8px 4px;
+    font-size: 1rem;
+    border: 1.5px solid #6cc17b;
+    border-radius: 2.5rem;
+  }
+  
+  .homeScheduleButton {
+    border: 1.5px solid #6cc17b;
+    padding: 0.5rem 1rem;
+    color: #292d32;
+    font-size: 1rem;
+    border-radius: 2.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .homeScheduleButton:hover {
+    background: linear-gradient(to bottom, #6cc17b, #46ba85);
+    border: 1.5px solid #6cc17b;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 2.25rem;
+    box-shadow: gainsboro 2px 8px 4px;
+  }
+  .homeHeroImgaDiv {
+    width: 100%;
+    height: 432px;
+  }
+  .homeHeroImga {
+    width: 100%;
+    height: 100%;
+  }
+  /* trastedClients */
+  .trustedText {
+    font-size: 18px;
+    color: #292d32;
+    font-weight: 500;
+  }
+  .trustLogoDiv {
+    width: 76px;
+    height: 28px;
+  }
+  .trustLogo {
+    width: 100%;
+    height: 100%;
+  }
+  /* home features */
+  .homeFeaturesbg {
+    background-color: #f5f4ff;
+  }
+  .HomeFeturesHeadline {
+    font-size: 28px;
+    color: #292d32;
+    font-weight: 600;
+  }
+  .homeFeaturesLogoDiv {
+    width: 40px;
+    height: 40px;
+  }
+  .homeFeaturesLogo {
+    width: 100%;
+    height: 100%;
+  }
+  .cardFeaturesHeadline {
+    font-size: 20px;
+    color: #292d32;
+    font-weight: 500;
+  }
+  .HomeFeturescardShadow {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: none;  */
+  }
+  .HomeFeturescardShadow:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  /* WhatsAppChatBots */
+.whatsAppChatBotsBg {
+  background-color: #f8f4e9;
+}
+.whatsAppChatbotsImgDiv {
+  width: 100%;
+  height: 432px;
+}
+.whatsAppChatbotsImg {
+  width: 100%;
+  height: 100%;
+}
+.whatsAppChatBotsText {
+  font-size: 16px;
+  color: #292d32;
+  background-color: #ffffff;
+  font-weight: 500;
+}
+.wahtsChatbotswhatsLogoDiv {
+  width: 14px;
+  height: 14px;
+}
+.wahtsChatbotswhatsLogo {
+  width: 100%;
+  height: 100%;
+}
+.KeepYourBusinessText {
+  font-size: 24px;
+  color: #292d32;
+  font-weight: 600;
+  width: 390px;
+}
+.whatsAppChatBotsTextPera {
+  font-size: 16px;
+  font-weight: 400;
+  color: #292d32;
+  width: 390px;
+}
+.persentText {
+  font-size: 16px;
+}
+.persentTextNumber {
+  font-size: 24px;
+  font-weight: 600;
+}
+.repleacesText {
+  font-size: 14px;
+  color: #292d32;
+  font-weight: 400;
+}
+.repleacesItems {
+  font-size: 12px;
+  color: #525252;
+}
+.repleacesItemsLogoDiv {
+  width: 20px;
+  height: 20px;
+}
+.repleacesItemsLogo {
+  width: 100%;
+  height: 100%;
+}
+
+
 }
 
 /* tab to pc */

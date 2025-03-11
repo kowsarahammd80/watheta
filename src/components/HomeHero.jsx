@@ -2,18 +2,13 @@ import React from "react";
 
 const HomeHero = () => {
   return (
-    <div className="homeHerobg">
+    <div className="homeHerobg ">
       <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-10">
-        <div className="flex">
-          <div className="flex justify-start items-center HomeHeroDivHeight">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 HomeHeroDivHeight">
+          <div className="flex justify-start md:mt-28 items-center lg:items-center xl:items-center ">
             {/* content */}
             <section>
               {/* headline */}
-              {/* <div className="homeHeroHeadLinkDiv">
-              <h1 className="homeHeroHeadline">
-                Grow Your Business For Whatsapp API
-              </h1>
-            </div> */}
               <div className="homeHeroHeadLinkDiv">
                 <h1 className="homeHeroHeadline">
                   Unified Business Communication Platform
@@ -28,25 +23,17 @@ const HomeHero = () => {
                 </p>
               </div>
               {/* button */}
-              <div className="py-5 lg:py-10 flex justify-center lg:justify-start xl:justify-start gap-5">
+              <div className="py-5 lg:py-10 flex justify-start lg:justify-start xl:justify-start lg:gap-5 xl:gap-5 gap-2 md:gap-3">
                 <button className="homeHeroGetButton">Get Started</button>
                 <button className="px-7 rounded-full homeScheduleButton">
                   Schedule A Call
                 </button>
               </div>
-              {/* no card Required */}
-              <div className="flex items-center justify-center lg:justify-start xl:justify-start">
-                <div className="homeCardImgDiv me-2">
-                  {/* <img className="homeCardImg" src="/images/card.png" alt="" /> */}
-                </div>
-                {/* <div>
-                 <p className="homeNoCardText">No Credit Card Required</p>
-             </div> */}
-              </div>
+            
             </section>
           </div>
           {/*  */}
-          <div className="flex justify-start items-center w-full">
+          <div className="flex justify-start items-start lg:items-center xl:items-center w-full">
             <div className="homeHeroImgaDiv">
               <img className="homeHeroImga" src="https://watheta.com/wp-content/uploads/2023/08/md2x.png" alt="" />
             </div>

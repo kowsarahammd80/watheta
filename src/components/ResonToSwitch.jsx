@@ -31,8 +31,8 @@ const ResonToSwitch = () => {
           modules={[Navigation]} // Include Navigation module
           className="mySwiper"
         >
-          <SwiperSlide className="pb-4">
-            <div className="card bg-base-100  border">
+          <SwiperSlide className="pb-4 ">
+            <div className="card bg-base-100 HomeFeturescardShadow border">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -52,7 +52,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="card bg-base-100  border">
+            <div className="card bg-base-100 border HomeFeturescardShadow">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -72,7 +72,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="card bg-base-100  border">
+            <div className="card bg-base-100 border HomeFeturescardShadow">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -93,7 +93,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="card bg-base-100  border">
+            <div className="card bg-base-100 border HomeFeturescardShadow">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img

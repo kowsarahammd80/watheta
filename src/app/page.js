@@ -25,24 +25,24 @@ export default function Home() {
     <div className="">
         <HomeHero/>
         <TrustedCustomers/>
-        <HomeFeatures/>
+        {/* <HomeFeatures/> */}
         <WhatsAppChatBots/>
-        <HomeCrm/>
-        <Teambox/>
-        <WhtasAppCommerce/>
-        <HomeBroadcaster/>
-        <HomeDrip/>
-        <HomeConnectors/>
-        <HomeGenerativeAI/>
-        <HappyClientSays/>
-        <WhyChooseWaTheta/>
-        <HomeIntegrations/>
-        <Conversational/>
-        <ResonToSwitch/>
-        <HomeBlogs/>
-        <GettingStarted/>
-        <HighPerformer/>
-        <HomeFAQ/>
+        {/* <HomeCrm/> */}
+        {/* <Teambox/> */}
+        {/* <WhtasAppCommerce/> */}
+        {/* <HomeBroadcaster/> */}
+        {/* <HomeDrip/> */}
+        {/* <HomeConnectors/> */}
+        {/* <HomeGenerativeAI/> */}
+        {/* <HappyClientSays/> */}
+        {/* <WhyChooseWaTheta/> */}
+        {/* <HomeIntegrations/> */}
+        {/* <Conversational/> */}
+        {/* <ResonToSwitch/> */}
+        {/* <HomeBlogs/> */}
+        {/* <GettingStarted/> */}
+        {/* <HighPerformer/> */}
+        {/* <HomeFAQ/> */}
     </div>
   );
 }

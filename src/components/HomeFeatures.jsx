@@ -7,15 +7,15 @@ const HomeFeatures = () => {
       <div className="">
         <h1 className="text-center pt-10 HomeFeturesHeadline">Our Features</h1>
         <div className="flex justify-center w-full">
-          <p className="text-center pt-2 w-1/4">
+          <p className="text-center pt-2 w-ful lg:w-1/4 xl:w-1/4">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration
           </p>
         </div>
       </div>
       {/* card */}
-      <section className="py-10 mx-48">
-        <div className="grid grid-cols-4 gap-8">
+      <section className="py-10 mx-5 lg:mx-48 xl:mx-48">
+        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-8 xl:gap-8">
           <div className="card bg-base-100 w-full HomeFeturescardShadow">
             <div className="card-body">
               <div className="flex justify-center">
@@ -48,7 +48,7 @@ const HomeFeatures = () => {
                   />
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center feature">
                 <h1 className="cardFeaturesHeadline text-center">
                   Modular CRM
                 </h1>

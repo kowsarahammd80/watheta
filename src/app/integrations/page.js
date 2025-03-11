@@ -4,7 +4,7 @@ import HomeFAQ from "@/components/HomeFAQ";
 import React, { useState } from "react";
 
 const Integrations = () => {
-    const [categoryButton, setCategoryButton] = useState("integrations")
+  const [categoryButton, setCategoryButton] = useState("integrations");
   return (
     <div>
       {/* hero */}
@@ -50,14 +50,64 @@ const Integrations = () => {
             <h1 className="integetCategoryText">Categories</h1>
           </div>
           <div className="space-x-1">
-            <button onClick={() => setCategoryButton("integrations") } className={`border px-4 py-3 rounded-full ${categoryButton === "integrations" ? "categoryButtonBgActive" : "categoryButtonBg"}`}>
+            <button
+              onClick={() => setCategoryButton("integrations")}
+              className={`border px-4 py-3 rounded-full ${
+                categoryButton === "integrations"
+                  ? "categoryButtonBgActive"
+                  : "categoryButtonBg"
+              }`}
+            >
               All Integrations
             </button>
-            <button onClick={() => setCategoryButton("erp") } className={`border px-4 py-3 rounded-full ${categoryButton === "erp" ? "categoryButtonBgActive" : "categoryButtonBg"}`}>ERP</button>
-            <button onClick={() => setCategoryButton("crm") } className={`border px-4 py-3 rounded-full ${categoryButton === "crm" ? "categoryButtonBgActive" : "categoryButtonBg"}`}>CRM</button>
-            <button onClick={() => setCategoryButton("hris") } className={`border px-4 py-3 rounded-full ${categoryButton === "hris" ? "categoryButtonBgActive" : "categoryButtonBg"}`}>HRIS</button>
-            <button onClick={() => setCategoryButton("billing") } className={`border px-4 py-3 rounded-full ${categoryButton === "billing" ? "categoryButtonBgActive" : "categoryButtonBg"}`}>BILLING</button>
-            <button onClick={() => setCategoryButton("warehous") } className={`border px-4 py-3 rounded-full ${categoryButton === "warehous" ? "categoryButtonBgActive" : "categoryButtonBg"}`}>
+            <button
+              onClick={() => setCategoryButton("erp")}
+              className={`border px-4 py-3 rounded-full ${
+                categoryButton === "erp"
+                  ? "categoryButtonBgActive"
+                  : "categoryButtonBg"
+              }`}
+            >
+              ERP
+            </button>
+            <button
+              onClick={() => setCategoryButton("crm")}
+              className={`border px-4 py-3 rounded-full ${
+                categoryButton === "crm"
+                  ? "categoryButtonBgActive"
+                  : "categoryButtonBg"
+              }`}
+            >
+              CRM
+            </button>
+            <button
+              onClick={() => setCategoryButton("hris")}
+              className={`border px-4 py-3 rounded-full ${
+                categoryButton === "hris"
+                  ? "categoryButtonBgActive"
+                  : "categoryButtonBg"
+              }`}
+            >
+              HRIS
+            </button>
+            <button
+              onClick={() => setCategoryButton("billing")}
+              className={`border px-4 py-3 rounded-full ${
+                categoryButton === "billing"
+                  ? "categoryButtonBgActive"
+                  : "categoryButtonBg"
+              }`}
+            >
+              BILLING
+            </button>
+            <button
+              onClick={() => setCategoryButton("warehous")}
+              className={`border px-4 py-3 rounded-full ${
+                categoryButton === "warehous"
+                  ? "categoryButtonBgActive"
+                  : "categoryButtonBg"
+              }`}
+            >
               DATA WAREHOUS
             </button>
           </div>
@@ -321,43 +371,41 @@ const Integrations = () => {
               </div>
             </div>
           </div>
-          
-          
         </section>
       </section>
       {/* join our */}
       <section className="mx-48 pt-5">
-              <div className="joinOurNewsletterbgImgDiv">
-                <img
-                  className="joinOurNewsletterbgImg"
-                  src="/images/Group 1000002862.png"
-                  alt=""
+        <div className="joinOurNewsletterbgImgDiv">
+          <img
+            className="joinOurNewsletterbgImg"
+            src="/images/Group 1000002862.png"
+            alt=""
+          />
+          <div className="joinOurNewsletterContentDiv flex justify-center items-center">
+            <div className="">
+              <h1 className="text-white JoinournewsletterText text-center">
+                Join our newsletter
+              </h1>
+              <p className="joinournewsletterPeraText text-center pt-2 leading-relaxed">
+                Subscribe our newsletter to receive the latest news and <br />
+                exclusive offers every week. No spam,
+              </p>
+              {/* input */}
+              <div className="pt-6 w-full joinournewsletterInputDiv">
+                <input
+                  className="joinournewsletterInput border-4 w-full"
+                  type="text"
+                  placeholder="Enter your email"
                 />
-                <div className="joinOurNewsletterContentDiv flex justify-center items-center">
-                  <div className="">
-                    <h1 className="text-white JoinournewsletterText text-center">
-                      Join our newsletter
-                    </h1>
-                    <p className="joinournewsletterPeraText text-center pt-2 leading-relaxed">
-                      Subscribe our newsletter to receive the latest news and <br />
-                      exclusive offers every week. No spam,
-                    </p>
-                    {/* input */}
-                    <div className="pt-6 w-full joinournewsletterInputDiv">
-                      <input
-                        className="joinournewsletterInput border-4 w-full"
-                        type="text"
-                        placeholder="Enter your email"
-                      />
-                      <button className="joinournewsletterSubscribeButton px-10 py-2 rounded-full">
-                        Subscribe
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                <button className="joinournewsletterSubscribeButton px-10 py-2 rounded-full">
+                  Subscribe
+                </button>
               </div>
-            </section>
-            <HomeFAQ />
+            </div>
+          </div>
+        </div>
+      </section>
+      <HomeFAQ />
     </div>
   );
 };
