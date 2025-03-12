@@ -4,7 +4,7 @@ const HomeCrm = () => {
   return (
     <div className="py-20">
       {/*  */}
-      <section className="grid grid-cols-2 gap-10 mx-48">
+      <section className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10 mx-5 lg:mx-48 xl:mx-48 md:mx-16">
         {/* text div */}
         <div className="">
           <div>
@@ -73,7 +73,7 @@ const HomeCrm = () => {
             <div className="py-8">
               <p className="repleacesText">Replaces</p>
               <div className="pt-5 flex items-center gap-1">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -83,7 +83,7 @@ const HomeCrm = () => {
                   </span>
                   Excel
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-1 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -93,7 +93,7 @@ const HomeCrm = () => {
                   </span>
                   Google Sheets
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -103,7 +103,7 @@ const HomeCrm = () => {
                   </span>
                   Trello
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -115,7 +115,7 @@ const HomeCrm = () => {
                 </p>
               </div>
               <div className="flex items-center gap-1 pt-2">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -125,7 +125,7 @@ const HomeCrm = () => {
                   </span>
                   Zoho CRM
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -135,7 +135,7 @@ const HomeCrm = () => {
                   </span>
                   Hubspot
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -145,7 +145,7 @@ const HomeCrm = () => {
                   </span>
                   Salesforce
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -157,7 +157,7 @@ const HomeCrm = () => {
                 </p>
               </div>
               <div className="flex items-center gap-1 pt-2">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -167,7 +167,7 @@ const HomeCrm = () => {
                   </span>
                   Pipedrive
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -177,7 +177,7 @@ const HomeCrm = () => {
                   </span>
                   Go High Level
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"

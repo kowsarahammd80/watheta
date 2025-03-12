@@ -278,7 +278,7 @@ body {
   width: 390px;
 }
 .whatsAppChatBotsTextPera {
-  font-size: 1.110rem;
+  font-size: 1.11rem;
   font-weight: 400;
   color: #292d32;
   width: 390px;
@@ -724,17 +724,17 @@ body {
   color: white;
   font-size: 1.125rem;
 }
-.joinournewsletterInputDiv{
+.joinournewsletterInputDiv {
   position: relative;
   width: 636px;
   height: 60px;
 }
 .joinournewsletterInput {
   position: absolute;
-  background: rgba(46, 51, 57, 0.6); 
-  backdrop-filter: blur(5px); 
-  border: 1px solid rgba(255, 255, 255, 0.2); 
-  color: white; 
+  background: rgba(46, 51, 57, 0.6);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
   padding: 10px;
   padding-left: 20px;
   border-radius: 50px;
@@ -743,137 +743,135 @@ body {
   width: 100%;
   height: 100%;
 }
-.joinournewsletterSubscribeButton{
+.joinournewsletterSubscribeButton {
   position: relative;
   /* left: 76%; */
   float: right;
-  background: #46BA85;
+  background: #46ba85;
   color: white;
   height: 60px;
 }
 /* single blogs */
-.singleBlogsHeadline{
-   font-size: 4rem;
+.singleBlogsHeadline {
+  font-size: 4rem;
 }
-.singleStartupButton{
+.singleStartupButton {
   font-size: 1rem;
 }
-.singleBlogImgDiv{
+.singleBlogImgDiv {
   width: 100%;
   height: 487px;
 }
-.singleBlogImg{
+.singleBlogImg {
   width: 100%;
   height: 100%;
 }
-.inThisArticleText{
+.inThisArticleText {
   font-size: 1.25rem;
 }
-.inthisSingleButtons{
+.inthisSingleButtons {
   font-size: 1rem;
   width: 180px;
   height: 36px;
 }
-.inthisSingleButtonsDiv{
+.inthisSingleButtonsDiv {
   border-left: 4px solid #c6e7ce;
 }
-.inthisSingleButtonsDivActive{
-  border-left: 4px solid #46BA85;
+.inthisSingleButtonsDivActive {
+  border-left: 4px solid #46ba85;
 }
-.shearAricleText{
+.shearAricleText {
   font-size: 1.25rem;
   font-weight: 600;
 }
-.singleBlogsPeraText{
-  font-size:  1.125rem;
-  color: #292D32;
+.singleBlogsPeraText {
+  font-size: 1.125rem;
+  color: #292d32;
 }
-.singleContentImgDiv{
+.singleContentImgDiv {
   width: 100%;
   height: 426px;
 }
-.singleContentImg{
+.singleContentImg {
   width: 100%;
   height: 100%;
 }
 
 /* Integrations */
-.integrateHeroBg{
-  background-image: url('/images/imageIntreget 314.png');
+.integrateHeroBg {
+  background-image: url("/images/imageIntreget 314.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 434px;
 }
-.inregrationPageButton{
+.inregrationPageButton {
   font-size: 1.125rem;
 }
-.integrationsPageHeadLine{
+.integrationsPageHeadLine {
   font-size: 4rem;
   font-weight: 600;
   width: 889px;
   text-align: center;
   line-height: 80px;
 }
-.integetSearchInputDiv{
+.integetSearchInputDiv {
   position: relative;
   width: 730px;
   height: 60px;
 }
-.integetSearchInput{
+.integetSearchInput {
   position: absolute;
   width: 100%;
   height: 100%;
   outline: none;
 }
-.searchIconButton{
+.searchIconButton {
   position: relative;
   top: 0;
   height: 60px;
 }
-.searchInconDiv{
+.searchInconDiv {
   width: 24px;
   height: 24px;
 }
-.searchIncon{
+.searchIncon {
   width: 100%;
   height: 100%;
 }
-.integetCategoryText{
+.integetCategoryText {
   font-size: 1.75rem;
   font-weight: 500;
 }
-.integratonCard{
+.integratonCard {
   box-shadow: 1px 5px 4px #888f98;
 }
-.intreInconDiv{
+.intreInconDiv {
   width: 56px;
   height: 41px;
 }
-.intreIncon{
+.intreIncon {
   width: 100%;
   height: 100%;
 }
-.interCategoryPera{
+.interCategoryPera {
   font-size: 15px;
   color: #292d32;
 }
-.interCategoryLearnButton{
+.interCategoryLearnButton {
   border-bottom: 1px solid #000000;
-  color: #292D32;
+  color: #292d32;
 }
-.interCategoryLearnButton:hover{
-  border-bottom: 1px solid #7D10D1;
-  color: #7D10D1;
+.interCategoryLearnButton:hover {
+  border-bottom: 1px solid #7d10d1;
+  color: #7d10d1;
 }
-.categoryButtonBg{
-  background-color: #EDEDED;
+.categoryButtonBg {
+  background-color: #ededed;
 }
-.categoryButtonBgActive{
-  background-color: #E4C1FF;
+.categoryButtonBgActive {
+  background-color: #e4c1ff;
 }
-
-
 
 /* media query */
 /* Mobile Styles */
@@ -969,7 +967,6 @@ body {
     border: 1.5px solid #6cc17b;
     border-radius: 2.5rem;
   }
-  
   .homeScheduleButton {
     border: 1.5px solid #6cc17b;
     padding: 0.3rem 0.8rem;
@@ -1042,72 +1039,68 @@ body {
   }
 
   /* WhatsAppChatBots */
-.whatsAppChatBotsBg {
-  background-color: #f8f4e9;
-}
-.whatsAppChatbotsImgDiv {
-  width: 100%;
-  height: 432px;
-}
-.whatsAppChatbotsImg {
-  width: 100%;
-  height: 100%;
-}
-.whatsAppChatBotsText {
-  font-size: 16px;
-  color: #292d32;
-  background-color: #ffffff;
-  font-weight: 500;
-}
-.wahtsChatbotswhatsLogoDiv {
-  width: 14px;
-  height: 14px;
-}
-.wahtsChatbotswhatsLogo {
-  width: 100%;
-  height: 100%;
-}
-.KeepYourBusinessText {
-  font-size: 24px;
-  color: #292d32;
-  font-weight: 600;
-  width: 90vw;
-}
-.whatsAppChatBotsTextPera {
-  font-size: 16px;
-  font-weight: 400;
-  color: #292d32;
-  width: 90vw;
-}
-.persentText {
-  font-size: 0.9rem;
-  width: 100%;
-}
-.persentTextNumber {
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-.repleacesText {
-  font-size: 14px;
-  color: #292d32;
-  font-weight: 400;
-}
-.repleacesItems {
-  font-size: 12px;
-  color: #525252;
-}
-.repleacesItemsLogoDiv {
-  width: 20px;
-  height: 20px;
-}
-.repleacesItemsLogo {
-  width: 100%;
-  height: 100%;
-}
-
-
-
-
+  .whatsAppChatBotsBg {
+    background-color: #f8f4e9;
+  }
+  .whatsAppChatbotsImgDiv {
+    width: 100%;
+    height: 432px;
+  }
+  .whatsAppChatbotsImg {
+    width: 100%;
+    height: 100%;
+  }
+  .whatsAppChatBotsText {
+    font-size: 16px;
+    color: #292d32;
+    background-color: #ffffff;
+    font-weight: 500;
+  }
+  .wahtsChatbotswhatsLogoDiv {
+    width: 14px;
+    height: 14px;
+  }
+  .wahtsChatbotswhatsLogo {
+    width: 100%;
+    height: 100%;
+  }
+  .KeepYourBusinessText {
+    font-size: 24px;
+    color: #292d32;
+    font-weight: 600;
+    width: 90%;
+  }
+  .whatsAppChatBotsTextPera {
+    font-size: 16px;
+    font-weight: 400;
+    color: #292d32;
+    width: 90%;
+  }
+  .persentText {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .persentTextNumber {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .repleacesText {
+    font-size: 14px;
+    color: #292d32;
+    font-weight: 400;
+  }
+  .repleacesItems {
+    font-size: 12px;
+    color: #525252;
+  }
+  .repleacesItemsLogoDiv {
+    width: 20px;
+    height: 20px;
+  }
+  .repleacesItemsLogo {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* tab to pc */
@@ -1156,5 +1149,76 @@ body {
   }
   .breadcrumb {
     display: block;
+  }
+
+  /* homeHero */
+  .HomeHeroDivHeight {
+    height: 100vh;
+  }
+  .homeHerobg {
+    background-color: #f6f6f6;
+  }
+  .homeHeroHeadLinkDiv {
+    /* width: 47.56rem; */
+    width: 100%;
+  }
+  .homeHeroHeadline {
+    /* font-size: 2.375rem; */
+    font-size: 4rem;
+    font-weight: 700;
+    color: #292d32;
+    line-height: 70px;
+  }
+  .homeHeroPeraDiv {
+    /* width: 27rem; */
+    width: 100%;
+    text-align: start;
+  }
+  .homeHeroPera {
+    font-size: 20px;
+    color: #292d32;
+  }
+  .homeHeroGetButton {
+    background: linear-gradient(to bottom, #6cc17b, #46ba85);
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 1.5px solid #6cc17b;
+    border-radius: 2.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .homeHeroGetButton:hover {
+    background: #f6f6f6;
+    padding: 0.5rem 1rem;
+    color: black;
+    box-shadow: gainsboro 2px 8px 4px;
+    font-size: 1rem;
+    border: 1.5px solid #6cc17b;
+    border-radius: 2.5rem;
+  }
+  .homeScheduleButton {
+    border: 1.5px solid #6cc17b;
+    padding: 0.3rem 1rem;
+    color: #292d32;
+    font-size: 1rem;
+    border-radius: 2.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .homeScheduleButton:hover {
+    background: linear-gradient(to bottom, #6cc17b, #46ba85);
+    border: 1.5px solid #6cc17b;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 2.25rem;
+    box-shadow: gainsboro 2px 8px 4px;
+  }
+  .homeHeroImgaDiv {
+    width: 100%;
+    height: 45vh;
+  }
+  .homeHeroImga {
+    width: 100%;
+    height: 100%;
   }
 }

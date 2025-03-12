@@ -27,7 +27,7 @@ export default function Home() {
         <TrustedCustomers/>
         {/* <HomeFeatures/> */}
         <WhatsAppChatBots/>
-        {/* <HomeCrm/> */}
+        <HomeCrm/>
         {/* <Teambox/> */}
         {/* <WhtasAppCommerce/> */}
         {/* <HomeBroadcaster/> */}
