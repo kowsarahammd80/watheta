@@ -278,13 +278,14 @@ body {
   width: 390px;
 }
 .whatsAppChatBotsTextPera {
-  font-size: 18px;
+  font-size: 1.110rem;
   font-weight: 400;
   color: #292d32;
-  width: 470px;
+  width: 390px;
 }
 .persentText {
   font-size: 18px;
+  width: 13vw;
 }
 .persentTextNumber {
   font-size: 26px;
@@ -874,7 +875,6 @@ body {
 
 
 
-
 /* media query */
 /* Mobile Styles */
 @media (max-width: 600px) {
@@ -883,7 +883,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 8vh;
+    height: 5vh;
   }
   .navLogoDiv {
     width: 90%;
@@ -936,10 +936,11 @@ body {
     width: 100%;
   }
   .homeHeroHeadline {
-    font-size: 38px;
+    /* font-size: 2.375rem; */
+    font-size: 2rem;
     font-weight: 700;
     color: #292d32;
-    line-height: 50px;
+    line-height: 45px;
   }
   .homeHeroPeraDiv {
     /* width: 27rem; */
@@ -947,48 +948,48 @@ body {
     text-align: start;
   }
   .homeHeroPera {
-    font-size: 16px;
+    font-size: 14px;
     color: #292d32;
   }
   .homeHeroGetButton {
     background: linear-gradient(to bottom, #6cc17b, #46ba85);
-    padding: 0.3rem 1rem;
+    padding: 0.4rem 0.9rem;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: 1.5px solid #6cc17b;
     border-radius: 2.5rem;
     transition: all 0.3s ease-in-out;
   }
   .homeHeroGetButton:hover {
     background: #f6f6f6;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.9rem;
     color: black;
     box-shadow: gainsboro 2px 8px 4px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: 1.5px solid #6cc17b;
     border-radius: 2.5rem;
   }
   
   .homeScheduleButton {
     border: 1.5px solid #6cc17b;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.8rem;
     color: #292d32;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 2.25rem;
     transition: all 0.3s ease-in-out;
   }
   .homeScheduleButton:hover {
     background: linear-gradient(to bottom, #6cc17b, #46ba85);
     border: 1.5px solid #6cc17b;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.8rem;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 2.25rem;
     box-shadow: gainsboro 2px 8px 4px;
   }
   .homeHeroImgaDiv {
     width: 100%;
-    height: 432px;
+    height: 40vh;
   }
   .homeHeroImga {
     width: 100%;
@@ -1070,19 +1071,20 @@ body {
   font-size: 24px;
   color: #292d32;
   font-weight: 600;
-  width: 390px;
+  width: 90vw;
 }
 .whatsAppChatBotsTextPera {
   font-size: 16px;
   font-weight: 400;
   color: #292d32;
-  width: 390px;
+  width: 90vw;
 }
 .persentText {
-  font-size: 16px;
+  font-size: 0.9rem;
+  width: 100%;
 }
 .persentTextNumber {
-  font-size: 24px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 .repleacesText {
@@ -1102,6 +1104,8 @@ body {
   width: 100%;
   height: 100%;
 }
+
+
 
 
 }

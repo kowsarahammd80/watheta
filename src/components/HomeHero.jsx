@@ -2,10 +2,10 @@ import React from "react";
 
 const HomeHero = () => {
   return (
-    <div className="homeHerobg ">
+    <div className="homeHerobg">
       <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 HomeHeroDivHeight">
-          <div className="flex justify-start md:mt-28 items-center lg:items-center xl:items-center ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 HomeHeroDivHeight pt-14 lg:pt-0 xl:pt-0 md:pt-10">
+          <div className="flex justify-start md:mt-28 items-center lg:items-center xl:items-center">
             {/* content */}
             <section>
               {/* headline */}
@@ -32,7 +32,7 @@ const HomeHero = () => {
             
             </section>
           </div>
-          {/*  */}
+          {/* hero content */}
           <div className="flex justify-start items-start lg:items-center xl:items-center w-full">
             <div className="homeHeroImgaDiv">
               <img className="homeHeroImga" src="https://watheta.com/wp-content/uploads/2023/08/md2x.png" alt="" />
