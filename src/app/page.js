@@ -38,7 +38,7 @@ export default function Home() {
         <WhyChooseWaTheta/>
         <HomeIntegrations/>
         <Conversational/>
-        {/* <ResonToSwitch/> */}
+        <ResonToSwitch/>
         {/* <HomeBlogs/> */}
         {/* <GettingStarted/> */}
         {/* <HighPerformer/> */}

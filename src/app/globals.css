@@ -439,7 +439,7 @@ body {
 .resonToSwitchHeadline {
   font-size: 3.375rem;
   font-weight: 600;
-  /* width: 60vw; */
+  width: 750px;
 }
 .resonIconDiv {
   width: 5vw;
@@ -456,6 +456,10 @@ body {
 .resonCardPera {
   font-size: 1.1rem;
   color: #7a7a7a;
+}
+.HomeReasonToSwitchCard{
+  width: 100%;
+  height: 300px;
 }
 /* homeBlogs */
 .homeBlogsBg {
@@ -1225,25 +1229,29 @@ body {
 
   /* rescon to switch */
   .resonToSwitchHeadline {
-    font-size: 3.375rem;
+    font-size: 1.75rem;
     font-weight: 600;
-    /* width: 60vw; */
+    width: 350px;
   }
   .resonIconDiv {
-    width: 5vw;
-    height: 5vw;
+    width: 10vw;
+    height: 10vw;
   }
   .resonIcon {
     width: 100%;
     height: 100%;
   }
   .resonCardHeadline {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
   }
   .resonCardPera {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: #7a7a7a;
+  }
+  .HomeReasonToSwitchCard{
+    width: 100%;
+    height: 255px;
   }
 }
 

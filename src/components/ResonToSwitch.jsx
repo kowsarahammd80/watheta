@@ -11,18 +11,17 @@ const ResonToSwitch = () => {
   const [activeButton, setActiveButton] = useState("next");
 
   return (
-    <div className="py-16 relative">
+    <div className="py-0 lg:py-16 xl:py-16 md:py-8 relative">
       {/* Headline */}
-      <div className="resonToSwitchHeadline">
-        <h1 className="mx-48 py-5">
-          04 Reasons To Switch To <br /> Add Whatsapp Business API
+      <div className="pt-6 lg:pt-0 xl:pt-0 md:pt-5">
+        <h1 className="ms-5 lg:ms-48 lg:py-5 resonToSwitchHeadline">
+          04 Reasons To Switch To Add Whatsapp Business API
         </h1>
       </div>
 
       {/* Slider with Right-Side Navigation */}
-      <div className="pt-5 ms-48 relative">
+      <div className="pt-5 ms-5 lg:ms-48 relative">
         <Swiper
-          slidesPerView={3.3}
           spaceBetween={35}
           navigation={{
             nextEl: ".custom-next",
@@ -30,9 +29,26 @@ const ResonToSwitch = () => {
           }}
           modules={[Navigation]} // Include Navigation module
           className="mySwiper"
+          breakpoints={{
+            // Mobile (up to 480px)
+            320: {
+              slidesPerView: 1.3,
+              spaceBetween: 15,
+            },
+            // Tablet (481px - 1024px)
+            768: {
+              slidesPerView: 2.3,
+              spaceBetween: 25,
+            },
+            // Desktop (1025px+)
+            1024: {
+              slidesPerView: 3.3,
+              spaceBetween: 35,
+            },
+          }}
         >
-          <SwiperSlide className="pb-4 ">
-            <div className="card bg-base-100 HomeFeturescardShadow border">
+          <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
+            <div className="card bg-base-100 HomeFeturescardShadow border HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -51,8 +67,8 @@ const ResonToSwitch = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card bg-base-100 border HomeFeturescardShadow">
+          <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
+            <div className="card bg-base-100 border HomeFeturescardShadow HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -71,8 +87,8 @@ const ResonToSwitch = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card bg-base-100 border HomeFeturescardShadow">
+          <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
+            <div className="card bg-base-100 border HomeFeturescardShadow HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -92,8 +108,8 @@ const ResonToSwitch = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card bg-base-100 border HomeFeturescardShadow">
+          <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
+            <div className="card bg-base-100 border HomeFeturescardShadow HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -114,7 +130,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="absolute -top-20 right-44 flex space-x-5">
+        <div className="absolute lg:-top-20 xl:-top-20 right-44 flex space-x-2 lg:space-x-5 xl:space-x-5 pb-8 lg:pb-0 xl:pb-0 md:pb-10 pt-4 lg:pt-0 xl:pt-0 md:pt-4">
           {/* Left Button */}
           <button
             className={`custom-prev bg-white p-3 rounded-full  border transition-all ${

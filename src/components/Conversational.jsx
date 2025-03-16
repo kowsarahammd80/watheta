@@ -11,7 +11,7 @@ const Conversational = () => {
           </h1>
         </div>
         {/* card */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-x-5 lg:gap-x-12 gap-y-8 pt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-x-5 lg:gap-x-12 gap-y-8 pt-5 xl:pt-10 lg:pt-10">
           <div className="card card-border bg-base-100 rounded-3xl cardHover">
             <div className="card-body">
               <h2 className="conversationalCardTitle">BFSI</h2>
