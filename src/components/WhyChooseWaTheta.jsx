@@ -2,14 +2,14 @@ import React from "react";
 
 const WhyChooseWaTheta = () => {
   return (
-    <div className="whaychooseWathetabg py-20">
-      <section className="mx-48">
+    <div className="whaychooseWathetabg py-12 lg:py-20 xl:py-20 md:py-16">
+      <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-5">
         {/* headline */}
-        <div className="flex justify-between ">
+        <div className="flex flex-col lg:flex-row xl:flex-row justify-center lg:justify-between xl:justify-between md:justify-center">
           <div className="w-full">
-            <h1 className="whyChooseWaThetaText">Why Choose <br /> WaTheta</h1>
+            <h1 className="whyChooseWaThetaText">Why Choose WaTheta</h1>
           </div>
-          <div className="flex justify-end pt-4">
+          <div className="flex justify-center lg:justify-end xl:justify-end pt-4">
             <p className="whyChooseWaThetaPera">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
@@ -31,7 +31,7 @@ const WhyChooseWaTheta = () => {
               </div>
               <div className="py-5">
                 <h1 className="whyChooseCardHeadline">
-                  Break Engagement <br /> Barriers
+                  Break Engagement Barriers
                 </h1>
               </div>
               {/* <h2 className="card-title">Card Title</h2> */}
@@ -52,7 +52,7 @@ const WhyChooseWaTheta = () => {
               </div>
               <div className="py-5">
                 <h1 className="whyChooseCardHeadline">
-                  A Better Way <br /> To Upscale
+                  A Better Way To Upscale
                 </h1>
               </div>
               {/* <h2 className="card-title">Card Title</h2> */}
@@ -73,7 +73,7 @@ const WhyChooseWaTheta = () => {
               </div>
               <div className="py-5">
                 <h1 className="whyChooseCardHeadline">
-                  Communicate At <br /> Scale Efficiently
+                  Communicate At Scale Efficiently
                 </h1>
               </div>
               {/* <h2 className="card-title">Card Title</h2> */}

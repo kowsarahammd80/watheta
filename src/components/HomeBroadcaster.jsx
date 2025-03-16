@@ -2,15 +2,15 @@ import React from "react";
 
 const HomeBroadcaster = () => {
   return (
-    <div className="broadcasterBg py-20">
+    <div className="broadcasterBg py-12 lg:py-20 xl:py-20 md:py-16">
       {/*  */}
-      <section className="grid grid-cols-2 gap-10 mx-48">
+      <section className="flex flex-col-reverse lg:flex-row xl:flex-row gap-10 mx-5 lg:mx-48 xl:mx-48 ">
       <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
            <img className="whatsAppChatbotsImg" src="https://watheta.com/wp-content/uploads/2023/09/63a19d17edec0d79fe28f5df_WhatsApp-Commerce-p-800-1.webp" alt="" />
         </div>
         {/* text div */}
-        <div className="ms-16">
-          <div>
+        <div className="w-full">
+          <div className="ms-0 lg:ms-16 xl:ms-16 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center">
               {" "}
               <span className="wahtsChatbotswhatsLogoDiv me-2">
@@ -63,7 +63,7 @@ const HomeBroadcaster = () => {
             <div className="py-8">
               <p className="repleacesText">Replaces</p>
               <div className="pt-5 flex items-center gap-1">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -73,7 +73,7 @@ const HomeBroadcaster = () => {
                   </span>
                   ManyChats
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -83,7 +83,7 @@ const HomeBroadcaster = () => {
                   </span>
                   Fuelchats
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -93,7 +93,7 @@ const HomeBroadcaster = () => {
                   </span>
                   Wait
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -105,7 +105,7 @@ const HomeBroadcaster = () => {
                 </p>
               </div>
               <div className="flex items-center gap-1 pt-2">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"

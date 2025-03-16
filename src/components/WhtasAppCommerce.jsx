@@ -2,12 +2,12 @@ import React from "react";
 
 const WhtasAppCommerce = () => {
   return (
-    <div className="py-20">
+    <div className="py-12 lg:py-20 xl:py-20 md:py-16">
       {/*  */}
-      <section className="grid grid-cols-2 gap-10 mx-48">
+      <section className="flex flex-col lg:flex-row xl:flex-row gap-10 mx-5 lg:mx-48">
         {/* text div */}
-        <div className="">
-          <div>
+        <div className="w-full">
+          <div className="ms-0 lg:ms-0 xl:ms-0 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center">
               {" "}
               <span className="wahtsChatbotswhatsLogoDiv me-2">
@@ -63,7 +63,7 @@ const WhtasAppCommerce = () => {
             <div className="py-8">
               <p className="repleacesText">Replaces</p>
               <div className="pt-5 flex items-center gap-1">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -73,7 +73,7 @@ const WhtasAppCommerce = () => {
                   </span>
                   Wati
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -83,7 +83,7 @@ const WhtasAppCommerce = () => {
                   </span>
                   GallaBox
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -93,7 +93,7 @@ const WhtasAppCommerce = () => {
                   </span>
                   Interkat
                 </p>
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
@@ -105,7 +105,7 @@ const WhtasAppCommerce = () => {
                 </p>
               </div>
               <div className="flex items-center gap-1 pt-2">
-                <p className="bg-white px-5 py-1 rounded-full repleacesItems flex items-center border">
+                <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border">
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"

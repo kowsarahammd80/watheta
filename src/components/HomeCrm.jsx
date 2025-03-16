@@ -2,12 +2,12 @@ import React from "react";
 
 const HomeCrm = () => {
   return (
-    <div className="py-20">
+    <div className="py-12 lg:py-20 xl:py-20 md:py-16">
       {/*  */}
-      <section className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10 mx-5 lg:mx-48 xl:mx-48 md:mx-16">
+      <section className="flex flex-col lg:flex-row xl:flex-row gap-10 mx-5 lg:mx-48 xl:mx-48 md:mx-16">
         {/* text div */}
-        <div className="">
-          <div>
+        
+          <div className="w-full">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center">
               {" "}
               <span className="wahtsChatbotswhatsLogoDiv me-2">
@@ -189,7 +189,6 @@ const HomeCrm = () => {
                 </p>
               </div>
             </div>
-          </div>
         </div>
         {/*  */}
         <div className="flex justify-center items-center whatsAppChatbotsImgDiv">

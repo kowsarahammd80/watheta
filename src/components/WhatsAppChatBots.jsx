@@ -14,7 +14,7 @@ const WhatsAppChatBots = () => {
           />
         </div>
         {/* text contents */}
-        <div className="justify-start lg:justify-end xl:justify-end ms-0 lg:ms-0 xl:ms-0 md:ms-8">
+        <div className="justify-start lg:justify-end xl:justify-end ms-0 lg:ms-16 xl:ms-16 md:ms-8 w-full">
           
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center">
               {" "}

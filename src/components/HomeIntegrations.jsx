@@ -6,8 +6,8 @@ const HomeIntegrations = () => {
     <div className="">
       <div className="intregeteDivBG">
         {/* Integrations */}
-        <div className="flex justify-center pt-16">
-          <span className="bg-white border rounded-full px-6 py-1 integrationsText">
+        <div className="flex justify-center pt-9 lg:pt-16 xl:pt-16 md:pt-8">
+          <span className="bg-white border rounded-full px-4 lg:px-6 xl:px-6 py-1 integrationsText">
             Integrations
           </span>
         </div>
