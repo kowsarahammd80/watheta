@@ -595,6 +595,7 @@ body {
 .featuresPera {
   font-size: 20px;
   line-height: 33px;
+  width: 637px;
 }
 .cardHover {
   cursor: pointer;
@@ -1377,6 +1378,210 @@ body {
     font-size: 16px;
   }
 
+  /* Fetures */
+  .featuresHeroDiv {
+    width: 100%;
+    height: 450px;
+  }
+  .featuresHeroBg {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+  }
+  .featuresHeadlineDiv {
+    position: relative;
+  }
+  .featuresHeadline {
+    font-size: 2.375rem;
+    font-weight: 600;
+  }
+  .featuresPera {
+    font-size: 1rem;
+    line-height: 25px;
+    width: 96%;
+  }
+  .cardHover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cardHover:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .featuresCardLogoDiv {
+    width: 11vw;
+    height: 11vw;
+  }
+  .featuresCardLogo {
+    width: 100%;
+    height: 100%;
+  }
+  .featuresCardHeadline {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .FeaturesCardDiv{
+    height: 15vh;
+    border-radius: 15px;
+  }
+
+  /* Blog page */
+  .blogsHeroBg {
+    background-image: url("/images/image 314.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+  }
+  .blogsHeroBgImg {
+    width: 100%;
+    height: 65vh;
+  }
+  .blogsHeroHeadline {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .blogsHeroHeadPera {
+    font-size: 1.5vw;
+  }
+  .blogs2ndHeroBgImgDiv {
+    position: relative;
+    width: 100%;
+    height: 592px;
+    overflow: hidden;
+  }
+  .blogs2ndHeroBgImg {
+    position: absolute;
+    width: 100%;
+    height: 592px;
+  }
+  .blogs2ndHeroContectDiv {
+    position: relative;
+    height: 592px;
+  }
+  .blogsStartupsButton {
+    background: #4f4f4f;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 12px;
+  }
+  .blogs2ndHeroHealdline {
+    font-size: 1.4rem;
+    color: white;
+    width: 100%;
+  }
+  .blogs2ndHeroPera {
+    font: 1rem;
+    color: white;
+    width: 100%;
+  }
+  .blogsReadArticleButton {
+    background-color: white;
+    font-size: 0.9rem;
+  }
+  .blogPageImgeDiv {
+    width: 100%;
+    height: 40vh;
+  }
+  .blogPageImge {
+    width: 100%;
+    height: 100%;
+  }
+  .blogProductText {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .blogProductMinText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #292d32;
+  }
+  .blogPageHeadline {
+    font-size: 1.375rem;
+    color: #000000;
+    font-weight: 500;
+    width: 96%;
+  }
+  .blogReadMoreText {
+    font-size: 1rem;
+    color: #292d32;
+  }
+  .blogRecentBlog {
+    background-color: #e9f8e3;
+  }
+  .blogPageReasentHeadline {
+    font-size: 3.375rem;
+    font-weight: 600;
+  }
+  .blogePageResentBlogsImgDiv {
+    width: 100%;
+    height: 310px;
+  }
+  .blogePageResentBlogsImg {
+    width: 100%;
+    height: 100%;
+  }
+  .blogPageResentImgDiv2nd {
+    /* width: 13vw; */
+    width: 100%;
+    height: 140px;
+  }
+  .blogPageResent2Img {
+    width: 100%;
+    height: 100%;
+  }
+  .joinOurNewsletterbgImgDiv {
+    position: relative;
+    width: 100%;
+    height: 404px;
+  }
+  .joinOurNewsletterbgImg {
+    position: absolute;
+    width: 100%;
+    height: 404px;
+  }
+  .joinOurNewsletterContentDiv {
+    position: relative;
+    height: 404px;
+  }
+  .JoinournewsletterText {
+    font-size: 3.375rem;
+    font-weight: 500;
+  }
+  .joinournewsletterPeraText {
+    color: white;
+    font-size: 1.125rem;
+  }
+  .joinournewsletterInputDiv {
+    position: relative;
+    width: 636px;
+    height: 60px;
+  }
+  .joinournewsletterInput {
+    position: absolute;
+    background: rgba(46, 51, 57, 0.6);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+  }
+  .joinournewsletterSubscribeButton {
+    position: relative;
+    /* left: 76%; */
+    float: right;
+    background: #46ba85;
+    color: white;
+    height: 60px;
+  }
+
+
   /* footer */
   .footerbg {
     background-color: #f2f2f2;
@@ -1704,5 +1909,53 @@ body {
     font-size: 20px;
     font-weight: 600;
     width: 100%;
+  }
+
+  /* features */
+  .featuresHeroDiv {
+    width: 100%;
+    height: 450px;
+  }
+  .featuresHeroBg {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+  }
+  .featuresHeadlineDiv {
+    position: relative;
+  }
+  .featuresHeadline {
+    font-size: 2.375rem;
+    font-weight: 600;
+  }
+  .featuresPera {
+    font-size: 1rem;
+    line-height: 25px;
+    width: 96%;
+  }
+  .cardHover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cardHover:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .featuresCardLogoDiv {
+    width: 8vw;
+    height: 8vw;
+  }
+  .featuresCardLogo {
+    width: 100%;
+    height: 100%;
+  }
+  .featuresCardHeadline {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .FeaturesCardDiv{
+    height: 15vh;
+    border-radius: 15px;
   }
 }

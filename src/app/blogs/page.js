@@ -7,7 +7,7 @@ const BlogsPage = () => {
   return (
     <div>
       {/* 1st hero */}
-      <div className="blogsHeroDiv pt-20">
+      <div className="blogsHeroDiv pt-16 lg:pt-20 xl:pt-20">
         <div className="blogsHeroBg">
           {/* <img className="blogsHeroBgImg" src="/images/image 314.png" alt="" /> */}
           <div className="blogsHeroHeadlineDiv">
@@ -25,19 +25,24 @@ const BlogsPage = () => {
         </div>
       </div>
       {/*2nd hero */}
-      <div className="mx-48 -mt-52">
+      <div className="mx-5 lg:mx-48 -mt-80 lg:-mt-52 xl:-mt-52">
         <div className="blogs2ndHeroBgImgDiv">
           <img
-            className="blogs2ndHeroBgImg"
+            className="blogs2ndHeroBgImg hidden lg:block xl:block"
             src="/images/image2nd.png"
             alt=""
           />
+          <img
+            className="blogs2ndHeroBgImg block lg:hidden xl:hidden"
+            src="/images/blogPhoneBg.png"
+            alt=""
+          />
           <div className="blogs2ndHeroContectDiv flex items-end">
-            <div className="ps-10 gap-4 w-full">
+            <div className="ps-3 lg:ps-10 xl:ps-10 gap-4 w-full">
               <button className="blogsStartupsButton rounded-full shadow-lg border border-gray-400 px-4 py-1">
                 Startups
               </button>
-              <button className="blogsStartupsButton rounded-full shadow-lg border border-gray-400 px-4 py-1 ms-3">
+              <button className="blogsStartupsButton rounded-full shadow-lg border border-gray-400 px-4 py-1 ms-2 lg:ms-3 xl:ms-3">
                 Budgeting
               </button>
               <h1 className="blogs2ndHeroHealdline pt-5 leading-tight">
