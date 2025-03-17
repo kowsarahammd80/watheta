@@ -189,7 +189,7 @@ const FeturesPage = () => {
             </section>
           </div>
           {/* phone or tab */}
-          <div className="ms-5 pt-10">
+          <div className="ms-5 pt-10 block lg:hidden xl:hidden">
             <Swiper
               spaceBetween={10}
               navigation={{
