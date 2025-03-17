@@ -1,4 +1,6 @@
+import BlogPageRecentblogs from "@/components/BlogPageRecentblogs";
 import HomeFAQ from "@/components/HomeFAQ";
+import JoinOurNewsLetter from "@/components/JoinOurNewsLetter";
 import Link from "next/link";
 import React from "react";
 
@@ -14,9 +16,9 @@ const BlogsPage = () => {
             <div className="flex justify-center">
               <div className="pt-14">
                 <h1 className="blogsHeroHeadline text-center">Watheta Blog</h1>
-                <p className="blogsHeroHeadPera text-center">
+                <p className="blogsHeroHeadPera text-center pb-0 lg:pb-5 xl:pb-5">
                   look like readable English. Many desktop publishing packages
-                  and web page <br /> editors now use Lorem Ipsum as their
+                  and web page editors now use Lorem Ipsum as their
                   default model text
                 </p>
               </div>
@@ -25,7 +27,7 @@ const BlogsPage = () => {
         </div>
       </div>
       {/*2nd hero */}
-      <div className="mx-5 lg:mx-48 -mt-80 lg:-mt-52 xl:-mt-52">
+      <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16 -mt-80 lg:-mt-52 xl:-mt-52">
         <div className="blogs2ndHeroBgImgDiv">
           <img
             className="blogs2ndHeroBgImg hidden lg:block xl:block"
@@ -67,8 +69,8 @@ const BlogsPage = () => {
         </div>
       </div>
       {/* blogs card section */}
-      <section className="mx-48 py-16">
-        <div className="grid grid-cols-3 gap-10">
+      <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-16 py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-10">
           {/* card */}
           <div className="cursor-pointer">
             {/* img */}
@@ -347,110 +349,10 @@ const BlogsPage = () => {
         </div>
       </section>
       {/* reacent blogs */}
-      <section className="blogRecentBlog py-20">
-        <div className="mx-48">
-          <div>
-            <h1 className="blogPageReasentHeadline">Recent Blogs</h1>
-          </div>
-          {/* blog grid */}
-          <div className="grid grid-cols-2 py-10 gap-10">
-            <div>
-              {/* img  */}
-              <div className="blogePageResentBlogsImgDiv">
-                <img
-                  className="blogePageResentBlogsImg"
-                  src="/images/imager.png"
-                  alt=""
-                />
-              </div>
-              {/* min and product text */}
-              <div className="flex justify-between pt-6">
-                <span className="border px-4 py-1 rounded-full blogProductText bg-white">
-                  Product
-                </span>
-                <span className="blogProductMinText">11 min read</span>
-              </div>
-              <div className="pt-4">
-                <h1 className="blogPageHeadline">
-                  Frequently asked questions about Xref Exit Surveys
-                </h1>
-              </div>
-              <div className="pt-4">
-                <button className="border-b border-gray-500 blogReadMoreText">
-                  {" "}
-                  Read more{" "}
-                </button>
-              </div>
-            </div>
-            {/* 2nd gride */}
-            <div className="space-y-4">
-              <div className="grid grid-cols-3 gap-5">
-                <div className="blogPageResentImgDiv2nd border rounded-3xl col-span-1">
-                  <img
-                    className="blogPageResent2Img"
-                    src="/images/imager (1).png"
-                    alt=""
-                  />
-                </div>
-                <div className="col-span-2">
-                  <div className="flex justify-between">
-                    <button className="bg-white px-4 py-1 rounded-full border blogProductText">
-                      Product
-                    </button>
-                    <span className="blogProductMinText">11 min read</span>
-                  </div>
-                  <h1 className="blogPageHeadline pt-4">
-                    Frequently asked questions about Xref Exit Surveys
-                  </h1>
-                </div>
-              </div>
-              <div className="grid grid-cols-3 gap-5">
-                <div className="blogPageResentImgDiv2nd border rounded-3xl col-span-1">
-                  <img
-                    className="blogPageResent2Img"
-                    src="/images/imager (2).png"
-                    alt=""
-                  />
-                </div>
-                <div className="col-span-2">
-                  <div className="flex justify-between">
-                    <button className="bg-white px-4 py-1 rounded-full border blogProductText">
-                      Product
-                    </button>
-                    <span className="blogProductMinText">11 min read</span>
-                  </div>
-                  <h1 className="blogPageHeadline pt-4">
-                    Frequently asked questions about Xref Exit Surveys
-                  </h1>
-                </div>
-              </div>
-              <div className="grid grid-cols-3 gap-5">
-                <div className="blogPageResentImgDiv2nd border rounded-3xl col-span-1">
-                  <img
-                    className="blogPageResent2Img"
-                    src="/images/imager (3).png"
-                    alt=""
-                  />
-                </div>
-                <div className="col-span-2">
-                  <div className="flex justify-between">
-                    <button className="bg-white px-4 py-1 rounded-full border blogProductText">
-                      Product
-                    </button>
-                    <span className="blogProductMinText">11 min read</span>
-                  </div>
-                  <h1 className="blogPageHeadline pt-4">
-                    Frequently asked questions about Xref Exit Surveys
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <BlogPageRecentblogs/>
       {/* 2nd blogs show section */}
-      <section className="mx-48 py-16">
-        <div className="grid grid-cols-3 gap-10">
+      <section className="mx-5 lg:mx-48 xl:mx-48 py-8 lg:py-16 xl:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-10">
           {/* card */}
           <div className="cursor-pointer">
             {/* img */}
@@ -637,37 +539,8 @@ const BlogsPage = () => {
         </div>
       </section>
       {/* join our */}
-      <section className="mx-48 pt-5">
-        <div className="joinOurNewsletterbgImgDiv">
-          <img
-            className="joinOurNewsletterbgImg"
-            src="/images/Group 1000002862.png"
-            alt=""
-          />
-          <div className="joinOurNewsletterContentDiv flex justify-center items-center">
-            <div className="">
-              <h1 className="text-white JoinournewsletterText text-center">
-                Join our newsletter
-              </h1>
-              <p className="joinournewsletterPeraText text-center pt-2 leading-relaxed">
-                Subscribe our newsletter to receive the latest news and <br />
-                exclusive offers every week. No spam,
-              </p>
-              {/* input */}
-              <div className="pt-6 w-full joinournewsletterInputDiv">
-                <input
-                  className="joinournewsletterInput border-4 w-full"
-                  type="text"
-                  placeholder="Enter your email"
-                />
-                <button className="joinournewsletterSubscribeButton px-10 py-2 rounded-full">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
+      <JoinOurNewsLetter/>
       <HomeFAQ />
     </div>
   );

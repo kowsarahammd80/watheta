@@ -44,7 +44,7 @@ const Navbar = () => {
     <div
       className={`fixed z-50 w-full ${navBar ? " bg-white" : "bg-transparent"}`}
     >
-      <div className="mx-1 lg:mx-36 xl:mx-36 md:mx-5">
+      <div className="mx-1 lg:mx-20 xl:mx-36 md:mx-5">
         <nav className="navbar">
           {/* Logo */}
           <Link href="/">
