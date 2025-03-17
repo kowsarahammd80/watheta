@@ -5,12 +5,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footerbg p-24">
-      <section className="mx-16">
+    <div className="footerbg px-2 lg:px-24 xl:px-24 pt-14 pb-5">
+      <section className="mx-5 lg:mx-16 xl:mx-16">
         {/* footer logo and border section */}
         <div className="border-b flex justify-between items-center">
           {/* logo */}
-          <div className="flex items-center gap-10 pb-10">
+          <div className="flex items-center gap-5 lg:gap-10 xl:gap-10 pb-5 lg:pb-10 xl:pb-10">
             <div className="footerLogoDiv">
               <img
                 className="footerLogo"
@@ -27,8 +27,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="pb-10">
-            <select className="w-full max-w-md px-6 py-4 footerbg border border-gray-400 rounded-full">
+          <div className="pb-5 lg:pb-10 xl:pb-5">
+            <select className="w-full max-w-md px-3 lg:px-6 py-2 lg:py-4 footerbg border border-gray-400 rounded-full footerSelectedButtonText">
               <option value="english">English</option>
               <option value="spanish">Spanish</option>
               <option value="french">French</option>
@@ -36,9 +36,9 @@ const Footer = () => {
           </div>
         </div>
         {/* info  */}
-        <div className="grid grid-cols-5 gap-8 pt-5 border-b">
+        <div className="grid grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 gap-8 pt-5 border-b">
           {/* Contact support */}
-          <div>
+          <div className="col-span-2 xl:col-span-1 lg:col-span-1">
             <h1 className="footerInfoHeadline">Contact support</h1>
             <div className="my-4">
               <p className="footerInfoHeadlineSub">United Kingdom:</p>
@@ -68,7 +68,7 @@ const Footer = () => {
                 </span>{" "}
                 info@watheta.com
               </p>
-              <p className="footerPera pt-1 flex items-center">
+              <p className="footerPera pt-2 flex items-center">
                 {" "}
                 <span className="text-sm me-2">
                   <svg
@@ -84,7 +84,7 @@ const Footer = () => {
             </div>
           </div>
           {/* Company */}
-          <div className="ms-10">
+          <div className="ms-0 lg:ms-10 xl:ms-10">
             <h1 className="footerInfoHeadline">Company</h1>
             <div className="my-4">
               <p className="footerPera pt-1">About</p>
@@ -131,10 +131,10 @@ const Footer = () => {
           <div>
             <h1 className="footerInfoHeadline">eCommerce</h1>
             <div className="my-4">
-              <p className="footerPera pt-1">Pricing</p>
+              <p className="footerPera pt-1">Shopify</p>
             </div>
             <div className="my-4">
-              <p className="footerPera pt-1">Help</p>
+              <p className="footerPera pt-1">WooCommerce</p>
             </div>
           </div>
           {/* Social Channels */}
@@ -173,7 +173,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Copyright */}
-        <div className="flex justify-center items-center h-24">
+        <div className="flex justify-center items-center pt-5">
           <p className="text-center text-sm">
             Copyright © 2024 | All right Reserved by WaTheta Limited | A
             Signature Product of AdTheta

@@ -2,20 +2,22 @@ import React from "react";
 
 const HomeBlogs = () => {
   return (
-    <div className="homeBlogsBg py-20">
-      <section className="mx-48">
+    <div className="homeBlogsBg py-8 lg:py-16 xl:py-16 md:py-8 mt-24 lg:mt-0 xl:mt-0">
+      <section className="mx-5 lg:mx-48 xl:mx-48">
         {/* headline */}
-        <div className="text-center">
+        <div className="text-center w-full">
           <h1 className="homeBlogsHeadline">Watheta Recent Blogs</h1>
-          <p className="text-base leading-loose">
-            The Blog Page Of Infermedica Offers News, Analysis, And In-Depth
-            Knowledge About The <br /> Future Of Digital Health And How
-            Technology Is Affecting It.
-          </p>
+          <div className="flex justify-center">
+            <p className="text-base leading-normal lg:leading-loose xl:leading-loose homeBlogsHeadPera">
+              The Blog Page Of Infermedica Offers News, Analysis, And In-Depth
+              Knowledge About The Future Of Digital Health And How Technology Is
+              Affecting It.
+            </p>
+          </div>
         </div>
         {/* card */}
-        <div className="grid grid-cols-3 py-10 gap-10">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 py-10 gap-10">
+          <div className="col-span-1 lg:col-span-2">
             <div className="homeBlogsCols2ImgDiv rounded-3xl">
               <img
                 className="homeBlogsCols2Img"
@@ -54,7 +56,7 @@ const HomeBlogs = () => {
             </div>
           </div>
           {/* 2ndline */}
-          <div>
+          <div className="hidden lg:block xl:block">
             <div className="homeBlogsCols1-2ndImgDiv rounded-3xl">
               <img
                 className="homeBlogsCols2Img"
@@ -71,7 +73,7 @@ const HomeBlogs = () => {
               <p>6 MIN READ</p>
             </div>
           </div>
-          <div>
+          <div className="hidden lg:block xl:block">
             <div className="homeBlogsCols1-2ndImgDiv rounded-3xl">
               <img
                 className="homeBlogsCols2Img"
@@ -88,7 +90,7 @@ const HomeBlogs = () => {
               <p>6 MIN READ</p>
             </div>
           </div>
-          <div>
+          <div className="hidden lg:block xl:block">
             <div className="homeBlogsCols1-2ndImgDiv rounded-3xl">
               <img
                 className="homeBlogsCols2Img"
@@ -107,7 +109,12 @@ const HomeBlogs = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="flex items-center px-10 py-3 border rounded-full bg-white">See All Blogs <span className="ms-2"><img src="/images/Group 1000002679.png" alt="" /></span></button>
+          <button className="flex items-center px-10 py-3 border rounded-full bg-white">
+            See All Blogs{" "}
+            <span className="ms-2">
+              <img src="/images/Group 1000002679.png" alt="" />
+            </span>
+          </button>
         </div>
       </section>
     </div>

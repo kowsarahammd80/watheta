@@ -10,7 +10,7 @@ const TrustedCustomers = () => {
       </div>
       {/* logo */}
       <section className="mx-5 lg:mx-48 py-10">
-        <div className="grid grid-cols-4 lg:grid-cols-5 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8">
+        <div className="grid grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-3 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8">
           <div className="trustLogoDiv">
             <img className="trustLogo" src="/images/Company logo.png" alt="" />
           </div>
@@ -42,7 +42,7 @@ const TrustedCustomers = () => {
               alt=""
             />
           </div>
-          <div className="trustLogoDiv ">
+          <div className="trustLogoDiv">
             <img
               className="trustLogo"
               src="/images/company logo (5).png"

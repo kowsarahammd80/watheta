@@ -212,6 +212,9 @@ body {
   width: 100%;
   height: 100%;
 }
+.footerSelectedButtonText{
+  font-size: 1rem;
+}
 
 /* homeFeatures */
 .homeFeaturesbg {
@@ -457,7 +460,7 @@ body {
   font-size: 1.1rem;
   color: #7a7a7a;
 }
-.HomeReasonToSwitchCard{
+.HomeReasonToSwitchCard {
   width: 100%;
   height: 300px;
 }
@@ -468,6 +471,10 @@ body {
 .homeBlogsHeadline {
   font-size: 3.375rem;
   font-weight: 600;
+}
+.homeBlogsHeadPera {
+  font-size: 1rem;
+  width: 690px;
 }
 .homeBlogsCols2ImgDiv {
   width: 100%;
@@ -513,6 +520,7 @@ body {
   font-size: 3.375rem;
   font-weight: 600;
   color: #f4f4f4;
+  width: 573px;
 }
 .gettingPera {
   font-size: 1.12rem;
@@ -535,6 +543,7 @@ body {
 .homeFaqHEeadLine {
   font-size: 3.375rem;
   font-weight: 600;
+  width: 450px;
 }
 .homeFaqButtonDiv {
   width: 255px;
@@ -1204,7 +1213,7 @@ body {
     color: #292d32;
   }
   .conversationalArrowDiv {
-    width: 4vw; 
+    width: 4vw;
     height: 4vw;
     max-width: 30px;
     max-height: 30px;
@@ -1249,9 +1258,174 @@ body {
     font-size: 0.8rem;
     color: #7a7a7a;
   }
-  .HomeReasonToSwitchCard{
+  .HomeReasonToSwitchCard {
     width: 100%;
     height: 255px;
+  }
+
+  /* home  blogs */
+
+  .homeBlogsBg {
+    background-color: #f6f6f6;
+  }
+  .homeBlogsHeadline {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+  .homeBlogsHeadPera {
+    font-size: 1rem;
+    width: 690px;
+  }
+  .homeBlogsCols2ImgDiv {
+    width: 100%;
+    height: 19.81vh;
+  }
+  .homeBlogsCols2Img {
+    width: 100%;
+    height: 100%;
+  }
+  .homeBlogsCols1-1stImgDiv {
+    width: 100%;
+    height: 19.81vh;
+  }
+  .homeBlogsCols1-1stImg {
+    width: 100%;
+    height: 100%;
+  }
+  .homeBlogCardHeadline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .dayOrCounttext {
+    font-size: 1rem;
+    color: #7a7a7a;
+  }
+  .homeBlogCard2ndHeadline {
+    font-size: 1.375rem;
+    font-weight: 600;
+    width: 95%;
+  }
+  .homeBlogsCols1-2ndImgDiv {
+    width: 100%;
+    height: 25vh;
+  }
+  /* getting start */
+  .gettingBg {
+    background-color: black;
+    height: 39.26vh;
+  }
+  .gettingHeadlin {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f4f4f4;
+    width: 300px;
+  }
+  .gettingPera {
+    font-size: 1rem;
+    color: #f4f4f4;
+    width: 80%;
+  }
+  .gettingGetButton {
+    background: linear-gradient(to bottom, #6cc17b, #46ba85);
+    color: white;
+  }
+  /* heigh perfomer */
+  .heighPrfomerLogoDiv {
+    width: 100%;
+    height: 68px;
+  }
+  .heighPrfomerLogo {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Home FAQ */
+  .homeFaqHEeadLine {
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .homeFaqButtonDiv {
+    width: 255px;
+    /* background-color: #DDF2E6; */
+    text-align: start;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .homeFaqButtonDivActive {
+    width: 255px;
+    background-color: #ddf2e6;
+    text-align: start;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .homeFaqButton {
+    height: 38px;
+    text-align: start;
+    padding-left: 10px;
+    border-radius: 4px;
+  }
+  .homeFaqButtonActive {
+    height: 38px;
+    text-align: start;
+    padding-left: 10px;
+    border-left: 4px solid #5fbf7f;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  /* footer */
+  .footerbg {
+    background-color: #f2f2f2;
+  }
+
+  .footerLogoDiv {
+    width: 22vw;
+    height: 3.24vh;
+  }
+  .footerlogo {
+    width: 100%;
+    height: 100%;
+  }
+  .footerMetaLogoDiv {
+    width: 15vw;
+    height: 4.37vh;
+  }
+  .footerMetaLog {
+    width: 100%;
+    height: 100%;
+  }
+  .footerInfoHeadline {
+    color: #292d32;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .footerInfoHeadlineSub {
+    color: #292d32;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .footerPera {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footerMailIcon {
+    width: 18px;
+    height: 18px;
+  }
+  .foterSocialIconDiv {
+    width: 15px;
+    height: 15px;
+  }
+  .foterSocialIcon {
+    width: 100%;
+    height: 100%;
+  }
+  .footerSelectedButtonText{
+    font-size: 0.8rem;
   }
 }
 
@@ -1374,6 +1548,21 @@ body {
     height: 100%;
   }
 
+  /* client logo */
+  .trustedText {
+    font-size: 18px;
+    color: #292d32;
+    font-weight: 500;
+  }
+  .trustLogoDiv {
+    width: 76px;
+    height: 28px;
+  }
+  .trustLogo {
+    width: 100%;
+    height: 100%;
+  }
+
   /* homeIntreget */
   .intregeteDivBG {
     background-image: url("/images/integrations.png");
@@ -1391,5 +1580,129 @@ body {
     /* font-size: 3.375rem; */
     font-weight: 600;
     width: 420px;
+  }
+
+  /* home  blogs */
+  .homeBlogsBg {
+    background-color: #f6f6f6;
+  }
+  .homeBlogsHeadline {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .homeBlogsHeadPera {
+    font-size: 1.2rem;
+    width: 690px;
+  }
+  .homeBlogsCols2ImgDiv {
+    width: 100%;
+    height: 20vh;
+  }
+  .homeBlogsCols2Img {
+    width: 100%;
+    height: 100%;
+  }
+  .homeBlogsCols1-1stImgDiv {
+    width: 100%;
+    height: 20vh;
+  }
+  .homeBlogsCols1-1stImg {
+    width: 100%;
+    height: 100%;
+  }
+  .homeBlogCardHeadline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 85%;
+  }
+  .dayOrCounttext {
+    font-size: 1rem;
+    color: #7a7a7a;
+  }
+  .homeBlogCard2ndHeadline {
+    font-size: 1.375rem;
+    font-weight: 600;
+    width: 85%;
+  }
+  .homeBlogsCols1-2ndImgDiv {
+    width: 100%;
+    height: 25vh;
+  }
+  /* getting start */
+  .gettingBg {
+    background-color: black;
+    height: 39.26vh;
+  }
+  .gettingHeadlin {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f4f4f4;
+    width: 300px;
+  }
+  .gettingPera {
+    font-size: 1rem;
+    color: #f4f4f4;
+    width: 80%;
+  }
+  .gettingGetButton {
+    background: linear-gradient(to bottom, #6cc17b, #46ba85);
+    color: white;
+  }
+
+  /* heigh perfomer */
+  .heighPrfomerLogoDiv {
+    width: 100%;
+    height: 80px;
+  }
+  .heighPrfomerLogo {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* happyclients */
+  .HappyClientSaysBg {
+    background-color: #292d32;
+    height: 40vh;
+  }
+  .happyClientsSaysText {
+    font-size: 1.85rem;
+    font-weight: 600;
+  }
+  .happyClientsSaysImgDiv {
+    width: 40px;
+    height: 40px;
+  }
+  .happyClientsSaysImg {
+    width: 100%;
+    height: 100%;
+  }
+  .clientSaySliderPera {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .whaychooseWathetabg {
+    background-color: #f1f0ff;
+  }
+  .whyChooseWaThetaText {
+    font-size: 1.75rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .whyChooseWaThetaPera {
+    font-size: 14px;
+    width: 100%;
+  }
+  .whyChooseWathetaCardImgDiv {
+    width: 70px;
+    height: 70px;
+  }
+  .whyChooseCardImg {
+    width: 100%;
+    height: 100%;
+  }
+  .whyChooseCardHeadline {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
   }
 }

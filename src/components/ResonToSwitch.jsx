@@ -130,7 +130,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="absolute lg:-top-20 xl:-top-20 right-44 flex space-x-2 lg:space-x-5 xl:space-x-5 pb-8 lg:pb-0 xl:pb-0 md:pb-10 pt-4 lg:pt-0 xl:pt-0 md:pt-4">
+        <div className="absolute lg:-top-20 xl:-top-20 right-44 lg:right-44 xl:right-44 md:right-80 flex space-x-2 lg:space-x-5 xl:space-x-5 pb-8 lg:pb-0 xl:pb-0 md:pb-10 pt-4 lg:pt-0 xl:pt-0 md:pt-4">
           {/* Left Button */}
           <button
             className={`custom-prev bg-white p-3 rounded-full  border transition-all ${
