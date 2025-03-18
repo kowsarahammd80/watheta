@@ -72,7 +72,7 @@ const PricingPage = () => {
             }}
           >
             <SwiperSlide className="">
-              <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer pricingCardDiv">
+              <div className="py-4 px-2 bg-white cardHover cursor-pointer pricingCardDiv">
                 <div className="">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
