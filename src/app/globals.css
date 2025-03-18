@@ -896,6 +896,58 @@ body {
   background-color: #e4c1ff;
 }
 
+/* pricing */
+.pricingBg{
+  background-image: url('/images/fruit-basket-GeEk8Yok6Ig-unsplash.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+}
+.pricingHeroContentDiv{
+  width: 100%;
+  height: 680px;
+}
+.pricingMetaLogoDiv{
+   width: 112px;
+   height: 64px;
+}
+.pricingOfficialText{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.metaBusinessText{
+  font-size: 0.875rem; 
+}
+.pricingHeadline{
+  font-size: 4rem;
+  font-weight: 600;
+  width: 641px;
+  text-align: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.pricingPera{
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.pricingWhatsAppText{
+  font-size: 1rem;
+  background-color: #e4e2e26d;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.pricingCardDiv{
+  width: 100%;
+  height: 170px;
+  border-radius: 15px;
+}
+
+
+
+
 /* media query */
 /* Mobile Styles */
 @media (max-width: 600px) {
@@ -1631,6 +1683,82 @@ body {
     height: 100%;
   }
 
+  /* Integrations */
+  .integrateHeroBg {
+    background-image: url("/images/imageIntreget 314.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 434px;
+  }
+  .inregrationPageButton {
+    font-size: 1rem;
+  }
+  .integrationsPageHeadLine {
+    font-size: 2.357rem;
+    font-weight: 600;
+    width: 350px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .integetSearchInputDiv {
+    position: relative;
+    width: 350px;
+    height: 60px;
+  }
+  .integetSearchInput {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+  }
+  .searchIconButton {
+    position: relative;
+    top: 0;
+    height: 60px;
+  }
+  .searchInconDiv {
+    width: 24px;
+    height: 24px;
+  }
+  .searchIncon {
+    width: 100%;
+    height: 100%;
+  }
+  .integetCategoryText {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  .integratonCard {
+    box-shadow: 1px 5px 4px #888f98;
+  }
+  .intreInconDiv {
+    width: 48px;
+    height: 40px;
+  }
+  .intreIncon {
+    width: 100%;
+    height: 100%;
+  }
+  .interCategoryPera {
+    font-size: 15px;
+    color: #292d32;
+  }
+  .interCategoryLearnButton {
+    border-bottom: 1px solid #000000;
+    color: #292d32;
+  }
+  .interCategoryLearnButton:hover {
+    border-bottom: 1px solid #7d10d1;
+    color: #7d10d1;
+  }
+  .categoryButtonBg {
+    background-color: #ededed;
+  }
+  .categoryButtonBgActive {
+    background-color: #e4c1ff;
+  }
+
   /* footer */
   .footerbg {
     background-color: #f2f2f2;
@@ -1702,6 +1830,7 @@ body {
   }
   .nav-links {
     display: none;
+    background-color: white;
     flex-direction: column;
     position: absolute;
     top: 80px;
@@ -2164,4 +2293,82 @@ body {
     color: white;
     height: 60px;
   }
+
+  /* Interget */
+  /* Integrations */
+  .integrateHeroBg {
+    background-image: url("/images/imageIntreget 314.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 434px;
+  }
+  .inregrationPageButton {
+    font-size: 1rem;
+  }
+  .integrationsPageHeadLine {
+    font-size: 2.375rem;
+    font-weight: 600;
+    width: 500px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .integetSearchInputDiv {
+    position: relative;
+    width: 400px;
+    height: 60px;
+  }
+  .integetSearchInput {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+  }
+  .searchIconButton {
+    position: relative;
+    top: 0;
+    height: 60px;
+  }
+  .searchInconDiv {
+    width: 24px;
+    height: 24px;
+  }
+  .searchIncon {
+    width: 100%;
+    height: 100%;
+  }
+  .integetCategoryText {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  .integratonCard {
+    box-shadow: 1px 5px 4px #888f98;
+  }
+  .intreInconDiv {
+    width: 48px;
+    height: 40px;
+  }
+  .intreIncon {
+    width: 100%;
+    height: 100%;
+  }
+  .interCategoryPera {
+    font-size: 15px;
+    color: #292d32;
+  }
+  .interCategoryLearnButton {
+    border-bottom: 1px solid #000000;
+    color: #292d32;
+  }
+  .interCategoryLearnButton:hover {
+    border-bottom: 1px solid #7d10d1;
+    color: #7d10d1;
+  }
+  .categoryButtonBg {
+    background-color: #ededed;
+  }
+  .categoryButtonBgActive {
+    background-color: #e4c1ff;
+  }
+
 }

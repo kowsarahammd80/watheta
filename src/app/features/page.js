@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import GettingStarted from "@/components/GettingStarted";
 import HighPerformer from "@/components/HighPerformer";
 import HomeBroadcaster from "@/components/HomeBroadcaster";
@@ -9,12 +10,12 @@ import HomeDrip from "@/components/HomeDrip";
 import HomeFAQ from "@/components/HomeFAQ";
 import HomeGenerativeAI from "@/components/HomeGenerativeAI";
 import WhatsAppChatBots from "@/components/WhatsAppChatBots";
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+
 
 const FeturesPage = () => {
   return (
@@ -389,7 +390,7 @@ const FeturesPage = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-        </div>
+      </div>
       </div>
       <WhatsAppChatBots />
       <HomeCrm />

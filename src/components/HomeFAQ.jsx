@@ -7,7 +7,7 @@ const HomeFAQ = () => {
   console.log(faqButton);
   return (
     <div className="py-10 lg:py-20 xl:py-20">
-      <section className="mx-5 lg:mx-48 xl:mx-48">
+      <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-16">
         {/* head line */}
         <div className="">
           <h1 className="homeFaqHEeadLine">
