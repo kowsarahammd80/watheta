@@ -1122,8 +1122,8 @@ body {
   color: #292D32;
 }
 .additonalCardIconDiv{
-  width: 52px;
-  height: 56px;
+  width: 48px;
+  height: 52px;
 }
 .additonalCardIcon{
   width: 100%;
@@ -1152,6 +1152,53 @@ body {
   font-weight: 400;
   color: #4B5563;
 }
+.dedicatedText{
+  font-size: 3.375rem;
+  font-weight: 600;
+  color: #292D32;
+  text-align: center;
+}
+.dedicatedPera{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #292D32;
+  text-align: center;
+}
+.dedicatedIconDiv{
+  width: 52px;
+  height: 52px;
+}
+.dedicatedIcon{
+  width: 100%;
+  height: 100%;
+}
+.dedicatedCardDiv{
+  cursor: pointer;
+  box-shadow: 0px 0px 0px rgba(208, 207, 207, 0.668);
+  transition: 0.3s ease-in-out;
+}
+.dedicatedCardDiv:hover{
+  box-shadow: 4px 6px 4px rgba(208, 207, 207, 0.668);
+}
+.dedicatedcardHeadline{
+  font-size: 18px;
+  color: #292D32;
+  font-weight: 600;
+}
+.transformYourBusinessText{
+  font-size: 54px;
+  font-weight: 600;
+  width: 636px;
+  line-height: 60px;
+}
+.readyToButton{
+  background-color: #46ba85;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 50px;
+  margin: auto;
+}
+
 
 
 /* media query */
@@ -2139,6 +2186,66 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #4B5563;
+  }
+
+  .aditionlCardPera{
+    font-size: 16px;
+    color: #4B5563;
+  }
+  .aditionalPrice{
+    font-size: 1.625rem;
+    font-weight: 600;
+  }
+  .aditonalpermaoth{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4B5563;
+  }
+  .dedicatedText{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #292D32;
+    text-align: center;
+  }
+  .dedicatedPera{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #292D32;
+    text-align: center;
+  }
+  .dedicatedIconDiv{
+    width: 48px;
+    height: 48px;
+  }
+  .dedicatedIcon{
+    width: 100%;
+    height: 100%;
+  }
+  .dedicatedCardDiv{
+    cursor: pointer;
+    box-shadow: 0px 0px 0px rgba(208, 207, 207, 0.668);
+    transition: 0.3s ease-in-out;
+  }
+  .dedicatedCardDiv:hover{
+    box-shadow: 4px 6px 4px rgba(208, 207, 207, 0.668);
+  }
+  .dedicatedcardHeadline{
+    font-size: 14px;
+    color: #292D32;
+    font-weight: 600;
+  }
+  .transformYourBusinessText{
+    font-size: 28px;
+    font-weight: 600;
+    width: 358px;
+    line-height: 35px;
+  }
+  .readyToButton{
+    background-color: #46ba85;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 50px;
+    margin: auto;
   }
 
 

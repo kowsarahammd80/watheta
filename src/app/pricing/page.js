@@ -828,7 +828,6 @@ const PricingPage = () => {
           </div>
         </section>
       </section>
-
       {/* pricing for phone */}
       <section className="mx-5 md:mx-16 block lg:hidden xl:hidden">
         <div className="pb-10 grid grid-cols-1">
@@ -1560,7 +1559,6 @@ const PricingPage = () => {
           </div>
         </div>
       </section>
-
       {/* Aditional */}
       <section className="additionalbg py-16">
         <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16">
@@ -1576,67 +1574,251 @@ const PricingPage = () => {
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
-                <img className="additonalCardIcon" src="/images/pricing 1000003900.png" alt="" />
+                <img
+                  className="additonalCardIcon"
+                  src="/images/pricing 1000003900.png"
+                  alt=""
+                />
               </div>
               <div className="py-4">
-                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">Team Member</h1>
-                 <p className="aditionlCardPera pt-1">Additional team member access</p>
-                 <p className="pt-2 aditionalPrice">$10 <span className="aditonalpermaoth">/per month</span></p>
+                <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
+                  Team Member
+                </h1>
+                <p className="aditionlCardPera pt-1">
+                  Additional team member access
+                </p>
+                <p className="pt-2 aditionalPrice">
+                  $10 <span className="aditonalpermaoth">/per month</span>
+                </p>
               </div>
             </div>
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
-                <img className="additonalCardIcon" src="/images/Group 1000003922.png" alt="" />
+                <img
+                  className="additonalCardIcon"
+                  src="/images/Group 1000003922.png"
+                  alt=""
+                />
               </div>
               <div className="py-4">
-                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">Social Channel</h1>
-                 <p className="aditionlCardPera pt-1">Additional social media channel</p>
-                 <p className="pt-2 aditionalPrice">$10 <span className="aditonalpermaoth">/per month</span></p>
+                <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
+                  Social Channel
+                </h1>
+                <p className="aditionlCardPera pt-1">
+                  Additional social media channel
+                </p>
+                <p className="pt-2 aditionalPrice">
+                  $10 <span className="aditonalpermaoth">/per month</span>
+                </p>
               </div>
             </div>
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
-                <img className="additonalCardIcon" src="/images/Group 1010003922.png" alt="" />
+                <img
+                  className="additonalCardIcon"
+                  src="/images/Group 1010003922.png"
+                  alt=""
+                />
               </div>
               <div className="py-4">
-                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">External Actions</h1>
-                 <p className="aditionlCardPera pt-1">Additional external actions</p>
-                 <p className="pt-2 aditionalPrice">$10 <span className="aditonalpermaoth">/per month</span></p>
+                <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
+                  External Actions
+                </h1>
+                <p className="aditionlCardPera pt-1">
+                  Additional external actions
+                </p>
+                <p className="pt-2 aditionalPrice">
+                  $10 <span className="aditonalpermaoth">/per month</span>
+                </p>
               </div>
             </div>
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
-                <img className="additonalCardIcon" src="/images/Group 1000003922 (1).png" alt="" />
+                <img
+                  className="additonalCardIcon"
+                  src="/images/Group 1000003922 (1).png"
+                  alt=""
+                />
               </div>
               <div className="py-4">
-                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">Bot Triggers</h1>
-                 <p className="aditionlCardPera pt-1">Additional external actions</p>
-                 <p className="pt-2 aditionalPrice">$10 <span className="aditonalpermaoth">/per 25000 triggers</span></p>
+                <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
+                  Bot Triggers
+                </h1>
+                <p className="aditionlCardPera pt-1">
+                  Additional external actions
+                </p>
+                <p className="pt-2 aditionalPrice">
+                  $10{" "}
+                  <span className="aditonalpermaoth">/per 25000 triggers</span>
+                </p>
               </div>
             </div>
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
-                <img className="additonalCardIcon" src="/images/Group 1000003922 (2).png" alt="" />
+                <img
+                  className="additonalCardIcon"
+                  src="/images/Group 1000003922 (2).png"
+                  alt=""
+                />
               </div>
               <div className="py-4">
-                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">Ecom Store</h1>
-                 <p className="aditionlCardPera pt-1">Additional external actions</p>
-                 <p className="pt-2 aditionalPrice">$10 <span className="aditonalpermaoth">/per 25000 triggers</span></p>
+                <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
+                  Ecom Store
+                </h1>
+                <p className="aditionlCardPera pt-1">
+                  Additional external actions
+                </p>
+                <p className="pt-2 aditionalPrice">
+                  $10{" "}
+                  <span className="aditonalpermaoth">/per 25000 triggers</span>
+                </p>
               </div>
             </div>
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
-                <img className="additonalCardIcon" src="/images/Group 1000003922.png" alt="" />
+                <img
+                  className="additonalCardIcon"
+                  src="/images/Group 1000003922.png"
+                  alt=""
+                />
               </div>
               <div className="py-4">
-                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">Social Channel</h1>
-                 <p className="aditionlCardPera pt-1">Additional social media channel</p>
-                 <p className="pt-2 aditionalPrice">$10 <span className="aditonalpermaoth">/per month</span></p>
+                <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
+                  Social Channel
+                </h1>
+                <p className="aditionlCardPera pt-1">
+                  Additional social media channel
+                </p>
+                <p className="pt-2 aditionalPrice">
+                  $10 <span className="aditonalpermaoth">/per month</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Dedicated Support Services */}
+      <section className="mx-5 lg:mx-48 xl:mx-48 md:md-16 py-10">
+        {/* headline */}
+        <div>
+          <h1 className="dedicatedText">Dedicated Support Services</h1>
+          <p className="dedicatedPera pt-1">Get expert help when you need it</p>
+        </div>
+        {/* card */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 pt-6 gap-2 lg:gap-6 xl:gap-6">
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+            {/* icon div */}
+            <div className="dedicatedIconDiv">
+              <img
+                className="dedicatedIcon"
+                src="/images/Group 1030003922.png"
+                alt=""
+              />
+            </div>
+            {/* text */}
+            <div>
+              <h1 className="dedicatedcardHeadline py-4">
+                WABA, CRM, Inbox Support
+              </h1>
+              <p className="aditionalPrice">
+                $49 <span className="aditonalpermaoth">/per hour</span>
+              </p>
+            </div>
+          </div>
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+            {/* icon div */}
+            <div className="dedicatedIconDiv">
+              <img
+                className="dedicatedIcon"
+                src="/images/Group 1005003922.png"
+                alt=""
+              />
+            </div>
+            {/* text */}
+            <div>
+              <h1 className="dedicatedcardHeadline py-4">Ecommerce Support</h1>
+              <p className="aditionalPrice">
+                $99 <span className="aditonalpermaoth">/per hour</span>
+              </p>
+            </div>
+          </div>
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+            {/* icon div */}
+            <div className="dedicatedIconDiv">
+              <img
+                className="dedicatedIcon"
+                src="/images/Group 1004003922 (1).png"
+                alt=""
+              />
+            </div>
+            {/* text */}
+            <div>
+              <h1 className="dedicatedcardHeadline py-4">Bots Support</h1>
+              <p className="aditionalPrice">
+                $99 <span className="aditonalpermaoth">/per hour</span>
+              </p>
+            </div>
+          </div>
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+            {/* icon div */}
+            <div className="dedicatedIconDiv">
+              <img
+                className="dedicatedIcon"
+                src="/images/Group 1900003922.png"
+                alt=""
+              />
+            </div>
+            {/* text */}
+            <div>
+              <h1 className="dedicatedcardHeadline py-4">
+                Automations Support
+              </h1>
+              <p className="aditionalPrice">
+                $99 <span className="aditonalpermaoth">/per hour</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Ready to Transform Your Business? */}
+      <section className="mx-3 lg:mx-48 xl:mx-48 md:mx-16 pt-5 pb-10">
+        <div className="joinOurNewsletterbgImgDiv">
+          <img
+            className="joinOurNewsletterbgImg hidden lg:block xl:block"
+            src="/images/Group 1000002862.png"
+            alt=""
+          />
+          <img
+            className="joinOurNewsletterbgImg block lg:hidden xl:hidden"
+            src="/images/PhoneBgnewsletter.png"
+            alt=""
+          />
+          <div className="joinOurNewsletterContentDiv flex justify-center items-center">
+            <div className="">
+              <h1 className="text-white transformYourBusinessText text-center">
+                Ready to Transform Your Business?
+              </h1>
+              <p className="text-md lg:text-lg xl:text-lg text-white text-center pt-2 lg:pt-4 xl:pt-4 leading-relaxed mx-5 lg:mx-0 xl:mx-0">
+                Join 23,000+ businesses already growing with our platform
+              </p>
+
+              {/* <div className="pt-6 w-full joinournewsletterInputDiv">
+                <input
+                  className="joinournewsletterInput border-4 w-full"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button className="joinournewsletterSubscribeButton px-8 lg:px-10 xl:px-10 py-2 rounded-full">
+                  Subscribe
+                </button>
+              </div> */}
+              <div className="py-4">
+                <button className="flex justify-center items-center readyToButton">Get Started Now <span className="ms-2 lg:ms-3 xl:ms-3"><img src="/images/white1000002679.png" alt="" /></span> </button>
               </div>
             </div>
           </div>
