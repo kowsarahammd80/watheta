@@ -64,7 +64,7 @@ const Navbar = () => {
               { name: "Features", href: "/features" },
               { name: "Pricing", href: "/pricing" },
               { name: "Blogs", href: "/blogs" },
-              { name: "Comparison", href: "/comparison" },
+              // { name: "Comparison", href: "/comparison" },
               { name: "Help", href: "/help" },
             ].map((link) => (
               <Link
