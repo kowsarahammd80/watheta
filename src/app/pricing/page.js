@@ -1785,8 +1785,102 @@ const PricingPage = () => {
           </div>
         </div>
       </section>
+      {/* Ready to Transform Your Business Communication? */}
+      <section className="py-10 lg:py-20 xl:py-20 communicationBg">
+        <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-10 xl:gap-10">
+            
+            <div>
+              
+              <div>
+                <h1 className="communicationText">
+                  Ready to Transform Your Business Communication?
+                </h1>
+                <p className="communicationTextPera py-3">
+                  Join thousands of businesses already growing with Watheta
+                  intelligent automation platform.
+                </p>
+              </div>
+              <div className="pt-2">
+                <div className="py-4 flex items-center">
+                  <div className="communicationIconDiv">
+                    <img
+                      className="communicationIcon"
+                      src="/images/Group 100q03923.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="ms-4">
+                    <p className="text-md lg:text-lg xl:text-lg font-semibold text-white">
+                      Official Meta Partner
+                    </p>
+                    <p className="communicationIconPera pt-1">
+                      Direct integration with WhatsApp Business API
+                    </p>
+                  </div>
+                </div>
+                <div className="py-4 flex items-center">
+                  <div className="communicationIconDiv">
+                    <img
+                      className="communicationIcon"
+                      src="/images/Group 100e003936.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="ms-4">
+                    <p className="text-md lg:text-lg xl:text-lg font-semibold text-white">
+                      Enterprise Security
+                    </p>
+                    <p className="communicationIconPera pt-1">
+                      Your data is protected with industry-leading security.
+                    </p>
+                  </div>
+                </div>
+                <div className="py-4 flex items-center">
+                  <div className="communicationIconDiv">
+                    <img
+                      className="communicationIcon"
+                      src="/images/Group 100o003937.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="ms-4">
+                    <p className="text-md lg:text-lg xl:text-lg font-semibold text-white">
+                      Quick Setup & Integration
+                    </p>
+                    <p className="communicationIconPera pt-1">
+                      Get started in minutes with our guided setup process
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <form className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg">
+              
+                <div>
+                   <h1 className="schedulaDemoText">Schedule a Demo</h1>
+                   <p className="schedulaDemoPera py-3">See how watheta can help your business grow with a personalized demo.</p>
+                </div>
+                 
+                 <div className="py-3 space-y-4">
+                    <input className="scheduleInput border rounded-lg" type="text" placeholder="Your Name" />
+                    <input className="scheduleInput border rounded-lg" type="text" placeholder="Business Email" />
+                    <input className="scheduleInput border rounded-lg" type="text" placeholder="Phone Number" />
+                    <textarea className="scheduleTextArea border rounded-lg" type="text" placeholder="Tell us about your requirements..." />
+                    
+                 </div>
+
+                 <div>
+                  <button className="flex items-center scheduleDemoButton">Schedule Demo <span className="ms-2"><img src="/images/white1000002679.png" alt="" /></span> </button>
+                 </div>
+
+            </form>
+          </div>
+        </div>
+      </section>
       {/* Ready to Transform Your Business? */}
-      <section className="mx-3 lg:mx-48 xl:mx-48 md:mx-16 pt-5 pb-10">
+      <section className="mx-3 lg:mx-48 xl:mx-48 md:mx-16 pt-16 pb-16">
         <div className="joinOurNewsletterbgImgDiv">
           <img
             className="joinOurNewsletterbgImg hidden lg:block xl:block"
@@ -1807,7 +1901,7 @@ const PricingPage = () => {
                 Join 23,000+ businesses already growing with our platform
               </p>
 
-              {/* <div className="pt-6 w-full joinournewsletterInputDiv">
+              {/* <div classNameName="pt-6 w-full joinournewsletterInputDiv">
                 <input
                   className="joinournewsletterInput border-4 w-full"
                   type="text"
@@ -1818,7 +1912,12 @@ const PricingPage = () => {
                 </button>
               </div> */}
               <div className="py-4">
-                <button className="flex justify-center items-center readyToButton">Get Started Now <span className="ms-2 lg:ms-3 xl:ms-3"><img src="/images/white1000002679.png" alt="" /></span> </button>
+                <button className="flex justify-center items-center readyToButton">
+                  Get Started Now{" "}
+                  <span className="ms-2 lg:ms-3 xl:ms-3">
+                    <img src="/images/white1000002679.png" alt="" />
+                  </span>{" "}
+                </button>
               </div>
             </div>
           </div>

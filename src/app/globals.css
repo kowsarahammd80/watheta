@@ -1198,6 +1198,76 @@ body {
   border-radius: 50px;
   margin: auto;
 }
+.communicationBg{
+  background-color: #292D32;
+}
+.communicationText{
+  font-size: 54px;
+  font-weight: 600;
+  color: white;
+  width: 538px;
+  line-height: 68px;
+}
+.communicationTextPera{
+  font-size: 16px;
+  color: #D9D9D9;
+  width: 538px;
+}
+.communicationIconDiv{
+  width: 52px;
+  height: 52px;
+}
+.communicationIcon{
+  width: 100%;
+  height: 100%;
+}
+.communicationIconPera{
+  font-size: 14px;
+  color: #D9D9D9;
+}
+.schedulaDemoText{
+  font-size: 28px;
+  font-weight: 600;
+}
+.schedulaDemoPera{
+  font-size: 14px;
+  font-weight: 400;
+  width: 377px;
+}
+.scheduleInput{
+  width: 100%;
+  height: 44px;
+  outline: none;
+  font-size: 14px;
+  color: #7A7A7A;
+  padding-left: 15px;
+}
+.scheduleTextArea{
+  width: 100%;
+  height: 100px;
+  outline: none;
+  font-size: 14px;
+  color: #7A7A7A;
+  padding-left: 15px;
+  padding-top: 10px;
+  resize: none;
+}
+.scheduleDemoButton{
+  background-color: #46BA85;
+  font-size: 15px;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+.scheduleDemoButton:hover{
+  background-color: #46BA85;
+  font-size: 15px;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  box-shadow: 4px 6px 4px rgba(184, 183, 183, 0.756);
+}
 
 
 
@@ -2247,6 +2317,76 @@ body {
     border-radius: 50px;
     margin: auto;
   }
+  .communicationBg{
+    background-color: #292D32;
+  }
+  .communicationText{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    width: 350px;
+    line-height: 40px;
+  }
+  .communicationTextPera{
+    font-size: 14px;
+    color: #D9D9D9;
+    width: 350px;
+  }
+  .communicationIconDiv{
+    width: 38px;
+    height: 35px;
+  }
+  .communicationIcon{
+    width: 100%;
+    height: 100%;
+  }
+  .communicationIconPera{
+    font-size: 12px;
+    color: #D9D9D9;
+  }
+  .schedulaDemoText{
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .schedulaDemoPera{
+    font-size: 14px;
+    font-weight: 400;
+    width: 300px;
+  }
+  .scheduleInput{
+    width: 100%;
+    height: 44px;
+    outline: none;
+    font-size: 14px;
+    color: #7A7A7A;
+    padding-left: 15px;
+  }
+  .scheduleTextArea{
+    width: 100%;
+    height: 100px;
+    outline: none;
+    font-size: 14px;
+    color: #7A7A7A;
+    padding-left: 15px;
+    padding-top: 10px;
+    resize: none;
+  }
+  .scheduleDemoButton{
+    background-color: #46BA85;
+    font-size: 15px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+  }
+  .scheduleDemoButton:hover{
+    background-color: #46BA85;
+    font-size: 13px;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 4px 6px 4px rgba(184, 183, 183, 0.756);
+  }
 
 
 
@@ -2861,5 +3001,13 @@ body {
   }
   .categoryButtonBgActive {
     background-color: #e4c1ff;
+  }
+
+  /*  */
+  .dedicatedText{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #292D32;
+    text-align: center;
   }
 }
