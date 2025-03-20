@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import GettingStarted from "@/components/GettingStarted";
 import HighPerformer from "@/components/HighPerformer";
 import HomeBroadcaster from "@/components/HomeBroadcaster";
@@ -15,9 +15,17 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const FeturesPage = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <div className="pt-16 lg:pt-20 xl:pt-20 md:pt-20">
       <div className="featuresHeroDiv">
@@ -35,7 +43,7 @@ const FeturesPage = () => {
             </p>
           </div>
           {/* card pc*/}
-          <div className="hidden lg:block xl:block mx-5 lg:mx-40 xl:mx-40 md:mx-8">
+          <div data-aos="zoom-in-down" className="hidden lg:block xl:block mx-5 lg:mx-40 xl:mx-40 md:mx-8">
             <section className="pt-16 grid grid-cols-8 xl:grid-cols-8 gap-2">
               <div className="card bg-base-100 cardHover cursor-pointer">
                 <div className="card-body">

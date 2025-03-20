@@ -1,79 +1,21 @@
 "use client";
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const PricingPage = () => {
-  // const plans = [
-  //   {
-  //     name: "Silver Plan",
-  //     price: "$149.00",
-  //     duration: "Per quarter",
-  //     features: [
-  //       "1 WhatsApp API Channel",
-  //       "1 Million Contacts",
-  //       "5 Team Members",
-  //       "No markup on WhatsApp conversations",
-  //       "1 WhatsApp Commerce Store",
-  //       "5000 Products",
-  //       "5000 Orders",
-  //       "5000 Abandoned Carts",
-  //       "Do It Yourself Bot Building",
-  //       "1 Million Bot Triggers",
-  //       "5000 External Actions",
-  //       "Support in 12 Working Hours",
-  //       "20 Messages / Second Limit",
-  //       "No Conv Monthly FUP Limit",
-  //     ],
-  //   },
-  //   {
-  //     name: "Gold Plan",
-  //     price: "$349.00",
-  //     duration: "Per quarter",
-  //     recommended: true,
-  //     features: [
-  //       "1 WhatsApp API Channel",
-  //       "1 Million Contacts",
-  //       "10 Team Members",
-  //       "No markup on WhatsApp conversations",
-  //       "1 WhatsApp Commerce Store",
-  //       "10,000 Products",
-  //       "10,000 Orders",
-  //       "10,000 Abandoned Carts",
-  //       "Up to 30 Blocks Bot Building",
-  //       "2 Million Bot Triggers",
-  //       "10,000 External Actions",
-  //       "Support in 6 Working Hours",
-  //       "40 Messages / Second Limit",
-  //       "No Conv Monthly FUP Limit",
-  //     ],
-  //   },
-  //   {
-  //     name: "Platinum V1",
-  //     price: "$2500.00",
-  //     duration: "Annually",
-  //     features: [
-  //       "3 WhatsApp API Channels",
-  //       "5 Million Contacts",
-  //       "25 Team Members",
-  //       "No markup on WhatsApp conversations",
-  //       "3 WhatsApp Commerce Stores",
-  //       "20,000 Products",
-  //       "20,000 Orders",
-  //       "20,000 Abandoned Carts",
-  //       "Up to 150 Blocks Bot Building",
-  //       "10 Million Bot Triggers",
-  //       "50,000 External Actions",
-  //       "Support in 2 Working Hours",
-  //       "100 Messages / Second Limit",
-  //       "No Conv Monthly FUP Limit",
-  //     ],
-  //   },
-  // ];
+  
+  const [isToggle, setIsToggle] = useState('month');
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
+  
   return (
     <div className="pt-20">
       {/* hero */}
@@ -81,7 +23,7 @@ const PricingPage = () => {
         {/* meta logo */}
         <div className="flex justify-center items-center pricingHeroContentDiv py-5 lg:py-10 xl:py-10">
           <div className="w-full">
-            <div className="flex justify-center pb-5">
+            <div data-aos="zoom-in-down" className="flex justify-center pb-5">
               <div className="flex items-center justify-center pricingMetaLogoDivMain">
                 <div className="pricingMetaLogoDiv">
                   <img src="/images/metaLogo.png" alt="" />
@@ -113,166 +55,10 @@ const PricingPage = () => {
               </button>
             </div>
             {/* slider */}
-            {/* <div className="block mx-44 pt-5">
-              <Swiper
-                spaceBetween={10}
-                navigation={{
-                  nextEl: ".custom-next",
-                  prevEl: ".custom-prev",
-                }}
-                modules={[Navigation]} 
-                className="mySwiper"
-                breakpoints={{
-                  
-                  320: {
-                    slidesPerView: 3.4,
-                    spaceBetween: 10,
-                  },
-                  
-                  768: {
-                    slidesPerView: 3.4,
-                    spaceBetween: 10,
-                  },
-                  
-                  1024: {
-                    slidesPerView: 6,
-                    spaceBetween: 10,
-                  },
-                }}
-              >
-                <SwiperSlide className="">
-                  <div className="py-4 px-2 bg-white cardHover cursor-pointer pricingCardDiv">
-                    <div className="">
-                      <div className="flex justify-center">
-                        <div className="featuresCardLogoDiv">
-                          <img
-                            className="featuresCardLogo"
-                            src="/images/Group 1000002814.png"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="flex justify-center">
-                        <p className="text-center featuresCardHeadline pt-2">
-                          {" "}
-                          Chatbots{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="">
-                  <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer pricingCardDiv">
-                    <div className="">
-                      <div className="flex justify-center">
-                        <div className="featuresCardLogoDiv">
-                          <img
-                            className="featuresCardLogo"
-                            src="/images/Group 1000002815.png"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <p className="text-center featuresCardHeadline pt-2">
-                        {" "}
-                        Modular <br /> CRM{" "}
-                      </p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="">
-                  <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer pricingCardDiv">
-                    <div className="">
-                      <div className="flex justify-center">
-                        <div className="featuresCardLogoDiv">
-                          <img
-                            className="featuresCardLogo"
-                            src="/images/Group 1000002816.png"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="felx justify-center">
-                        <p className="text-center featuresCardHeadline pt-2">
-                          {" "}
-                          Teambox{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="">
-                  <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer pricingCardDiv">
-                    <div className="">
-                      <div className="flex justify-center">
-                        <div className="featuresCardLogoDiv">
-                          <img
-                            className="featuresCardLogo"
-                            src="/images/Group 1000002813.png"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="flex justify-center">
-                          <p className="text-center featuresCardHeadline pt-2">
-                            {" "}
-                            WhatsApp Commerce{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="">
-                  <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer pricingCardDiv">
-                    <div className="">
-                      <div className="flex justify-center">
-                        <div className="featuresCardLogoDiv">
-                          <img
-                            className="featuresCardLogo"
-                            src="/images/Group 1000002812.png"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="flex justify-center">
-                        <p className="text-center featuresCardHeadline pt-2">
-                          {" "}
-                          Drip <br /> Campanigns{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="">
-                  <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer pricingCardDiv">
-                    <div className="">
-                      <div className="flex justify-center">
-                        <div className="featuresCardLogoDiv">
-                          <img
-                            className="featuresCardLogo"
-                            src="/images/Group 1000002811.png"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="flex justify-center">
-                        <p className="text-center featuresCardHeadline pt-2">
-                          {" "}
-                          Connectors{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div> */}
+            
             <div className="mx-5 lg:mx-60 xl:mx-96 pt-6">
-              <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+              <div 
+              className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
                     <img src="/images/pricing 1000003900.png" alt="" />
@@ -336,11 +122,16 @@ const PricingPage = () => {
         {/* toggole button */}
         <div className="flex justify-center py-10">
           <div className="pricingButtonTaggoleDiv px-3 py-2 space-x-5 rounded-full">
-            <button className="text-center px-2">Month</button>
-            <button className="pricingToggoleButton px-5 py-1 rounded-full">
+            <button onClick={() =>setIsToggle("month")} className={` px-5 py-1 rounded-full ${isToggle === "month" && "pricingToggoleButton"}`}>Month</button>
+            <button onClick={() =>setIsToggle("year")} className={` px-5 py-1 rounded-full ${isToggle === "year" && "pricingToggoleButton"}`}>
               Yearly
             </button>
-            <p className="buttonSaveText">save 15%</p>
+            {
+              isToggle === "year" && <p className="buttonSaveText">save 15%</p>
+            }
+            {/* <p className="buttonSaveText"> {
+              isToggle === "year"&& "save 15%"
+              }</p> */}
           </div>
         </div>
         {/* pricing card section */}
@@ -352,23 +143,36 @@ const PricingPage = () => {
             <div className="silverPlanDiv flex items-center justify-center text-center">
               <div>
                 <h1 className="packagePlaneNameText">Silver Plan</h1>
-                <p className="pricingTKText">$149.00</p>
+                
+                <p className="pricingTKText"> 
+                  {
+                    isToggle === "month" ? "$149.00" : "$299.00"
+                  }
+                </p>
                 <p className="text-xs opacity-60">Per quarter</p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
               </div>
+              
             </div>
             <div class="pricing-card -mt-3">
               <div class="pricing-header">Recommended</div>
               <div class="pricing-body">
-                <h1 className="packagePlaneNameText pt-5">Gold Plan</h1>
-                <p className="pricingTKText">$149.00</p>
+                <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
+                <p className="pricingTKText"> {
+                   isToggle === "month" ? "$149.00" : "$299.00"
+                  } </p>
                 <p className="text-xs opacity-60">Per quarter</p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
               </div>
             </div>
             <div className="platinumPlanDiv flex items-center justify-center text-center">
               <div>
                 <h1 className="packagePlaneNameText">Plainum Plan V1</h1>
-                <p className="pricingTKText">$149.00</p>
+                <p className="pricingTKText"> {
+                   isToggle === "month" ? "$149.00" : "$299.00"
+                  } </p>
                 <p className="text-xs opacity-60">Per quarter</p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
               </div>
             </div>
           </div>
@@ -836,9 +640,15 @@ const PricingPage = () => {
           <div>
             <div className="silverPlanDiv flex items-center justify-center text-center">
               <div>
-                <h1 className="packagePlaneNameText">Silver Plan</h1>
-                <p className="pricingTKText">$149.00</p>
-                <p className="text-xs opacity-60">Per quarter</p>
+              <p className="pricingTKText"> 
+                  {
+                    isToggle === "month" ? "$149.00" : "$299.00"
+                  }
+                </p>
+                <p className="text-xs opacity-60">{
+                  isToggle === "month" ? " Per month" : " Per quarter"
+                  }</p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
               </div>
             </div>
             {/* details */}
@@ -1071,9 +881,16 @@ const PricingPage = () => {
             <div class="pricing-card">
               <div class="pricing-header">Recommended</div>
               <div class="pricing-body">
-                <h1 className="packagePlaneNameText pt-5">Gold Plan</h1>
-                <p className="pricingTKText">$149.00</p>
-                <p className="text-xs opacity-60">Per quarter</p>
+                <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
+                <p className="pricingTKText"> 
+                  {
+                    isToggle === "month" ? "$149.00" : "$299.00"
+                  }
+                </p>
+                <p className="text-xs opacity-60">{
+                  isToggle === "month" ? " Per month" : " Per quarter"
+                  }</p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
               </div>
             </div>
           </div>
@@ -1328,8 +1145,15 @@ const PricingPage = () => {
             <div className="platinumPlanDiv flex items-center justify-center text-center">
               <div>
                 <h1 className="packagePlaneNameText">Platinum V1</h1>
-                <p className="pricingTKText">$2500.00</p>
-                <p className="text-xs opacity-60">Annually</p>
+                <p className="pricingTKText"> 
+                  {
+                    isToggle === "month" ? "$149.00" : "$299.00"
+                  }
+                </p>
+                <p className="text-xs opacity-60">{
+                  isToggle === "month" ? " Per month" : " Per quarter"
+                  }</p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
               </div>
             </div>
             {/* details */}
@@ -1570,7 +1394,9 @@ const PricingPage = () => {
             </p>
           </div>
           {/* card  */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-8 xl:gap-8 pt-10">
+          <div
+           data-aos="zoom-in-up"
+           className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-8 xl:gap-8 pt-10">
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
@@ -1711,7 +1537,10 @@ const PricingPage = () => {
         </div>
         {/* card */}
         <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 pt-6 gap-2 lg:gap-6 xl:gap-6">
-          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+          <div data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000"
+            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1730,7 +1559,11 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+          <div
+           data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000"
+           className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1747,7 +1580,11 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+          <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1764,7 +1601,11 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+          <div 
+           data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000"
+          className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1856,7 +1697,9 @@ const PricingPage = () => {
               </div>
             </div>
            
-            <form className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg">
+            <form data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000" className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg">
               
                 <div>
                    <h1 className="schedulaDemoText">Schedule a Demo</h1>
@@ -1864,10 +1707,10 @@ const PricingPage = () => {
                 </div>
                  
                  <div className="py-3 space-y-4">
-                    <input className="scheduleInput border rounded-lg" type="text" placeholder="Your Name" />
-                    <input className="scheduleInput border rounded-lg" type="text" placeholder="Business Email" />
-                    <input className="scheduleInput border rounded-lg" type="text" placeholder="Phone Number" />
-                    <textarea className="scheduleTextArea border rounded-lg" type="text" placeholder="Tell us about your requirements..." />
+                    <input className="bg-white scheduleInput border rounded-lg" type="text" placeholder="Your Name" />
+                    <input className="bg-white scheduleInput border rounded-lg" type="text" placeholder="Business Email" />
+                    <input className="bg-white scheduleInput border rounded-lg" type="text" placeholder="Phone Number" />
+                    <textarea className="bg-white scheduleTextArea border rounded-lg" type="text" placeholder="Tell us about your requirements..." />
                     
                  </div>
 

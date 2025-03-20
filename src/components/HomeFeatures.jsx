@@ -1,6 +1,16 @@
-import React from "react";
+"use client"
+
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HomeFeatures = () => {
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, []) 
   return (
     <div className="homeFeaturesbg py-5">
       {/* heasdline */}
@@ -15,7 +25,9 @@ const HomeFeatures = () => {
       </div>
       {/* card */}
       <section className="py-10 mx-5 lg:mx-48 xl:mx-48">
-        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-8 xl:gap-8">
+        <div
+         data-aos="zoom-in"
+         className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-8 xl:gap-8">
           <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl">
             <div className="">
               <div className="flex justify-center">
@@ -37,7 +49,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 2nd */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
@@ -60,7 +72,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 3rd */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
@@ -83,7 +95,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 4th */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
@@ -106,7 +118,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 5th */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
@@ -129,7 +141,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 6th */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
@@ -152,7 +164,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 7th */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
@@ -173,7 +185,7 @@ const HomeFeatures = () => {
             </div>
           </div>
           {/* 8th */}
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl hidden lg:block xl:block md:block">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">

@@ -10,7 +10,11 @@ const TrustedCustomers = () => {
       </div>
       {/* logo */}
       <section className="mx-5 lg:mx-48 py-10">
-        <div className="grid grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-3 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8">
+        <div
+          data-aos="fade-up"
+          
+          className=" grid grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-3 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8"
+        >
           <div className="trustLogoDiv">
             <img className="trustLogo" src="/images/Company logo.png" alt="" />
           </div>
@@ -76,25 +80,25 @@ const TrustedCustomers = () => {
               src="/images/company logo (9).png"
               alt=""
             />
-          </div>            
+          </div>
         </div>
         {/* phone */}
-        <div className="flex justify-center gap-x-3 w-full pt-4">
-            <div className="trustLogoDiv block lg:hidden xl:hidden">
-              <img
-                className="trustLogo"
-                src="/images/company logo (8).png"
-                alt=""
-              />
-            </div>
-            <div className="trustLogoDiv block lg:hidden xl:hidden">
-              <img
-                className="trustLogo"
-                src="/images/company logo (9).png"
-                alt=""
-              />
-            </div>
+        <div data-aos="fade-up" className="flex justify-center gap-x-3 w-full pt-4">
+          <div className="trustLogoDiv block lg:hidden xl:hidden">
+            <img
+              className="trustLogo"
+              src="/images/company logo (8).png"
+              alt=""
+            />
           </div>
+          <div className="trustLogoDiv block lg:hidden xl:hidden">
+            <img
+              className="trustLogo"
+              src="/images/company logo (9).png"
+              alt=""
+            />
+          </div>
+        </div>
       </section>
     </div>
   );

@@ -86,7 +86,7 @@ const HomeFAQ = () => {
               </div>
             </div>
             {/* faq */}
-            <div className="w-full col-span-2">
+            <div data-aos="zoom-in-down" className="w-full col-span-2">
               <div className="collapse collapse-arrow bg-base-100 border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none w-full">
                 <input type="radio" name="my-accordion-2" defaultChecked />
                 <div className="collapse-title HomeFaqQustion text-md lg:text-xl xl:text-xl md:text-lg">

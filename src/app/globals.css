@@ -457,7 +457,7 @@ body {
   font-weight: 600;
 }
 .resonCardPera {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: #7a7a7a;
 }
 .HomeReasonToSwitchCard {
@@ -1513,7 +1513,7 @@ body {
   /* happyclients */
   .HappyClientSaysBg {
     background-color: #292d32;
-    height: 40vh;
+    height: 45vh;
   }
   .happyClientsSaysText {
     font-size: 1.75rem;

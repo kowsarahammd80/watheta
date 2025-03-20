@@ -1,6 +1,17 @@
+"use client";
+
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const WhyChooseWaTheta = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <div className="whaychooseWathetabg py-12 lg:py-20 xl:py-20 md:py-16">
       <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-5">
@@ -20,8 +31,14 @@ const WhyChooseWaTheta = () => {
         </div>
         {/* card */}
         <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 pt-10 gap-10">
-          <div className="card card-border bg-base-100 rounded-3xl cardHover">
-            <div className="card-body">
+          <div
+           data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000"
+           className="card card-border cardBgColor rounded-3xl cardHover">
+            <div 
+            
+              className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
                 <img
                   className="whyChooseCardImg"
@@ -41,7 +58,11 @@ const WhyChooseWaTheta = () => {
               </p>
             </div>
           </div>
-          <div className="card card-border bg-base-100 rounded-3xl cardHover">
+          <div
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+           className="card card-border cardBgColor rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
                 <img
@@ -62,7 +83,11 @@ const WhyChooseWaTheta = () => {
               </p>
             </div>
           </div>
-          <div className="card card-border bg-base-100 rounded-3xl cardHover">
+          <div
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+           className="card card-border cardBgColor rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
                 <img

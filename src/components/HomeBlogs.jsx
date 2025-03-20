@@ -1,6 +1,17 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const HomeBlogs = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <div className="homeBlogsBg py-8 lg:py-16 xl:py-16 md:py-8 mt-24 lg:mt-0 xl:mt-0">
       <section className="mx-5 lg:mx-48 xl:mx-48">
@@ -16,7 +27,7 @@ const HomeBlogs = () => {
           </div>
         </div>
         {/* card */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 py-10 gap-10">
+        <div data-aos="zoom-in-up" className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 py-10 gap-10">
           <div className="col-span-1 lg:col-span-2">
             <div className="homeBlogsCols2ImgDiv rounded-3xl">
               <img

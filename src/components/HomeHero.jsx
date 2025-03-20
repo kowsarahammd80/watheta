@@ -35,7 +35,7 @@ const HomeHero = () => {
           {/* hero content */}
           <div className="flex justify-start items-start lg:items-center xl:items-center w-full">
             <div className="homeHeroImgaDiv">
-              <img className="homeHeroImga" src="https://watheta.com/wp-content/uploads/2023/08/md2x.png" alt="" />
+              <img data-aos="zoom-in-up" className="homeHeroImga" src="https://watheta.com/wp-content/uploads/2023/08/md2x.png" alt="" />
             </div>
           </div>
         </div>
