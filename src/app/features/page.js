@@ -45,7 +45,7 @@ const FeturesPage = () => {
           {/* card pc*/}
           <div data-aos="zoom-in-down" className="hidden lg:block xl:block mx-5 lg:mx-40 xl:mx-40 md:mx-8">
             <section className="pt-16 grid grid-cols-8 xl:grid-cols-8 gap-2">
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -64,7 +64,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -81,7 +81,7 @@ const FeturesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -98,7 +98,7 @@ const FeturesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -117,7 +117,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -138,7 +138,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -157,7 +157,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -176,7 +176,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card bg-base-100 cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -226,7 +226,7 @@ const FeturesPage = () => {
               }}
             >
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -248,7 +248,7 @@ const FeturesPage = () => {
               </SwiperSlide>
 
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -268,7 +268,7 @@ const FeturesPage = () => {
               </SwiperSlide>
 
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -290,7 +290,7 @@ const FeturesPage = () => {
               </SwiperSlide>
 
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -313,7 +313,7 @@ const FeturesPage = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -334,7 +334,7 @@ const FeturesPage = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -355,7 +355,7 @@ const FeturesPage = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
@@ -376,7 +376,7 @@ const FeturesPage = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="">
-                <div className="py-4 px-2 bg-base-100 cardHover cursor-pointer FeaturesCardDiv">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">

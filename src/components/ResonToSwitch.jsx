@@ -48,7 +48,7 @@ const ResonToSwitch = () => {
           }}
         >
           <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
-            <div className="card bg-base-100 HomeFeturescardShadow border HomeReasonToSwitchCard">
+            <div className="card cardBgColor HomeFeturescardShadow border HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -68,7 +68,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
 
           <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
-            <div className="card bg-base-100 border HomeFeturescardShadow HomeReasonToSwitchCard">
+            <div className="card cardBgColor border HomeFeturescardShadow HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -88,7 +88,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
 
           <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
-            <div className="card bg-base-100 border HomeFeturescardShadow HomeReasonToSwitchCard">
+            <div className="card cardBgColor border HomeFeturescardShadow HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img
@@ -109,7 +109,7 @@ const ResonToSwitch = () => {
           </SwiperSlide>
 
           <SwiperSlide className="pb-2 lg:pb-4 xl:pb-4">
-            <div className="card bg-base-100 border HomeFeturescardShadow HomeReasonToSwitchCard">
+            <div className="card cardBgColor border HomeFeturescardShadow HomeReasonToSwitchCard">
               <div className="card-body">
                 <div className="resonIconDiv">
                   <img

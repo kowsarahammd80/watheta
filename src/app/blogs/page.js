@@ -1,16 +1,28 @@
+'use client';
+
 import BlogPageRecentblogs from "@/components/BlogPageRecentblogs";
 import HomeFAQ from "@/components/HomeFAQ";
 import JoinOurNewsLetter from "@/components/JoinOurNewsLetter";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 
 const BlogsPage = () => {
   // const blogs = await useBlogsData()
+   useEffect(() => {
+      AOS.init({
+        duration: 800,
+        once: false,
+      });
+    }, []);
   return (
     <div>
       {/* 1st hero */}
       <div className="blogsHeroDiv pt-16 lg:pt-20 xl:pt-20">
-        <div className="blogsHeroBg">
+        <div data-aos="fade-down" className="blogsHeroBg">
           {/* <img className="blogsHeroBgImg" src="/images/image 314.png" alt="" /> */}
           <div className="blogsHeroHeadlineDiv">
             <div className="flex justify-center">
@@ -28,7 +40,7 @@ const BlogsPage = () => {
       </div>
       {/*2nd hero */}
       <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16 -mt-80 lg:-mt-52 xl:-mt-52">
-        <div className="blogs2ndHeroBgImgDiv">
+        <div data-aos="fade-up" className="blogs2ndHeroBgImgDiv">
           <img
             className="blogs2ndHeroBgImg hidden lg:block xl:block"
             src="/images/image2nd.png"
