@@ -28,7 +28,7 @@ const HomeFeatures = () => {
         <div
          data-aos="zoom-in"
          className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-8 xl:gap-8">
-          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 bg-base-100 w-full HomeFeturescardShadow rounded-2xl">
+          <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl">
             <div className="">
               <div className="flex justify-center">
                 <div className="homeFeaturesLogoDiv">
