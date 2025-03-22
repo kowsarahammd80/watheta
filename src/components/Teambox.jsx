@@ -134,7 +134,7 @@ const Teambox = () => {
       </section> */}
       {/* new */}
 
-      <section className="flex flex-col-reverse lg:flex-row xl:flex-row md:flex-col-reverse items-start lg:items-center xl:items-center mx-5 lg:mx-48 xl:mx-48 lg:gap-20 xl:gap-20 gap-x-10">
+      <section className="flex flex-col-reverse lg:flex-row xl:flex-row md:flex-col-reverse items-start lg:items-center xl:items-center mx-5 lg:mx-40 xl:mx-40 gap-10 lg:gap-20 xl:gap-20">
         {/* ing contents */}
         <div
           data-aos="fade-up"
@@ -208,7 +208,9 @@ const Teambox = () => {
             </button>
             <button className="ms-8 border-b border-gray-800">Read more</button>
           </div>
-          <div className="py-8">
+          <div data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500" className="py-8">
             <p className="repleacesText">Replaces</p>
             <div className="pt-5 flex items-center gap-1">
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">

@@ -120,7 +120,7 @@ const HomeBlogs = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="flex items-center px-10 py-3 border rounded-full bg-white">
+          <button className="flex items-center px-10 py-3 border rounded-full bg-white cardHover">
             See All Blogs{" "}
             <span className="ms-2">
               <img src="/images/Group 1000002679.png" alt="" />

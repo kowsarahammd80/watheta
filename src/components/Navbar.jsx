@@ -42,9 +42,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed z-50 w-full ${navBar ? " bg-white" : "bg-transparent"}`}
+      className={`fixed z-50 w-full ${navBar ? "bg-white/30 backdrop-blur-2xl" : "bg-transparent"}`}
     >
-      <div className="mx-1 lg:mx-20 xl:mx-36 md:mx-5">
+      <div className="mx-1 lg:mx-20 xl:mx-32 md:mx-5">
         <nav className="navbar">
           {/* Logo */}
           <Link href="/">
@@ -60,18 +60,19 @@ const Navbar = () => {
           {/* Navigation Links */}
           <ul onClick={closeMenu} className={`nav-links ${isMenuOpen ? "active" : ""}`}>
             {[
-              { name: "Home", href: "/" },
+              { name: "Home", href: "/"},
               { name: "Features", href: "/features" },
               { name: "Pricing", href: "/pricing" },
               { name: "Blogs", href: "/blogs" },
               // { name: "Comparison", href: "/comparison" },
               { name: "Help", href: "/help" },
+              { name: "Contact ", href: "/contact" },
             ].map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
                 className={`nav-item ${pathname === link.href ? "active" : ""}`}
-              >
+              > 
                 {link.name}
               </Link>
             ))}

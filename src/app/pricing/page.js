@@ -118,7 +118,7 @@ const PricingPage = () => {
         </div>
       </div>
       {/* pricing */}
-      <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-16">
+      <section className="mx-5 lg:mx-40 xl:mx-40 md:mx-16">
         {/* toggole button */}
         <div className="flex justify-center py-10">
           <div className="pricingButtonTaggoleDiv px-3 py-2 space-x-5 rounded-full">
@@ -1628,7 +1628,7 @@ const PricingPage = () => {
       </section>
       {/* Ready to Transform Your Business Communication? */}
       <section className="py-10 lg:py-20 xl:py-20 communicationBg">
-        <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16">
+        <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-10 xl:gap-10">
             
             <div>

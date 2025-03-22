@@ -2,27 +2,39 @@
 
 import HomeFAQ from "@/components/HomeFAQ";
 import JoinOurNewsLetter from "@/components/JoinOurNewsLetter";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Integrations = () => {
+  
+    useEffect(() => {
+      AOS.init({
+        duration: 800,
+        once: false,
+      });
+    }, []);
+
   const [categoryButton, setCategoryButton] = useState("integrations");
+
   return (
     <div>
       {/* hero */}
       <section className="pt-16 lg:pt-20 xl:pt-20 md:pt-20">
         <div className="integrateHeroBg">
-          <div className="flex justify-center items-center h-full">
+          <div  className="flex justify-center items-center h-full">
             <div className="">
               {/* integetbutton */}
-              <div className="text-center mb-5">
-                <button className="bg-white px-6 lg:px-8 xl:px-8 py-2 rounded-full border inregrationPageButton">
+              <div data-aos="fade-down" className="text-center mb-5">
+                <button data-aos="fade-down-right" className="bg-white px-6 lg:px-8 xl:px-8 py-2 rounded-full border inregrationPageButton cardHover">
                   Integrations
                 </button>
               </div>
               <p className="integrationsPageHeadLine">
                 Integrate with your existing tech stack in seconds
               </p>
-              <div className="flex justify-center pt-5">
+              <div  className="flex justify-center pt-5">
                 <div className="integetSearchInputDiv">
                   <input
                     className="integetSearchInput rounded-lg ps-14"
@@ -352,7 +364,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div  className="card bg-base-100 w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">

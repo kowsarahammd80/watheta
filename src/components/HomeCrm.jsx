@@ -15,7 +15,7 @@ const HomeCrm = () => {
   return (
     <div className="py-12 lg:py-20 xl:py-20 md:py-16">
       {/*  */}
-      <section className="flex flex-col lg:flex-row xl:flex-row gap-10 mx-5 lg:mx-48 xl:mx-48 md:mx-16">
+      <section className="flex flex-col lg:flex-row xl:flex-row gap-10 mx-5 lg:mx-40 xl:mx-40 md:mx-16">
         {/* text div */}
         
           <div 
@@ -85,7 +85,9 @@ const HomeCrm = () => {
                 Read more
               </button>
             </div>
-            <div className="py-8">
+            <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" className="py-8">
               <p className="repleacesText">Replaces</p>
               <div className="pt-5 flex items-center gap-1">
                 <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">

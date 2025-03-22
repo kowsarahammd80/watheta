@@ -3,7 +3,7 @@ import React from "react";
 const Conversational = () => {
   return (
     <div className="conversationalbg p-5 lg:p-16 xl:p-16 md:p-8">
-      <section className="mx-0 lg:mx-32 xl:ms-32 md:mx-5">
+      <section className="mx-0 lg:mx-32 xl:mx-32 md:mx-5">
         {/* healdline */}
         <div className="flex justify-center py-2 lg:py-5 xl:py-5 md:py-4">
           <h1 className="conversationalHeadline text-center">

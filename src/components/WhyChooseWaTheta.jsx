@@ -14,7 +14,7 @@ const WhyChooseWaTheta = () => {
   }, []);
   return (
     <div className="whaychooseWathetabg py-12 lg:py-20 xl:py-20 md:py-16">
-      <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-5">
+      <section className="mx-5 lg:mx-40 xl:mx-40">
         {/* headline */}
         <div className="flex flex-col lg:flex-row xl:flex-row justify-center lg:justify-between xl:justify-between md:justify-center">
           <div className="w-full">
