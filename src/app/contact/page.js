@@ -1,6 +1,16 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ContactPage = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <div className="pt-20">
       <div className="pricingBg">
@@ -28,7 +38,7 @@ const ContactPage = () => {
                 Choose the perfect plan for your business. Scale as you grow.
               </p>
             </div>
-            <div className="flex justify-center py-2 mx-5 lg:mx-5 xl:mx-5 md:mx-16">
+            {/* <div className="flex justify-center py-2 mx-5 lg:mx-5 xl:mx-5 md:mx-16">
               <button className="flex items-center pricingWhatsAppText px-10 py-2 rounded-full">
                 {" "}
                 <span className="me-2">
@@ -36,63 +46,66 @@ const ContactPage = () => {
                 </span>{" "}
                 WhatsApp messaging at actual Meta rates, no markup
               </button>
+            </div> */}
+            <div className="flex justify-center py-2 mx-5 lg:mx-5 xl:mx-5 md:mx-16">
+              <button className="text-sm bg-white py-3 px-6 rounded-full cardHover text-green-600 font-semibold">
+                Schedule A Call
+              </button>
             </div>
             {/* slider */}
 
-            <div className="mx-5 lg:mx-60 xl:mx-96 pt-6">
+            <div data-aos="fade-up" className="mx-5 lg:mx-60 xl:mx-60 pt-6">
               <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-                <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
+                <div className="bg-white p-4 rounded-lg shadow-lg pricingHerogridCardDiv">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900.png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing1000003911.png"
+                      alt=""
+                    />
                   </div>
-                  <p className="pricingHerogridCardPera ms-2">
-                    Dedicated Account Manager
-                  </p>
+                  <div>
+                    <p className="text-lg lg:text-2xl xl:text-2xl font-semibold pt-3">
+                      Official Partner
+                    </p>
+                    <p className="text-sm opacity-50 pt-2">
+                      Meta Business Partner
+                    </p>
+                  </div>
                 </div>
-
-                <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
+                <div className="bg-white p-4 rounded-lg shadow-lg pricingHerogridCardDiv">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing1000003911.png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing 1000003900.png"
+                      alt=""
+                    />
                   </div>
-                  <p className="pricingHerogridCardPera ms-2">
-                    Enterprise-Grade Platform
-                  </p>
+                  <div>
+                    <p className="text-lg lg:text-2xl xl:text-2xl font-semibold pt-3">
+                      12+ Years
+                    </p>
+                    <p className="text-sm opacity-50 pt-2">
+                      Industry Experience
+                    </p>
+                  </div>
                 </div>
-
-                <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
+                <div className="bg-white p-4 rounded-lg shadow-lg pricingHerogridCardDiv">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900 (1).png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing 1000003900 (2).png"
+                      alt=""
+                    />
                   </div>
-                  <p className="pricingHerogridCardPera ms-2">
-                    24/7 WhatsApp Support
-                  </p>
-                </div>
-
-                <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
-                  <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900 (2).png" alt="" />
+                  <div>
+                    <p className="text-lg lg:text-2xl xl:text-2xl font-semibold pt-3">
+                      50+ Countries
+                    </p>
+                    <p className="text-sm opacity-50 pt-2">
+                      Industry Experience
+                    </p>
                   </div>
-                  <p className="pricingHerogridCardPera ms-2">
-                    Global Business Solution
-                  </p>
-                </div>
-
-                <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
-                  <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing1000003900 (3).png" alt="" />
-                  </div>
-                  <p className="pricingHerogridCardPera ms-2">
-                    End-to-End Encrypted
-                  </p>
-                </div>
-
-                <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
-                  <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900 (4).png" alt="" />
-                  </div>
-                  <p className="pricingHerogridCardPera ms-2">
-                    Real-time Message Delivery
-                  </p>
                 </div>
               </div>
             </div>

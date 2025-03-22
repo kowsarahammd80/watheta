@@ -964,6 +964,10 @@ body {
   width: 40px;
   height: 40px;
 }
+.pricingHeorIcon {
+  width: 100%;
+  height: 100%;
+}
 .pricingHerogridCardDiv {
   background-color: white;
   cursor: pointer;
@@ -2343,7 +2347,7 @@ body {
     font-size: 26px;
     font-weight: 600;
     color: white;
-    width: 380px;
+    width: 390px;
     line-height: 40px;
   }
   .communicationTextPera{

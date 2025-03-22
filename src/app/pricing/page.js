@@ -4,10 +4,8 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 const PricingPage = () => {
-  
-  const [isToggle, setIsToggle] = useState('month');
+  const [isToggle, setIsToggle] = useState("month");
 
   useEffect(() => {
     AOS.init({
@@ -15,7 +13,7 @@ const PricingPage = () => {
       once: false,
     });
   }, []);
-  
+
   return (
     <div className="pt-20">
       {/* hero */}
@@ -55,13 +53,12 @@ const PricingPage = () => {
               </button>
             </div>
             {/* slider */}
-            
+
             <div className="mx-5 lg:mx-60 xl:mx-96 pt-6">
-              <div 
-              className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+              <div data-aos="fade-up" className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900.png" alt="" />
+                    <img className="pricingHeorIcon" src="/images/pricing 1000003900.png" alt="" />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Dedicated Account Manager
@@ -70,7 +67,7 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing1000003911.png" alt="" />
+                    <img className="pricingHeorIcon" src="/images/pricing1000003911.png" alt="" />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Enterprise-Grade Platform
@@ -79,7 +76,7 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900 (1).png" alt="" />
+                    <img className="pricingHeorIcon" src="/images/pricing 1000003900 (1).png" alt="" />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     24/7 WhatsApp Support
@@ -88,7 +85,7 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900 (2).png" alt="" />
+                    <img className="pricingHeorIcon" src="/images/pricing 1000003900 (2).png" alt="" />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Global Business Solution
@@ -97,7 +94,7 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing1000003900 (3).png" alt="" />
+                    <img className="pricingHeorIcon" src="/images/pricing1000003900 (3).png" alt="" />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     End-to-End Encrypted
@@ -106,7 +103,7 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img src="/images/pricing 1000003900 (4).png" alt="" />
+                    <img className="pricingHeorIcon" src="/images/pricing 1000003900 (4).png" alt="" />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Real-time Message Delivery
@@ -122,13 +119,23 @@ const PricingPage = () => {
         {/* toggole button */}
         <div className="flex justify-center py-10">
           <div className="pricingButtonTaggoleDiv px-3 py-2 space-x-5 rounded-full">
-            <button onClick={() =>setIsToggle("month")} className={` px-5 py-1 rounded-full ${isToggle === "month" && "pricingToggoleButton"}`}>Month</button>
-            <button onClick={() =>setIsToggle("year")} className={` px-5 py-1 rounded-full ${isToggle === "year" && "pricingToggoleButton"}`}>
+            <button
+              onClick={() => setIsToggle("month")}
+              className={` px-5 py-1 rounded-full ${
+                isToggle === "month" && "pricingToggoleButton"
+              }`}
+            >
+              Month
+            </button>
+            <button
+              onClick={() => setIsToggle("year")}
+              className={` px-5 py-1 rounded-full ${
+                isToggle === "year" && "pricingToggoleButton"
+              }`}
+            >
               Yearly
             </button>
-            {
-              isToggle === "year" && <p className="buttonSaveText">save 15%</p>
-            }
+            {isToggle === "year" && <p className="buttonSaveText">save 15%</p>}
             {/* <p className="buttonSaveText"> {
               isToggle === "year"&& "save 15%"
               }</p> */}
@@ -143,36 +150,41 @@ const PricingPage = () => {
             <div className="silverPlanDiv flex items-center justify-center text-center">
               <div>
                 <h1 className="packagePlaneNameText">Silver Plan</h1>
-                
-                <p className="pricingTKText"> 
-                  {
-                    isToggle === "month" ? "$149.00" : "$299.00"
-                  }
+
+                <p className="pricingTKText">
+                  {isToggle === "month" ? "$149.00" : "$299.00"}
                 </p>
                 <p className="text-xs opacity-60">Per quarter</p>
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                  Sign Up Now
+                </button>
               </div>
-              
             </div>
             <div class="pricing-card -mt-3">
               <div class="pricing-header">Recommended</div>
               <div class="pricing-body">
                 <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
-                <p className="pricingTKText"> {
-                   isToggle === "month" ? "$149.00" : "$299.00"
-                  } </p>
+                <p className="pricingTKText">
+                  {" "}
+                  {isToggle === "month" ? "$149.00" : "$299.00"}{" "}
+                </p>
                 <p className="text-xs opacity-60">Per quarter</p>
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                  Sign Up Now
+                </button>
               </div>
             </div>
             <div className="platinumPlanDiv flex items-center justify-center text-center">
               <div>
                 <h1 className="packagePlaneNameText">Plainum Plan V1</h1>
-                <p className="pricingTKText"> {
-                   isToggle === "month" ? "$149.00" : "$299.00"
-                  } </p>
+                <p className="pricingTKText">
+                  {" "}
+                  {isToggle === "month" ? "$149.00" : "$299.00"}{" "}
+                </p>
                 <p className="text-xs opacity-60">Per quarter</p>
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                  Sign Up Now
+                </button>
               </div>
             </div>
           </div>
@@ -640,15 +652,15 @@ const PricingPage = () => {
           <div>
             <div className="silverPlanDiv flex items-center justify-center text-center">
               <div>
-              <p className="pricingTKText"> 
-                  {
-                    isToggle === "month" ? "$149.00" : "$299.00"
-                  }
+                <p className="pricingTKText">
+                  {isToggle === "month" ? "$149.00" : "$299.00"}
                 </p>
-                <p className="text-xs opacity-60">{
-                  isToggle === "month" ? " Per month" : " Per quarter"
-                  }</p>
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                </p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                  Sign Up Now
+                </button>
               </div>
             </div>
             {/* details */}
@@ -882,15 +894,15 @@ const PricingPage = () => {
               <div class="pricing-header">Recommended</div>
               <div class="pricing-body">
                 <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
-                <p className="pricingTKText"> 
-                  {
-                    isToggle === "month" ? "$149.00" : "$299.00"
-                  }
+                <p className="pricingTKText">
+                  {isToggle === "month" ? "$149.00" : "$299.00"}
                 </p>
-                <p className="text-xs opacity-60">{
-                  isToggle === "month" ? " Per month" : " Per quarter"
-                  }</p>
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                </p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                  Sign Up Now
+                </button>
               </div>
             </div>
           </div>
@@ -1145,15 +1157,15 @@ const PricingPage = () => {
             <div className="platinumPlanDiv flex items-center justify-center text-center">
               <div>
                 <h1 className="packagePlaneNameText">Platinum V1</h1>
-                <p className="pricingTKText"> 
-                  {
-                    isToggle === "month" ? "$149.00" : "$299.00"
-                  }
+                <p className="pricingTKText">
+                  {isToggle === "month" ? "$149.00" : "$299.00"}
                 </p>
-                <p className="text-xs opacity-60">{
-                  isToggle === "month" ? " Per month" : " Per quarter"
-                  }</p>
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">Sign Up Now</button>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                </p>
+                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                  Sign Up Now
+                </button>
               </div>
             </div>
             {/* details */}
@@ -1395,8 +1407,9 @@ const PricingPage = () => {
           </div>
           {/* card  */}
           <div
-           data-aos="zoom-in-up"
-           className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-8 xl:gap-8 pt-10">
+            data-aos="zoom-in-up"
+            className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-8 xl:gap-8 pt-10"
+          >
             <div className="cardBgColor py-5 px-6 border rounded-lg">
               {/* icon */}
               <div className="additonalCardIconDiv pt-2">
@@ -1537,10 +1550,12 @@ const PricingPage = () => {
         </div>
         {/* card */}
         <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 pt-6 gap-2 lg:gap-6 xl:gap-6">
-          <div data-aos="flip-left"
-           data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000"
-            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
+          >
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1560,10 +1575,11 @@ const PricingPage = () => {
             </div>
           </div>
           <div
-           data-aos="flip-left"
-           data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000"
-           className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
+          >
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1581,10 +1597,11 @@ const PricingPage = () => {
             </div>
           </div>
           <div
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
+          >
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1601,11 +1618,12 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div 
-           data-aos="flip-left"
-           data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000"
-          className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
+          >
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1630,9 +1648,7 @@ const PricingPage = () => {
       <section className="py-10 lg:py-20 xl:py-20 communicationBg">
         <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5 lg:gap-10 xl:gap-10">
-            
             <div>
-              
               <div>
                 <h1 className="communicationText">
                   Ready to Transform Your Business Communication?
@@ -1696,28 +1712,52 @@ const PricingPage = () => {
                 </div>
               </div>
             </div>
-           
-            <form data-aos="flip-left"
-           data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000" className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg">
-              
-                <div>
-                   <h1 className="schedulaDemoText">Schedule a Demo</h1>
-                   <p className="schedulaDemoPera py-3">See how watheta can help your business grow with a personalized demo.</p>
-                </div>
-                 
-                 <div className="py-3 space-y-4">
-                    <input className="bg-white scheduleInput border rounded-lg" type="text" placeholder="Your Name" />
-                    <input className="bg-white scheduleInput border rounded-lg" type="text" placeholder="Business Email" />
-                    <input className="bg-white scheduleInput border rounded-lg" type="text" placeholder="Phone Number" />
-                    <textarea className="bg-white scheduleTextArea border rounded-lg" type="text" placeholder="Tell us about your requirements..." />
-                    
-                 </div>
 
-                 <div>
-                  <button className="flex items-center scheduleDemoButton">Schedule Demo <span className="ms-2"><img src="/images/white1000002679.png" alt="" /></span> </button>
-                 </div>
+            <form
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg"
+            >
+              <div>
+                <h1 className="schedulaDemoText">Schedule a Demo</h1>
+                <p className="schedulaDemoPera py-3">
+                  See how watheta can help your business grow with a
+                  personalized demo.
+                </p>
+              </div>
 
+              <div className="py-3 space-y-4">
+                <input
+                  className="bg-white scheduleInput border rounded-lg"
+                  type="text"
+                  placeholder="Your Name"
+                />
+                <input
+                  className="bg-white scheduleInput border rounded-lg"
+                  type="text"
+                  placeholder="Business Email"
+                />
+                <input
+                  className="bg-white scheduleInput border rounded-lg"
+                  type="text"
+                  placeholder="Phone Number"
+                />
+                <textarea
+                  className="bg-white scheduleTextArea border rounded-lg"
+                  type="text"
+                  placeholder="Tell us about your requirements..."
+                />
+              </div>
+
+              <div>
+                <button className="flex items-center scheduleDemoButton">
+                  Schedule Demo{" "}
+                  <span className="ms-2">
+                    <img src="/images/white1000002679.png" alt="" />
+                  </span>{" "}
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -1737,9 +1777,11 @@ const PricingPage = () => {
           />
           <div className="joinOurNewsletterContentDiv flex justify-center items-center">
             <div className="">
-              <h1 className="text-white transformYourBusinessText text-center">
-                Ready to Transform Your Business?
-              </h1>
+              <div className="flex justify-center">
+                <h1 className="text-white transformYourBusinessText text-center">
+                  Ready to Transform Your Business?
+                </h1>
+              </div>
               <p className="text-md lg:text-lg xl:text-lg text-white text-center pt-2 lg:pt-4 xl:pt-4 leading-relaxed mx-5 lg:mx-0 xl:mx-0">
                 Join 23,000+ businesses already growing with our platform
               </p>
