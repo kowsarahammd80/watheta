@@ -28,10 +28,11 @@ const HomeBroadcaster = () => {
         </div>
         {/* text div */}
         <div
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-         className="w-full">
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="w-full"
+        >
           <div className="ms-0 lg:ms-16 xl:ms-16 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
               {" "}
@@ -77,7 +78,7 @@ const HomeBroadcaster = () => {
             </div>
             <div className="pt-5 flex items-center">
               <button className="font-normal flex items-center justify-between bg-white px-8 py-2 rounded-full border cardHover">
-                Try for free{" "}
+                Try Now{" "}
                 <span className="ms-3">
                   <img src="/images/Group 1000002679.png" alt="" />
                 </span>
@@ -86,9 +87,12 @@ const HomeBroadcaster = () => {
                 Read more
               </button>
             </div>
-            <div data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500" className="py-8">
+            <div
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="py-8"
+            >
               <p className="repleacesText">Replaces</p>
               <div className="pt-5 flex items-center gap-1">
                 <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">

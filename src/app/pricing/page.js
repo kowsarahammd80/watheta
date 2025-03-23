@@ -55,10 +55,17 @@ const PricingPage = () => {
             {/* slider */}
 
             <div className="mx-5 lg:mx-60 xl:mx-96 pt-6">
-              <div data-aos="fade-up" className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+              <div
+                data-aos="fade-up"
+                className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+              >
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img className="pricingHeorIcon" src="/images/pricing 1000003900.png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing 1000003900.png"
+                      alt=""
+                    />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Dedicated Account Manager
@@ -67,7 +74,11 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img className="pricingHeorIcon" src="/images/pricing1000003911.png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing1000003911.png"
+                      alt=""
+                    />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Enterprise-Grade Platform
@@ -76,7 +87,11 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img className="pricingHeorIcon" src="/images/pricing 1000003900 (1).png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing 1000003900 (1).png"
+                      alt=""
+                    />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     24/7 WhatsApp Support
@@ -85,7 +100,11 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img className="pricingHeorIcon" src="/images/pricing 1000003900 (2).png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing 1000003900 (2).png"
+                      alt=""
+                    />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Global Business Solution
@@ -94,7 +113,11 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img className="pricingHeorIcon" src="/images/pricing1000003900 (3).png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing1000003900 (3).png"
+                      alt=""
+                    />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     End-to-End Encrypted
@@ -103,7 +126,11 @@ const PricingPage = () => {
 
                 <div className="pricingHerogridCardDiv flex justify-center items-center px-2 py-2 rounded-xl">
                   <div className="pricingHeorIconDiv">
-                    <img className="pricingHeorIcon" src="/images/pricing 1000003900 (4).png" alt="" />
+                    <img
+                      className="pricingHeorIcon"
+                      src="/images/pricing 1000003900 (4).png"
+                      alt=""
+                    />
                   </div>
                   <p className="pricingHerogridCardPera ms-2">
                     Real-time Message Delivery
@@ -152,9 +179,11 @@ const PricingPage = () => {
                 <h1 className="packagePlaneNameText">Silver Plan</h1>
 
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "$149.00" : "$299.00"}
+                  {isToggle === "month" ? "৳ 149.00" : "৳ 299.00"}
                 </p>
-                <p className="text-xs opacity-60">Per quarter</p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -166,9 +195,11 @@ const PricingPage = () => {
                 <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
                 <p className="pricingTKText">
                   {" "}
-                  {isToggle === "month" ? "$149.00" : "$299.00"}{" "}
+                  {isToggle === "month" ? "৳ 1500" : "৳ 12000"}{" "}
                 </p>
-                <p className="text-xs opacity-60">Per quarter</p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -179,9 +210,11 @@ const PricingPage = () => {
                 <h1 className="packagePlaneNameText">Plainum Plan V1</h1>
                 <p className="pricingTKText">
                   {" "}
-                  {isToggle === "month" ? "$149.00" : "$299.00"}{" "}
+                  {isToggle === "month" ? "৳ 2500" : "৳ 20000"}{" "}
                 </p>
-                <p className="text-xs opacity-60">Per quarter</p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -653,7 +686,7 @@ const PricingPage = () => {
             <div className="silverPlanDiv flex items-center justify-center text-center">
               <div>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "$149.00" : "$299.00"}
+                  {isToggle === "month" ? "৳ 149.00" : "৳ 99.00"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? " Per month" : " Per quarter"}
@@ -895,7 +928,7 @@ const PricingPage = () => {
               <div class="pricing-body">
                 <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "$149.00" : "$299.00"}
+                  {isToggle === "month" ? "৳ 1500" : "$ 12000"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? " Per month" : " Per quarter"}
@@ -1158,7 +1191,7 @@ const PricingPage = () => {
               <div>
                 <h1 className="packagePlaneNameText">Platinum V1</h1>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "$149.00" : "$299.00"}
+                  {isToggle === "month" ? "$ 2500" : "৳ 20000"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? " Per month" : " Per quarter"}
