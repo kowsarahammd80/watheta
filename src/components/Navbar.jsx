@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="navLogoDiv">
               <img
                 className="navLog"
-                src="https://watheta.com/wp-content/uploads/2023/08/Web-format-1024x204.png"
+                src="images/Web-format-1024x204.png (2).png"
                 alt="Logo"
               />
             </div>
@@ -64,9 +64,11 @@ const Navbar = () => {
               { name: "Features", href: "/features" },
               { name: "Pricing", href: "/pricing" },
               { name: "Blogs", href: "/blogs" },
-              // { name: "Comparison", href: "/comparison" },
               { name: "Help", href: "/help" },
               { name: "Contact ", href: "/contact" },
+              { name: "Use Case ", href: "/" },
+              { name: "Affiliate ", href: "/" },
+
             ].map((link) => (
               <Link
                 key={link.name}

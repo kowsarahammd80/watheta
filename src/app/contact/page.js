@@ -11,6 +11,16 @@ const ContactPage = () => {
       once: false,
     });
   }, []);
+  const phoneNumber = "+880 1855-108700"; // Replace with your number
+  const email = "info@watheta.com"; // Replace with your email
+
+  const handleCall = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
+  const handleEmail = () => {
+    window.location.href = `mailto:${email}`;
+  };
   return (
     <div className="pt-20">
       <div className="contactBg">
@@ -54,7 +64,7 @@ const ContactPage = () => {
             </div>
 
             <div data-aos="fade-up" className="mx-5 lg:mx-60 xl:mx-60 pt-6">
-              <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-5 xl:gap-5">
+              <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-3 gap-5 lg:gap-5 xl:gap-5">
                 <div className="bg-white p-4 rounded-lg shadow-lg pricingHerogridCardDiv">
                   <div className="pricingHeorIconDiv">
                     <img
@@ -131,8 +141,11 @@ const ContactPage = () => {
         </div>
       </div>
       {/* section */}
-      <section className="mx-5 lg:mx-40 xl:mx-40 md:mx-16 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-x-5 lg:gap-x-8 xl:gap-x-8 gap-y-5 lg:gap-y-8 xl:gap-y-8 py-20">
-        <div className="bg-white shadow-lg rounded-lg p-6 border cursor-pointer pricingHerogridCardDiv">
+      <section className="mx-5 lg:mx-40 xl:mx-40 md:mx-16 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 gap-x-5 lg:gap-x-8 xl:gap-x-8 gap-y-5 lg:gap-y-8 xl:gap-y-8 py-20">
+        <div
+          onClick={handleCall}
+          className="bg-white shadow-lg rounded-lg p-6 border cursor-pointer pricingHerogridCardDiv"
+        >
           {/* iconDiv */}
           <div className="contactHeorIconDiv">
             <img
@@ -146,21 +159,28 @@ const ContactPage = () => {
             <p className="text-lg opacity-50">+880 1855-108700</p>
           </div>
         </div>
-        <div className="bg-white shadow-lg rounded-lg p-6 border cursor-pointer pricingHerogridCardDiv">
-          {/* iconDiv */}
-          <div className="contactHeorIconDiv">
-            <img
-              className="pricingHeorIcon"
-              src="/images/whatsapp_2504957.png"
-              alt=""
-            />
+        <a href="https://wa.me/message/R7KY7C262ZF6A1" target="_blank">
+          <div className="bg-white shadow-lg rounded-lg p-6 border cursor-pointer pricingHerogridCardDiv">
+            {/* iconDiv */}
+            <div className="contactHeorIconDiv">
+              <img
+                className="pricingHeorIcon"
+                src="/images/whatsapp_2504957.png"
+                alt=""
+              />
+            </div>
+            <div className="ms-2 py-4">
+              <h1 className="text-xl font-semibold pb-3">WhtasApp</h1>
+              <p className="text-lg opacity-50">+880 1855-108700</p>
+            </div>
           </div>
-          <div className="ms-2 py-4">
-            <h1 className="text-xl font-semibold pb-3">WhtasApp</h1>
-            <p className="text-lg opacity-50">+880 1855-108700</p>
-          </div>
-        </div>
-        <div className="bg-white shadow-lg rounded-lg p-6 border cursor-pointer pricingHerogridCardDiv">
+        </a>
+
+        <div
+          key={email}
+          onClick={handleEmail}
+          className="bg-white shadow-lg rounded-lg p-6 border cursor-pointer pricingHerogridCardDiv"
+        >
           {/* iconDiv */}
           <div className="contactHeorIconDiv">
             <img

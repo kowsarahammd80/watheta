@@ -368,8 +368,7 @@ const FeturesPage = () => {
                     </div>
                     <div className="flex justify-center">
                       <p className="text-center featuresCardHeadline pt-2">
-                        {" "}
-                        Broadcaster{" "}
+                        Broadcaster
                       </p>
                     </div>
                   </div>

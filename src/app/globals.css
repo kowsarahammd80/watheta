@@ -71,7 +71,7 @@ body {
   color: #ffffff;
   border: none;
   border-radius: 1.875rem;
-  padding: 1rem 1.3125rem;
+  padding: 0.7rem 1.3rem;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -1304,6 +1304,18 @@ body {
   width: 52px;
 }
 
+/* help Page */
+.helpBgDiv{
+  background-image: url("/images/image 314.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.helpContentDiv{
+    width: 100%;
+    height: 550px;
+}
 
 
 
@@ -1323,7 +1335,7 @@ body {
     height: 5vh;
   }
   .navLogoDiv {
-    width: 65%;
+    width: 68%;
     height: 4vh;
   }
   .navLog {
@@ -2448,6 +2460,19 @@ body {
   .contactHeroContentDiv {
     width: 100%;
     height: 780px;
+  }
+
+  /* help */
+  .helpBgDiv{
+    background-image: url("/images/image 314.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 350px;
+  }
+  .helpContentDiv{
+      width: 100%;
+      height: 350px;
   }
 
 
