@@ -49,7 +49,7 @@ const Navbar = () => {
         <nav className="navbar">
           {/* Logo */}
           <Link href="/">
-            <div className="navLogoDiv">
+            <div className="navLogoDiv mt-2">
               <img
                 className="navLog"
                 src="images/Web-format-1024x204.png (2).png"
