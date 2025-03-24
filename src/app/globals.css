@@ -2479,6 +2479,27 @@ body {
       height: 350px;
   }
 
+  /* price toggle button */
+  .pricingButtonTaggoleDiv {
+    position: relative;
+    background-color: #f1f1f1;
+  }
+  .pricingToggoleButton {
+    background-color: #69c07c;
+    color: white;
+  }
+  .buttonSaveText {
+    position: absolute;
+    top: -7;
+    right: -15px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 0.8px solid rgb(160, 244, 155);
+    border-radius: 50px;
+    padding: 1px 5px;
+    color: #01360d;
+  }
+
 
 
   /* footer */

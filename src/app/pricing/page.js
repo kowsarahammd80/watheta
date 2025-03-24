@@ -938,7 +938,7 @@ const PricingPage = () => {
             <div class="pricing-card">
               <div class="pricing-header">Recommended</div>
               <div class="pricing-body">
-                <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
+                <h1 className="packagePlaneNameText pt-1">Gold Plan</h1>
                 <p className="pricingTKText">
                   {isToggle === "month" ? "৳ 1500" : "$ 12000"}
                 </p>
