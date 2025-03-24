@@ -72,7 +72,7 @@ const HomeGenerativeAI = () => {
                 Read more
               </button>
             </div>
-            <div data-aos="fade-down"
+            <div data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500" className="py-8">
               <p className="repleacesText">Replaces</p>

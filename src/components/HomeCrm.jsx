@@ -85,9 +85,8 @@ const HomeCrm = () => {
                 Read more
               </button>
             </div>
-            <div data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500" className="py-8">
+            <div data-aos="fade-up"
+          data-aos-duration="3000" className="py-8">
               <p className="repleacesText">Replaces</p>
               <div className="pt-5 flex items-center gap-1">
                 <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">
@@ -170,7 +169,7 @@ const HomeCrm = () => {
                       alt=""
                     />
                   </span>
-                  Fresh Seles
+                  Fresh Sales
                 </p>
               </div>
               <div className="flex items-center gap-1 pt-2">
@@ -210,7 +209,7 @@ const HomeCrm = () => {
         {/*  */}
         <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
           <img
-           data-aos="fade-up"
+           data-aos="fade-down"
            data-aos-offset="300"
            data-aos-easing="ease-in-sine"
             className="whatsAppChatbotsImg"

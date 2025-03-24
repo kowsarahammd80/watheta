@@ -44,6 +44,7 @@ const Navbar = () => {
     <div
       className={`fixed z-50 w-full ${navBar ? "bg-white/30 backdrop-blur-2xl" : "bg-transparent"}`}
     >
+      {/* mx-1 lg:mx-20 xl:mx-32 md:mx-5 */}
       <div className="mx-1 lg:mx-20 xl:mx-32 md:mx-5">
         <nav className="navbar">
           {/* Logo */}
@@ -66,8 +67,8 @@ const Navbar = () => {
               { name: "Blogs", href: "/blogs" },
               { name: "Help", href: "/help" },
               { name: "Contact ", href: "/contact" },
-              { name: "Use Case ", href: "/" },
-              { name: "Affiliate ", href: "/" },
+              { name: "Use Case ", href: "/usecase" },
+              { name: "Affiliate ", href: "/affiliate" },
 
             ].map((link) => (
               <Link

@@ -93,9 +93,10 @@ const WhatsAppChatBots = () => {
               Read more
             </button>
           </div>
-          <div data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500" className="py-8">
+          <div 
+          data-aos="fade-up" 
+          data-aos-duration="3000" 
+          className="py-8">
             <p className="repleacesText">Replaces</p>
             <div className="pt-5 flex items-center gap-1">
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">
@@ -126,7 +127,7 @@ const WhatsAppChatBots = () => {
                     alt=""
                   />
                 </span>
-                Wait
+                Wati
               </p>
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">
                 <span className="me-1 repleacesItemsLogoDiv">

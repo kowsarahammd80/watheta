@@ -12,7 +12,6 @@ const TrustedCustomers = () => {
       <section className="mx-5 lg:mx-48 py-10">
         <div
           data-aos="fade-up"
-          
           className=" grid grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-3 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8"
         >
           <div className="trustLogoDiv">

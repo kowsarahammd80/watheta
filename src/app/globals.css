@@ -21,6 +21,9 @@ body {
 }
 
 /* navbar */
+.webWideSizeSet{ 
+  width: 1111px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -30,7 +33,7 @@ body {
 }
 .navLogoDiv {
   width: 12vw;
-  height: 6vh;
+  height: 4.5vh;
 }
 .navLog {
   width: 100%;
@@ -481,7 +484,7 @@ body {
 }
 .homeBlogsCols2ImgDiv {
   width: 100%;
-  height: 42vh;
+  height: 400px;
 }
 .homeBlogsCols2Img {
   width: 100%;
@@ -489,7 +492,7 @@ body {
 }
 .homeBlogsCols1-1stImgDiv {
   width: 100%;
-  height: 42vh;
+  height: 400px;
 }
 .homeBlogsCols1-1stImg {
   width: 100%;
@@ -511,7 +514,7 @@ body {
 }
 .homeBlogsCols1-2ndImgDiv {
   width: 100%;
-  height: 25vh;
+  height: 250px;
 }
 
 /* HomegettingStart */
@@ -1335,8 +1338,8 @@ body {
     height: 5vh;
   }
   .navLogoDiv {
-    width: 68%;
-    height: 4vh;
+    width: 60%;
+    height: 5vh;
   }
   .navLog {
     width: 100%;
@@ -1710,7 +1713,7 @@ body {
   }
   .homeBlogsCols2ImgDiv {
     width: 100%;
-    height: 19.81vh;
+    height: 214px;
   }
   .homeBlogsCols2Img {
     width: 100%;
@@ -1718,7 +1721,7 @@ body {
   }
   .homeBlogsCols1-1stImgDiv {
     width: 100%;
-    height: 19.81vh;
+    height: 214px;
   }
   .homeBlogsCols1-1stImg {
     width: 100%;
@@ -1740,7 +1743,7 @@ body {
   }
   .homeBlogsCols1-2ndImgDiv {
     width: 100%;
-    height: 25vh;
+    height: 214px;
   }
   /* getting start */
   .gettingBg {

@@ -182,7 +182,10 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 149.00" : "৳ 299.00"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                </p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
@@ -192,13 +195,16 @@ const PricingPage = () => {
             <div class="pricing-card -mt-3">
               <div class="pricing-header">Recommended</div>
               <div class="pricing-body">
-                <h1 className="packagePlaneNameText pt-3">Gold Plan</h1>
+                <h1 className="packagePlaneNameText pt-0">Gold Plan</h1>
                 <p className="pricingTKText">
                   {" "}
                   {isToggle === "month" ? "৳ 1500" : "৳ 12000"}{" "}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                </p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
@@ -213,7 +219,10 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 2500" : "৳ 20000"}{" "}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                </p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
@@ -689,7 +698,10 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 149.00" : "৳ 99.00"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                  {isToggle === "month" ? " Per quarter" : " Per annual"}
+                </p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
@@ -931,7 +943,10 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 1500" : "$ 12000"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                  {isToggle === "month" ? " Per quarter" : "Per Annual"}
+                </p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
@@ -1194,7 +1209,10 @@ const PricingPage = () => {
                   {isToggle === "month" ? "$ 2500" : "৳ 20000"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per month" : " Per quarter"}
+                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                </p>
+                <p className="text-xs opacity-60">
+                  {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p>
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now

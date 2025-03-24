@@ -109,7 +109,7 @@ const HomeBroadcaster = () => {
                   <span className="me-1 repleacesItemsLogoDiv">
                     <img
                       className="repleacesItemsLogo"
-                      src="/images/image 278.png"
+                      src="/images/image 252.png"
                       alt=""
                     />
                   </span>

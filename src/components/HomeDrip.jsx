@@ -78,7 +78,7 @@ const HomeDrip = () => {
               </button>
             </div>
             <div
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
               className="py-8"

@@ -14,7 +14,7 @@ const HomeBlogs = () => {
   }, []);
   return (
     <div className="homeBlogsBg py-8 lg:py-16 xl:py-16 md:py-8 mt-24 lg:mt-0 xl:mt-0">
-      <section className="mx-5 lg:mx-48 xl:mx-48">
+      <section className="mx-5 lg:mx-64 xl:mx-64">
         {/* headline */}
         <div className="text-center w-full">
           <h1 className="homeBlogsHeadline">Watheta Recent Blogs</h1>

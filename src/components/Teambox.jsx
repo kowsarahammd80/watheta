@@ -149,10 +149,11 @@ const Teambox = () => {
         </div>
         {/* text contents */}
         <div
-         data-aos="fade-down"
-         data-aos-easing="linear"
-         data-aos-duration="1500"
-         className="justify-start lg:justify-end xl:justify-end ms-0 lg:ms-16 xl:ms-16 md:ms-8 w-full">
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="justify-start lg:justify-end xl:justify-end ms-0 lg:ms-16 xl:ms-16 md:ms-8 w-full"
+        >
           <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
             {" "}
             <span className="wahtsChatbotswhatsLogoDiv me-2">
@@ -208,9 +209,12 @@ const Teambox = () => {
             </button>
             <button className="ms-8 border-b border-gray-800">Read more</button>
           </div>
-          <div data-aos="fade-up"
+          <div
+            data-aos="fade-up"
             data-aos-easing="linear"
-            data-aos-duration="1500" className="py-8">
+            data-aos-duration="1500"
+            className="py-8"
+          >
             <p className="repleacesText">Replaces</p>
             <div className="pt-5 flex items-center gap-1">
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">
@@ -231,7 +235,7 @@ const Teambox = () => {
                     alt=""
                   />
                 </span>
-                Fuelchats
+                Sales IQ
               </p>
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">
                 <span className="me-1 repleacesItemsLogoDiv">
@@ -241,7 +245,7 @@ const Teambox = () => {
                     alt=""
                   />
                 </span>
-                Wait
+                Freshchat
               </p>
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">
                 <span className="me-1 repleacesItemsLogoDiv">
@@ -251,7 +255,7 @@ const Teambox = () => {
                     alt=""
                   />
                 </span>
-                Interkat
+                Intercom
               </p>
             </div>
             <div className="flex items-center gap-1 pt-2">
