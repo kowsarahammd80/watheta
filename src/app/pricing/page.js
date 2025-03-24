@@ -162,7 +162,7 @@ const PricingPage = () => {
             >
               Yearly
             </button>
-            {isToggle === "year" && <p className="buttonSaveText">save 15%</p>}
+             <p className="buttonSaveText">save 15%</p>
             {/* <p className="buttonSaveText"> {
               isToggle === "year"&& "save 15%"
               }</p> */}
@@ -182,7 +182,7 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 149.00" : "৳ 299.00"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                  {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -201,7 +201,7 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 1500" : "৳ 12000"}{" "}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                  {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -219,7 +219,7 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 2500" : "৳ 20000"}{" "}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                  {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -350,7 +350,7 @@ const PricingPage = () => {
               <div className="feturesTexts">
                 <p className="spasingHeght flex items-center"></p>
                 <p className="border-b featuresTextPadding flex items-center">
-                  <span className="tex-lg text-white">Ecommerce Features</span>
+                  <span className="tex-lg text-white"></span>
                 </p>
                 <p className="featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -380,7 +380,7 @@ const PricingPage = () => {
               <div className="feturesTexts">
                 <p className="spasingHeght flex items-center"></p>
                 <p className="border-b featuresTextPadding flex items-center">
-                  <span className="tex-lg text-white">Ecommerce Features</span>
+                  <span className="tex-lg text-white"></span>
                 </p>
                 <p className="featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -422,7 +422,7 @@ const PricingPage = () => {
               <div className="feturesTexts">
                 <p className="spasingHeght flex items-center"></p>
                 <p className="border-b featuresTextPadding flex items-center">
-                  <span className="tex-lg text-white">Ecommerce Features</span>
+                  <span className="tex-lg text-white"></span>
                 </p>
                 <p className="featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
