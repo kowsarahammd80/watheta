@@ -940,7 +940,7 @@ const PricingPage = () => {
               <div class="pricing-body">
                 <h1 className="packagePlaneNameText pt-1">Gold Plan</h1>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "৳ 1500" : "$ 12000"}
+                  {isToggle === "month" ? "৳ 1500" : "৳ 12000"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
@@ -1206,7 +1206,7 @@ const PricingPage = () => {
               <div>
                 <h1 className="packagePlaneNameText">Platinum V1</h1>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "$ 2500" : "৳ 20000"}
+                  {isToggle === "month" ? "৳ 2500" : "৳ 20000"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
