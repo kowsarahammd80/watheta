@@ -698,7 +698,7 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 149.00" : "৳ 99.00"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per quarter" : " Per annual"}
+                  {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -943,7 +943,7 @@ const PricingPage = () => {
                   {isToggle === "month" ? "৳ 1500" : "$ 12000"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? " Per quarter" : "Per Annual"}
+                  {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -1209,7 +1209,7 @@ const PricingPage = () => {
                   {isToggle === "month" ? "$ 2500" : "৳ 20000"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per quarter" : "Per Annual"}
+                  {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
