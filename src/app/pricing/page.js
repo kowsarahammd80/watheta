@@ -185,9 +185,9 @@ const PricingPage = () => {
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
-                <p className="text-xs opacity-60">
+                {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
-                </p>
+                </p> */}
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -204,9 +204,9 @@ const PricingPage = () => {
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
-                <p className="text-xs opacity-60">
+                {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
-                </p>
+                </p> */}
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -222,9 +222,9 @@ const PricingPage = () => {
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
-                <p className="text-xs opacity-60">
+                {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
-                </p>
+                </p> */}
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -701,9 +701,9 @@ const PricingPage = () => {
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
-                <p className="text-xs opacity-60">
+                {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
-                </p>
+                </p> */}
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -946,9 +946,9 @@ const PricingPage = () => {
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
-                <p className="text-xs opacity-60">
+                {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
-                </p>
+                </p> */}
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
@@ -1212,9 +1212,9 @@ const PricingPage = () => {
                 <p className="text-xs opacity-60">
                   {isToggle === "month" ? "Per Month" : "Per Annual"}
                 </p>
-                <p className="text-xs opacity-60">
+                {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
-                </p>
+                </p> */}
                 <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
                   Sign Up Now
                 </button>
