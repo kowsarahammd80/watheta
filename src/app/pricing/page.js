@@ -24,7 +24,7 @@ const PricingPage = () => {
             <div data-aos="zoom-in-down" className="flex justify-center pb-5">
               <div className="flex items-center justify-center pricingMetaLogoDivMain">
                 <div className="pricingMetaLogoDiv">
-                  <img src="/images/metaLogo.png" alt="" />
+                  <img className="pricingMetaLogo" src="/images/metaLogo.png" alt="" />
                 </div>
                 <div className="ms-3">
                   <p className="pricingOfficialText">Official Partner</p>
