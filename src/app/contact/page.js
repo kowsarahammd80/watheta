@@ -315,9 +315,6 @@ const ContactPage = () => {
             </div>
 
             <form
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
               className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg"
             >
               <div>

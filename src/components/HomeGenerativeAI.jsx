@@ -63,7 +63,7 @@ const HomeGenerativeAI = () => {
             </div>
             <div className="pt-5 flex items-center">
               <button className="font-normal flex items-center justify-between bg-white px-8 py-2 rounded-full border cardHover">
-                Try for free{" "}
+                Try Now{" "}
                 <span className="ms-3">
                   <img src="/images/Group 1000002679.png" alt="" />
                 </span>

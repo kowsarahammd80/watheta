@@ -83,7 +83,7 @@ const WhatsAppChatBots = () => {
             </div>
           </div>
           <div className="pt-5 flex items-center">
-            <button className="font-normal flex items-center justify-between bg-white px-5 lg:px-8 xl:px-8 lg:py-2 xl:py-2 py-1 rounded-full border cardHover">
+            <button className="font-normal flex items-center justify-between bg-white px-5 lg:px-8 xl:px-8 lg:py-2 xl:py-2 py-1 rounded-full border cardHover buttonHeightWitd">
               Try Now{" "}
               <span className="ms-3">
                 <img src="/images/Group 1000002679.png" alt="" />
