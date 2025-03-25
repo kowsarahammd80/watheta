@@ -69,17 +69,16 @@ const Navbar = () => {
               { name: "Contact ", href: "/contact" },
               { name: "Use Case ", href: "/usecase" },
               { name: "Affiliate ", href: "/affiliate" },
-
             ].map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
                 className={`nav-item ${pathname === link.href ? "active" : ""}`}
               > 
+              {/* <p>{link.name}</p> */}
                 {link.name}
               </Link>
             ))}
-
             <button className="block lg:hidden xl:hidden">Log In</button>
             <button className="get-started block lg:hidden xl:hidden rounded-3xl">
               Get Started
