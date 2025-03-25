@@ -12,7 +12,7 @@ const GettingStarted = () => {
     });
   }, []);
   return (
-    <div className="gettingBg">
+    <div className="gettingBg mt-24 lg:mt-0 xl:mt-0">
       <section className="flex justify-center items-center gettingBg">
         <div className="text-center">
           <div className="flex justify-center">

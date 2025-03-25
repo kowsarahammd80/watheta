@@ -39,7 +39,7 @@ export default function Home() {
         <HomeIntegrations/>
         <Conversational/>
         <ResonToSwitch/>
-        <HomeBlogs/>
+        {/* <HomeBlogs/> */}
         <GettingStarted/>
         <HighPerformer/>
         <HomeFAQ/>

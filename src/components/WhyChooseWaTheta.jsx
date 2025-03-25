@@ -32,10 +32,8 @@ const WhyChooseWaTheta = () => {
         {/* card */}
         <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 pt-10 gap-10">
           <div
-           data-aos="flip-left"
-           data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000"
-           className="card card-border cardBgColor rounded-3xl cardHover">
+           
+           className="card card-border cardBgColor rounded-3xl cardHover ">
             <div 
             
               className="card-body">
@@ -59,9 +57,7 @@ const WhyChooseWaTheta = () => {
             </div>
           </div>
           <div
-          data-aos="flip-right"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          
            className="card card-border cardBgColor rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">
@@ -84,9 +80,7 @@ const WhyChooseWaTheta = () => {
             </div>
           </div>
           <div
-          data-aos="flip-right"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+
            className="card card-border cardBgColor rounded-3xl cardHover">
             <div className="card-body">
               <div className="whyChooseWathetaCardImgDiv">

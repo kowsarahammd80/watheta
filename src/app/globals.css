@@ -378,6 +378,9 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+.happyClientsCardDiv{
+  height: 261px;
+}
 
 /* whaychooseWatheta */
 .whaychooseWathetabg {
@@ -990,10 +993,15 @@ body {
 .pricingButtonTaggoleDiv {
   position: relative;
   background-color: #f1f1f1;
+  font-size: 1rem;
 }
 .pricingToggoleButton {
   background-color: #69c07c;
   color: white;
+}
+.saveText{
+  font-size: 12px;
+  padding: 5px 10px;
 }
 .buttonSaveText {
   position: absolute;
@@ -1135,7 +1143,7 @@ body {
   color: #292D32;
 }
 .additonalCardIconDiv{
-  width: 48px;
+  width: 45px;
   height: 52px;
 }
 .additonalCardIcon{
@@ -1341,7 +1349,7 @@ body {
     height: 5vh;
   }
   .navLogoDiv {
-    width: 70%;
+    width: 100%;
     height: 3.5vh;
   }
   .navLog {
@@ -1586,9 +1594,13 @@ body {
     height: 100%;
   }
   .clientSaySliderPera {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
   }
+  .happyClientsCardDiv{
+    height: 261px;
+  }
+  /*  */
   .whaychooseWathetabg {
     background-color: #f1f0ff;
   }
@@ -2204,8 +2216,12 @@ body {
     border-radius: 15px;
   }
   .pricingHeorIconDiv {
-    width: 40px;
+    width: 52px;
     height: 40px;
+  }
+  .pricingHeorIcon {
+    width: 100%;
+    height: 100%;
   }
   .pricingHerogridCardDiv {
     background-color: white;
@@ -2287,8 +2303,8 @@ body {
     color: #292D32;
   }
   .additonalCardIconDiv{
-    width: 40px;
-    height: 48px;
+    width: 41px;
+    height: 50px;
   }
   .additonalCardIcon{
     width: 100%;

@@ -89,7 +89,7 @@ const HappyClientSays = () => {
         >
           {clientsReviews.map((client, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white text-black p-5 rounded-2xl">
+              <div className="bg-white text-black p-5 rounded-2xl happyClientsCardDiv">
                 <div className="flex items-center">
                   <div className="happyClientsSaysImgDiv">
                     <img
@@ -135,7 +135,7 @@ const HappyClientSays = () => {
         >
           {clientsReviews.map((client, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white text-black p-5 rounded-2xl">
+              <div className="bg-white text-black p-5 rounded-2xl happyClientsCardDiv">
                 <div className="flex items-center">
                   <div className="happyClientsSaysImgDiv">
                     <img

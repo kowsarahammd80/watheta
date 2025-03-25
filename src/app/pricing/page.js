@@ -145,7 +145,7 @@ const PricingPage = () => {
       <section className="mx-5 lg:mx-40 xl:mx-40 md:mx-16">
         {/* toggole button */}
         <div className="flex justify-center py-10">
-          <div className="pricingButtonTaggoleDiv px-3 py-2 space-x-5 rounded-full">
+          <div className="pricingButtonTaggoleDiv ps-3 pe-1 py-1 space-x-3 rounded-full">
             <button
               onClick={() => setIsToggle("month")}
               className={` px-5 py-1 rounded-full ${
@@ -156,13 +156,14 @@ const PricingPage = () => {
             </button>
             <button
               onClick={() => setIsToggle("year")}
-              className={` px-5 py-1 rounded-full ${
+              className={`ps-5 pe-1 py-1 rounded-full ${
                 isToggle === "year" && "pricingToggoleButton"
               }`}
             >
               Yearly
+              <span className="saveText border rounded-full ms-1"> <span>save 15%</span> </span>
             </button>
-             <p className="buttonSaveText">save 15%</p>
+             {/* <p className="buttonSaveText">save 15%</p> */}
             {/* <p className="buttonSaveText"> {
               isToggle === "year"&& "save 15%"
               }</p> */}
@@ -1458,7 +1459,7 @@ const PricingPage = () => {
           </div>
           {/* card  */}
           <div
-            data-aos="zoom-in-up"
+            data-aos="zoom-in"
             className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-8 xl:gap-8 pt-10"
           >
             <div className="cardBgColor py-5 px-6 border rounded-lg">
@@ -1602,9 +1603,7 @@ const PricingPage = () => {
         {/* card */}
         <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 pt-6 gap-2 lg:gap-6 xl:gap-6">
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+           
             className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
           >
             {/* icon div */}
@@ -1626,9 +1625,7 @@ const PricingPage = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+          
             className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
           >
             {/* icon div */}
@@ -1648,9 +1645,7 @@ const PricingPage = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            
             className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
           >
             {/* icon div */}
@@ -1670,9 +1665,7 @@ const PricingPage = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            
             className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
           >
             {/* icon div */}
@@ -1765,9 +1758,6 @@ const PricingPage = () => {
             </div>
 
             <form
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
               className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg"
             >
               <div>
