@@ -87,7 +87,7 @@ const HomeFAQ = () => {
             </div>
             {/* faq */}
             <div data-aos="zoom-in-down" className="w-full col-span-2">
-              <div className="collapse collapse-arrow cardBgColor border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none w-full">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none w-full">
                 <input type="radio" name="my-accordion-2" defaultChecked />
                 <div className="collapse-title HomeFaqQustion text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of jobs can I find on employin?
@@ -99,7 +99,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow cardBgColor border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of employers can I find on employin?
@@ -111,7 +111,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow cardBgColor border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of employers can I find on employin?
@@ -123,7 +123,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow cardBgColor border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of employers can I find on employin?
@@ -135,7 +135,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow cardBgColor border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   Does it really only take 1-2 days to hear back from employers?
@@ -147,7 +147,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow cardBgColor border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   Can I schedule interviews with multiple employers at the same

@@ -14,33 +14,33 @@ const ResonToSwitch = () => {
     <div className="py-0 lg:py-16 xl:py-16 md:py-8 relative">
       {/* Headline */}
       <div className="pt-6 lg:pt-0 xl:pt-0 md:pt-5">
-        <h1 className="ms-5 lg:ms-48 lg:py-5 resonToSwitchHeadline">
+        <h1 className="ps-5 lg:ps-0 xl:ps-0 md:ps-0 ms-0 lg:ms-40 xl:ms-40 md:ms-0 lg:py-5 resonToSwitchHeadline">
           04 Reasons To Switch To Add Whatsapp Business API
         </h1>
       </div>
 
       {/* Slider with Right-Side Navigation */}
-      <div className="pt-5 ms-5 lg:ms-48 relative">
+      <div className="pt-5 ms-5 lg:ms-48 xl:ms-48 md:ms-5 relative">
         <Swiper
           spaceBetween={35}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
-          modules={[Navigation]} // Include Navigation module
+          modules={[Navigation]} 
           className="mySwiper"
           breakpoints={{
-            // Mobile (up to 480px)
+            
             320: {
               slidesPerView: 1.3,
               spaceBetween: 15,
             },
-            // Tablet (481px - 1024px)
+            
             768: {
               slidesPerView: 2.3,
               spaceBetween: 25,
             },
-            // Desktop (1025px+)
+            
             1024: {
               slidesPerView: 3.3,
               spaceBetween: 35,
@@ -131,7 +131,7 @@ const ResonToSwitch = () => {
         </Swiper>
 
         <div className="absolute lg:-top-20 xl:-top-20 right-44 lg:right-44 xl:right-44 md:right-80 flex space-x-2 lg:space-x-5 xl:space-x-5 pb-8 lg:pb-0 xl:pb-0 md:pb-10 pt-4 lg:pt-0 xl:pt-0 md:pt-4">
-          {/* Left Button */}
+          
           <button
             className={`custom-prev bg-white p-3 rounded-full  border transition-all ${
               activeButton === "prev" ? "border-gray-500 shadow-md" : "border-gray-300"
@@ -141,7 +141,7 @@ const ResonToSwitch = () => {
             <img src="/images/Group 1000002656 (1).png" alt="" />
           </button>
 
-          {/* Right Button */}
+          
           <button
             className={`custom-next bg-white p-3 rounded-full  border transition-all ${
               activeButton === "next" ? "border-gray-500 shadow-md" : "border-gray-300"

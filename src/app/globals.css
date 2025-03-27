@@ -23,9 +23,9 @@ body {
 }
 
 /* navbar */
-.webWideSizeSet{ 
+/* .webWideSizeSet{ 
   width: 1111px;
-}
+} */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ body {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1.2rem;
 }
 .nav-item {
   position: relative;
@@ -55,6 +55,13 @@ body {
 }
 .navBgActive{
   background-color: #f1f0ff;
+}
+.nav-item {
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
 }
 .nav-item.active {
   font-weight: bold;
@@ -101,7 +108,7 @@ body {
   width: 100%;
 }
 .homeHeroHeadline {
-  font-size: 4.9rem;
+  font-size: 4.5rem;
   font-weight: 700;
   color: #292d32;
   line-height: 85px;
@@ -132,7 +139,6 @@ body {
   border: 1.5px solid #6cc17b;
   border-radius: 2.5rem;
 }
-
 .homeScheduleButton {
   border: 1.5px solid #6cc17b;
   padding: 0.5rem 1.5rem;
@@ -151,7 +157,7 @@ body {
   box-shadow: gainsboro 2px 8px 4px;
 }
 .homeHeroImgaDiv {
-  width: 105%;
+  width: 100%;
   height: 484px;
 }
 .homeHeroImga {
@@ -544,7 +550,7 @@ body {
 /* High Performer */
 .heighPrfomerLogoDiv {
   width: 100%;
-  height: 18.375vh;
+  height: 195px;
 }
 .heighPrfomerLogo {
   width: 100%;
@@ -618,8 +624,8 @@ body {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
 .featuresCardLogoDiv {
-  width: 4vw;
-  height: 4vw;
+  width: 60px;
+  height: 60px; 
 }
 .featuresCardLogo {
   width: 100%;
@@ -1377,17 +1383,17 @@ body {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: 63px;
     right: 0;
     width: 100%;
     height: 100vh;
-    padding: 10px 0;
+    padding: 35px 0;
     transform: translateX(100%);
     transition: 0.3s ease-in-out;
   }
   .nav-links.active {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     background-color: white;
     align-items: center;
     transform: translateX(0);
@@ -1397,9 +1403,9 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 1.875rem;
-    padding: 0.625rem 1.25rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .breadcrumb {
     display: block;
@@ -1482,12 +1488,16 @@ body {
     font-weight: 500;
   }
   .trustLogoDiv {
-    width: 76px;
-    height: 28px;
+    width: 100%;
+    height: 34px;
   }
   .trustLogo {
     width: 100%;
     height: 100%;
+  }
+  .trustLogoDivPhone{
+    width: 96px;
+    height: 34px;
   }
   /* home features */
   .homeFeaturesbg {
@@ -1596,7 +1606,7 @@ body {
   /* happyclients */
   .HappyClientSaysBg {
     background-color: #292d32;
-    height: 45vh;
+    height: 50vh;
   }
   .happyClientsSaysText {
     font-size: 1.75rem;
@@ -1705,9 +1715,9 @@ body {
 
   /* rescon to switch */
   .resonToSwitchHeadline {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    width: 350px;
+    width: 100%;
   }
   .resonIconDiv {
     width: 10vw;
@@ -1910,7 +1920,7 @@ body {
   }
   .blogsHeroHeadPera {
     font-size: 1rem;
-    width: 385px;
+    width: 94%;
   }
   .blogs2ndHeroBgImgDiv {
     position: relative;
@@ -1965,11 +1975,11 @@ body {
     color: #292d32;
   }
   .blogPageHeadline {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     color: #000000;
     font-weight: 500;
     /* width: 96%; */
-    width: 220px;
+    width: 95%;
   }
   .blogReadMoreText {
     font-size: 1rem;
@@ -2023,7 +2033,7 @@ body {
   }
   .joinournewsletterInputDiv {
     position: relative;
-    width: 350px;
+    width: 96%;
     height: 60px;
   }
   .joinournewsletterInput {
@@ -2603,7 +2613,7 @@ body {
     height: 8vh;
   }
   .navLogoDiv {
-    width: 90%;
+    width: 100%;
     height: 4vh;
   }
   .navLog {
@@ -2615,17 +2625,17 @@ body {
     background-color: white;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 68px;
     right: 0;
     width: 100%;
     height: 100vh;
-    padding: 20px 0;
+    padding: 35px 0;
     transform: translateX(100%);
     transition: 0.4s ease-in-out;
   }
   .nav-links.active {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     transform: translateX(0);
   }
@@ -2641,7 +2651,6 @@ body {
   .breadcrumb {
     display: block;
   }
-
   /* homeHero */
   .HomeHeroDivHeight {
     height: 100vh;
@@ -2655,10 +2664,10 @@ body {
   }
   .homeHeroHeadline {
     /* font-size: 2.375rem; */
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #292d32;
-    line-height: 70px;
+    line-height: 55px;
   }
   .homeHeroPeraDiv {
     /* width: 27rem; */
@@ -2666,7 +2675,7 @@ body {
     text-align: start;
   }
   .homeHeroPera {
-    font-size: 20px;
+    font-size: 16px;
     color: #292d32;
   }
   .homeHeroGetButton {
@@ -2712,7 +2721,6 @@ body {
     width: 100%;
     height: 100%;
   }
-
   /* client logo */
   .trustedText {
     font-size: 18px;
@@ -2720,8 +2728,8 @@ body {
     font-weight: 500;
   }
   .trustLogoDiv {
-    width: 76px;
-    height: 28px;
+    width: 100%;
+    height: 40px;
   }
   .trustLogo {
     width: 100%;
@@ -2817,17 +2825,16 @@ body {
   /* heigh perfomer */
   .heighPrfomerLogoDiv {
     width: 100%;
-    height: 80px;
+    height: 68px;
   }
   .heighPrfomerLogo {
     width: 100%;
     height: 100%;
   }
-
   /* happyclients */
   .HappyClientSaysBg {
     background-color: #292d32;
-    height: 40vh;
+    height: 50vh;
   }
   .happyClientsSaysText {
     font-size: 1.85rem;
@@ -3050,7 +3057,7 @@ body {
   }
   .joinournewsletterInputDiv {
     position: relative;
-    width: 450px;
+    width: 100%;
     height: 60px;
   }
   .joinournewsletterInput {
@@ -3151,6 +3158,78 @@ body {
   }
   .categoryButtonBgActive {
     background-color: #e4c1ff;
+  }
+
+  
+
+  /* conversational */
+
+  .conversationalbg {
+    background-color: #f6f6f6;
+  }
+  .conversationalHeadline {
+    font-size: 1.75rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .conversationalCardTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .conversationallearnMoreButton {
+    font-size: 16px;
+    color: #292d32;
+  }
+  .conversationalArrowDiv {
+    width: 6vw;
+    height: 6vw;
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .conversationalArrow {
+    width: 100%;
+    height: 100%;
+  }
+  .conversationalIconDiv {
+    width: 8vw;
+    height: 8vw;
+    max-width: 38px;
+    max-height: 38px;
+  }
+  .conversationalIcon {
+    width: 100%;
+    height: 100%;
+  }
+  .viewallindustryButtonText {
+    font-size: 0.9rem;
+  }
+
+   /* rescon to switch */
+   .resonToSwitchHeadline {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 98%;
+  }
+  .resonIconDiv {
+    width: 10vw;
+    height: 10vw;
+  }
+  .resonIcon {
+    width: 100%;
+    height: 100%;
+  }
+  .resonCardHeadline {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .resonCardPera {
+    font-size: 0.8rem;
+    color: #7a7a7a;
+  }
+  .HomeReasonToSwitchCard {
+    width: 100%;
+    height: 255px;
   }
 
   /*  */

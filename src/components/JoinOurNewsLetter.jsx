@@ -20,20 +20,23 @@ const JoinOurNewsLetter = () => {
               <h1 className="text-white JoinournewsletterText text-center">
                 Join our newsletter
               </h1>
-              <p className="joinournewsletterPeraText text-center pt-2 leading-relaxed">
-                Subscribe our newsletter to receive the latest news and <br />
-                exclusive offers every week. No spam,
-              </p>
-              
-              <div className="pt-6 w-full joinournewsletterInputDiv">
-                <input
-                  className="joinournewsletterInput border-4 w-full"
-                  type="text"
-                  placeholder="Enter your email"
-                />
-                <button className="joinournewsletterSubscribeButton px-8 lg:px-10 xl:px-10 py-2 rounded-full">
-                  Subscribe
-                </button>
+              <div className="flex justify-center w-full">
+                <p className="joinournewsletterPeraText text-center pt-2 leading-relaxed">
+                  Subscribe our newsletter to receive the latest news and <br />
+                  exclusive offers every week. No spam,
+                </p>
+              </div>
+              <div className="flex justify-center">
+                <div className="pt-6 w-full joinournewsletterInputDiv">
+                  <input
+                    className="joinournewsletterInput border-4 w-full"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button className="joinournewsletterSubscribeButton px-8 lg:px-10 xl:px-10 py-2 rounded-full">
+                    Subscribe
+                  </button>
+                </div>
               </div>
             </div>
           </div>

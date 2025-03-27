@@ -20,7 +20,7 @@ const WhatsAppChatBots = () => {
         className={`flex flex-col-reverse lg:flex-row xl:flex-row md:flex-col-reverse items-start lg:items-center xl:items-center mx-5 lg:mx-40 xl:mx-40 gap-10 lg:gap-20 xl:gap-20`}
       >
         {/* ing contents */}
-        <div className="justify-center items-center whatsAppChatbotsImgDiv ">
+        <div className="justify-center items-center whatsAppChatbotsImgDiv">
           <img
             data-aos="fade-down"
             data-aos-easing="linear"
@@ -83,7 +83,7 @@ const WhatsAppChatBots = () => {
             </div>
           </div>
           <div className="pt-5 flex items-center">
-            <button className="font-normal flex items-center justify-between bg-white px-5 lg:px-8 xl:px-8 lg:py-2 xl:py-2 py-1 rounded-full border cardHover buttonHeightWitd">
+            <button className="font-normal flex items-center justify-between bg-white px-5 lg:px-8 xl:px-8 lg:py-2 xl:py-2 py-1 rounded-full border cardHover">
               Try Now{" "}
               <span className="ms-3">
                 <img src="/images/Group 1000002679.png" alt="" />

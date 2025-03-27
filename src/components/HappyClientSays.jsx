@@ -28,7 +28,7 @@ const clientsReviews = [
     text: "“There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form, by injected humour”",
   },
   {
-    name: "Michael Smith",
+    name: "Saniyat",
     role: "Marketing Coordinator",
     img: "/images/Ellipse 494.png",
     text: "“There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form, by injected humour”",
@@ -96,7 +96,7 @@ const HappyClientSays = () => {
         <h2 className="happyClientsSaysText text-white">Happy Client Says</h2>
       </div>
       {/* 1st slide */}
-      <div className="pt-10 mx-5 lg:mx-0 xl:mx-0 md:mx-8">
+      <div className="pt-10 mx-0 lg:mx-0 xl:mx-0 md:mx-1">
       <Swiper
   spaceBetween={20}
   centeredSlides={true}

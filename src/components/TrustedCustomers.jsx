@@ -9,10 +9,10 @@ const TrustedCustomers = () => {
         </h1>
       </div>
       {/* logo */}
-      <section className="mx-5 lg:mx-48 py-10">
+      <section className="mx-5 lg:mx-48 xl:mx-48 md:mx-10 py-10">
         <div
           data-aos="fade-up"
-          className=" grid grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-3 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8"
+          className=" grid grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-5 gap-x-5 gap-y-5 lg:gap-y-16 xl:gap-y-16 md:gap-y-8"
         >
           <div className="trustLogoDiv">
             <img className="trustLogo" src="/images/Company logo.png" alt="" />
@@ -66,14 +66,14 @@ const TrustedCustomers = () => {
               alt=""
             />
           </div>
-          <div className="trustLogoDiv hidden lg:block xl:block">
+          <div className="trustLogoDiv hidden lg:block xl:block md:block">
             <img
               className="trustLogo"
               src="/images/company logo (8).png"
               alt=""
             />
           </div>
-          <div className="trustLogoDiv hidden lg:block xl:block">
+          <div className="trustLogoDiv hidden lg:block xl:block md:block">
             <img
               className="trustLogo"
               src="/images/company logo (9).png"
@@ -83,14 +83,14 @@ const TrustedCustomers = () => {
         </div>
         {/* phone */}
         <div data-aos="fade-up" className="flex justify-center gap-x-3 w-full pt-4">
-          <div className="trustLogoDiv block lg:hidden xl:hidden">
+          <div className="trustLogoDivPhone block lg:hidden xl:hidden md:hidden">
             <img
               className="trustLogo"
               src="/images/company logo (8).png"
               alt=""
             />
           </div>
-          <div className="trustLogoDiv block lg:hidden xl:hidden">
+          <div className="trustLogoDivPhone block lg:hidden xl:hidden md:hidden">
             <img
               className="trustLogo"
               src="/images/company logo (9).png"

@@ -26,7 +26,7 @@ const BlogsPage = () => {
           {/* <img className="blogsHeroBgImg" src="/images/image 314.png" alt="" /> */}
           <div className="blogsHeroHeadlineDiv">
             <div className="flex justify-center">
-              <div className="pt-14">
+              <div className="pt-16">
                 <h1 className="blogsHeroHeadline text-center">Watheta Blog</h1>
                 <p className="blogsHeroHeadPera text-center pb-0 lg:pb-5 xl:pb-5">
                   look like readable English. Many desktop publishing packages
@@ -39,7 +39,7 @@ const BlogsPage = () => {
         </div>
       </div>
       {/*2nd hero */}
-      <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16 -mt-80 lg:-mt-52 xl:-mt-52">
+      <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16 -mt-80 lg:-mt-56 xl:-mt-56">
         <div data-aos="fade-up" className="blogs2ndHeroBgImgDiv">
           <img
             className="blogs2ndHeroBgImg hidden lg:block xl:block"

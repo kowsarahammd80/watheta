@@ -14,14 +14,14 @@ const HomeIntegrations = () => {
         </div>
         {/* headline */}
         <div className="flex justify-center">
-          <h1 className="intregeteHeadline text-center py-5">
+          <h1 className="intregeteHeadline text-center py-4 lg:py-5 xl:py-5 md:py-3">
             Streamline your workflow with Watheta 40+ integrations
           </h1>
         </div>
         {/* Explore integrations */}
         <div className="flex justify-center">
           <Link href="/integrations">
-            <button data-aos="fade-down-left" className="flex items-center ">
+            <button data-aos="fade-down-left" className="flex items-center">
               <span className="border-b border-gray-500">
                 Explore integrations
               </span>

@@ -27,7 +27,7 @@ const FeturesPage = () => {
     });
   }, []);
   return (
-    <div className="pt-16 lg:pt-20 xl:pt-20 md:pt-20">
+    <div className="pt-16 lg:pt-20 xl:pt-20 md:pt-24">
       <div className="featuresHeroDiv">
         <img
           className="featuresHeroBg"
@@ -45,7 +45,7 @@ const FeturesPage = () => {
           {/* card pc*/}
           <div data-aos="zoom-in-down" className="hidden lg:block xl:block mx-5 lg:mx-40 xl:mx-40 md:mx-8">
             <section className="pt-16 grid grid-cols-8 xl:grid-cols-8 gap-2">
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -64,7 +64,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -81,7 +81,7 @@ const FeturesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -98,7 +98,7 @@ const FeturesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -117,7 +117,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -138,7 +138,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -157,7 +157,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
@@ -176,7 +176,7 @@ const FeturesPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="card cardBgColor cardHover cursor-pointer">
+              <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
                   <div className="flex justify-center">
                     <div className="featuresCardLogoDiv">
