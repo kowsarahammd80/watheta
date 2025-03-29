@@ -246,7 +246,7 @@ const TrustedCustomers = () => {
             </div>
           </div>
         </Marquee> */}
-        <Marquee className="">
+        <Marquee speed={60} pauseOnHover={true} gradient={true} className="">
           <div className="flex justify-between mt-5">
             <div className="trustLogoDiv m-5">
               <img
