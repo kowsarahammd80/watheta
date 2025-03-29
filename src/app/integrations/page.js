@@ -37,7 +37,7 @@ const Integrations = () => {
               <div  className="flex justify-center pt-5">
                 <div className="integetSearchInputDiv">
                   <input
-                    className="integetSearchInput rounded-lg ps-14"
+                    className="integetSearchInput bg-white rounded-lg ps-14"
                     type="text"
                     placeholder="Search for an integration"
                   />
@@ -133,7 +133,7 @@ const Integrations = () => {
         
         <section className="grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 pt-10 gap-x-8 lg:gap-y-10 xl:gap-y-10 gap-y-5">
          
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
              
               <div className="intreInconDiv">
@@ -154,7 +154,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -175,7 +175,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -196,7 +196,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -217,7 +217,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -238,7 +238,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -259,7 +259,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -280,7 +280,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -301,7 +301,7 @@ const Integrations = () => {
             </div>
           </div>
          
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
              
               <div className="intreInconDiv">
@@ -322,7 +322,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -343,7 +343,7 @@ const Integrations = () => {
             </div>
           </div>
          
-          <div className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">
@@ -364,7 +364,7 @@ const Integrations = () => {
             </div>
           </div>
           
-          <div  className="card bg-base-100 w-full border HomeFeturescardShadow">
+          <div  className="card bg-white w-full border HomeFeturescardShadow">
             <div className="card-body">
               
               <div className="intreInconDiv">

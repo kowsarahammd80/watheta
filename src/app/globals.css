@@ -859,12 +859,14 @@ body {
   position: relative;
   width: 730px;
   height: 60px;
+  /* background-color: white; */
 }
 .integetSearchInput {
   position: absolute;
   width: 100%;
   height: 100%;
   outline: none;
+  background-color: white;
 }
 .searchIconButton {
   position: relative;

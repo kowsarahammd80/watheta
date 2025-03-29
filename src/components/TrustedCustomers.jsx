@@ -1,11 +1,6 @@
 "use client";
 
 import React from "react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode } from "swiper/modules";
 import Marquee from "react-fast-marquee";
 
 const TrustedCustomers = () => {
@@ -110,7 +105,7 @@ const TrustedCustomers = () => {
           </div>
         </div>
       </section> */}
-      
+
       <section>
         {/* <Swiper
           spaceBetween={20}
@@ -177,8 +172,8 @@ const TrustedCustomers = () => {
             </div>
           </SwiperSlide>
         </Swiper> */}
-        <Marquee speed={60} pauseOnHover={true} gradient={true}>
-          <div className="flex justify-between gap-x-5 lg:gap-x-16 xl:gap-x-16 py-8 lg:py-16 xl:py-16 mx-20">
+        {/* <Marquee speed={60} pauseOnHover={true} gradient={true}>
+          <div className="flex justify-between gap-x-5 lg:gap-x-16 xl:gap-x-16 py-8 lg:py-16 xl:py-16 mx-5 lg:mx-20 xl:mx-20 md:mx-10">
             <div className="trustLogoDiv">
               <img
                 className="trustLogo"
@@ -243,6 +238,80 @@ const TrustedCustomers = () => {
               />
             </div>
             <div className="trustLogoDiv">
+              <img
+                className="trustLogo"
+                src="/images/company logo (9).png"
+                alt=""
+              />
+            </div>
+          </div>
+        </Marquee> */}
+        <Marquee className="">
+          <div className="flex justify-between mt-5">
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/Company logo.png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/Company logo (1).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/Company logo (2).png"
+                alt=""
+              />
+            </div> 
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/company logo (3).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/company logo (4).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/company logo (5).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/company logo (6).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/company logo (7).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
+              <img
+                className="trustLogo"
+                src="/images/company logo (8).png"
+                alt=""
+              />
+            </div>
+            <div className="trustLogoDiv m-5">
               <img
                 className="trustLogo"
                 src="/images/company logo (9).png"
