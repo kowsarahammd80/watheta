@@ -97,7 +97,7 @@ const HappyClientSays = () => {
       </div>
       {/* 1st slide */}
       <div className="pt-10 mx-0 lg:mx-0 xl:mx-0 md:mx-1">
-      <Swiper
+        <Swiper
   spaceBetween={20}
   centeredSlides={true}
   freeMode={true}
