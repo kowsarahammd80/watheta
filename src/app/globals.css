@@ -1131,6 +1131,23 @@ body {
 .feturesTexts{
   font-size: 1rem;
 }
+.iIcon{
+  position: relative;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.iIconText{
+  position: absolute;
+  width: 550px;
+  height: fit-content;
+  top: 0;
+  display: none;
+  background: #000000;
+  color: white;
+}
+.iIcon:hover .iIconText{
+  display: block;
+}
 .whatsAppConversationsText{
   font-size: 15px;
   padding: 12px 0px;
@@ -2283,6 +2300,20 @@ body {
   }
   .feturesTexts{
     font-size: 0.8rem;
+  }
+  .iIcon{
+    position: relative;  
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .iIconText{
+    position: absolute;
+    width: 190px;
+    height: fit-content;
+    top: 0;
+    display: none;
+    background: #000000;
+    color: white;
   }
   .whatsAppConversationsText{
     font-size: 15px;

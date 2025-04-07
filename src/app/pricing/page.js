@@ -24,7 +24,11 @@ const PricingPage = () => {
             <div data-aos="zoom-in-down" className="flex justify-center pb-5">
               <div className="flex items-center justify-center pricingMetaLogoDivMain">
                 <div className="pricingMetaLogoDiv">
-                  <img className="pricingMetaLogo" src="/images/metaLogo.png" alt="" />
+                  <img
+                    className="pricingMetaLogo"
+                    src="/images/metaLogo.png"
+                    alt=""
+                  />
                 </div>
                 <div className="ms-3">
                   <p className="pricingOfficialText">Official Partner</p>
@@ -161,9 +165,12 @@ const PricingPage = () => {
               }`}
             >
               Yearly
-              <span className="saveText border rounded-full ms-1"> <span>save 15%</span> </span>
+              <span className="saveText border rounded-full ms-1">
+                {" "}
+                <span>save 15%</span>{" "}
+              </span>
             </button>
-             {/* <p className="buttonSaveText">save 15%</p> */}
+            {/* <p className="buttonSaveText">save 15%</p> */}
             {/* <p className="buttonSaveText"> {
               isToggle === "year"&& "save 15%"
               }</p> */}
@@ -241,16 +248,60 @@ const PricingPage = () => {
               </div>
               <div className="feturesTexts">
                 <p className="border-b featuresTextPadding flex items-center">
-                  WhatsApp API Channel ⓘ
+                  WhatsApp API Channel{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        WhatsApp API Channel:
+                      </span>{" "}
+                      <br /> Connect to WhatsApp Business API for seamless
+                      communication with customers.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Contacts in CRM ⓘ
+                  Contacts in CRM{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Contacts in CRM:
+                      </span>{" "}
+                      <br /> Store and manage customer data in one place for
+                      easy access and organization.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Team Members ⓘ
+                  Team Members{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow">
+                      <span className="font-semibold space-y-5">
+                        Team Members:
+                      </span>{" "}
+                      <br /> Add and collaborate with team members to enhance
+                      customer support and communication.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  WhatsApp Conversations Markup ⓘ
+                  WhatsApp Conversations Markup{" "}
+                  <p className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        WhatsApp Conversations Markup:
+                      </span>{" "}
+                      <br /> Enjoy WhatsApp conversations at Meta’s actual
+                      rates, without additional markup.
+                    </span>{" "}
+                  </p>
                 </p>
               </div>
               <div className="feturesTexts">
@@ -261,16 +312,60 @@ const PricingPage = () => {
                   </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  WhatsApp Commerce Store ⓘ
+                  WhatsApp Commerce Store{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        WhatsApp Commerce Store:
+                      </span>{" "}
+                      <br /> Set up a fully integrated e-commerce store within
+                      WhatsApp for easy transactions
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Products Limit ⓘ
+                  Products Limit{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Products Limit:
+                      </span>{" "}
+                      <br /> Manage up to the specified number of products in
+                      your WhatsApp commerce store.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Orders Limit ⓘ
+                  Orders Limit{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Orders Limit:
+                      </span>{" "}
+                      <br /> Handle a set number of orders in the system each
+                      month for efficient tracking.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Abandoned Carts ⓘ
+                  Abandoned Carts{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Abandoned Carts:
+                      </span>{" "}
+                      <br /> Retrieve and follow up with customers who leave
+                      items in their carts without completing the purchase.
+                    </span>{" "}
+                  </span>
                 </p>
               </div>
               <div className="feturesTexts">
@@ -281,13 +376,46 @@ const PricingPage = () => {
                   </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Bot Building Blocks ⓘ
+                  Bot Building Blocks{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Bot Building Blocks:
+                      </span>{" "}
+                      <br /> Create custom automation workflows using intuitive
+                      building blocks to enhance user engagement.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Bot/Automation Triggers ⓘ
+                  Bot/Automation Triggers{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Bot/Automation Triggers:
+                      </span>{" "}
+                      <br /> Set triggers that automatically activate actions in
+                      your automation processes.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  External Actions ⓘ
+                  External Actions{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        External Actions:
+                      </span>{" "}
+                      <br /> Automate external actions like sending emails or
+                      updating databases to enhance customer interaction.
+                    </span>{" "}
+                  </span>
                 </p>
               </div>
               <div className="feturesTexts">
@@ -296,10 +424,32 @@ const PricingPage = () => {
                   <span className="tex-lg feturesHead pt-4">Support</span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  WABA & CRM SLA ⓘ
+                  WABA & CRM SLA{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        WABA & CRM SLA:
+                      </span>{" "}
+                      <br /> Guaranteed response and resolution times for
+                      WhatsApp API and CRM-related issues.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Bot/Automation Support ⓘ
+                  Bot/Automation Support{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Bot/Automation Support:
+                      </span>{" "}
+                      <br /> Access support for troubleshooting or improving
+                      your bots and automation workflows.
+                    </span>{" "}
+                  </span>
                 </p>
               </div>
               <div className="feturesTexts">
@@ -310,10 +460,32 @@ const PricingPage = () => {
                   </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Messages/Second ⓘ
+                  Messages/Second{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Messages/Second:
+                      </span>{" "}
+                      <br /> The limit on the number of messages that can be
+                      sent per second, ensuring system stability.
+                    </span>{" "}
+                  </span>
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
-                  Monthly FUP Limit ⓘ
+                  Monthly FUP Limit{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Monthly FUP Limit:
+                      </span>{" "}
+                      <br /> The Fair Usage Policy limit for monthly usage,
+                      helping to manage resources effectively.
+                    </span>{" "}
+                  </span>
                 </p>
               </div>
             </div>
@@ -719,7 +891,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    WhatsApp API Channel ⓘ
+                    WhatsApp API Channel{" "}
+                    <span className="iIcon ps-0 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Monthly FUP Limit:
+                        </span>{" "}
+                        <br /> The Fair Usage Policy limit for monthly usage,
+                        helping to manage resources effectively.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -729,8 +912,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    Contacts in CRM ⓘ
+                  <p className=" featuresTextPadding">
+                    Contacts in CRM{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Contacts in CRM:
+                        </span>{" "}
+                        <br /> The Fair Usage Policy limit for monthly usage,
+                        helping to manage resources effectively.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -740,8 +934,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    Team Members ⓘ
+                  <p className=" featuresTextPadding">
+                    Team Members{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Team Members:
+                        </span>{" "}
+                        <br /> Add and collaborate with team members to enhance
+                        customer support and communication.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -751,8 +956,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp Conversations Markup ⓘ
+                  <p className=" featuresTextPadding">
+                    WhatsApp Conversations Markup{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp Conversations Markup:
+                        </span>{" "}
+                        <br /> Enjoy WhatsApp conversations at Meta’s actual
+                        rates, without additional markup.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -772,8 +988,19 @@ const PricingPage = () => {
                   </h1>
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp Commerce Store ⓘ
+                  <p className=" featuresTextPadding flex">
+                    WhatsApp Commerce Store{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp Commerce Store:
+                        </span>{" "}
+                        <br /> Set up a fully integrated e-commerce store within
+                        WhatsApp for easy transactions.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -784,7 +1011,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Products Limit ⓘ
+                    Products Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Products Limit:
+                        </span>{" "}
+                        <br /> Enjoy WhatsApp conversations at Meta’s actual
+                        rates, without additional markup.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -795,7 +1033,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Orders Limit ⓘ
+                    Orders Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Orders Limit:
+                        </span>{" "}
+                        <br /> Handle a set number of orders in the system each
+                        month for efficient tracking.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -806,7 +1055,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 ">
                   <p className=" featuresTextPadding flex items-center">
-                    Abandoned Carts ⓘ
+                    Abandoned Carts{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Abandoned Carts:
+                        </span>{" "}
+                        <br /> Retrieve and follow up with customers who leave
+                        items in their carts without completing the purchase.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -827,7 +1087,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Bot Building Blocks ⓘ
+                    Bot Building Blocks
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Bot Building Blocks:
+                        </span>{" "}
+                        <br /> Create custom automation workflows using
+                        intuitive building blocks to enhance user engagement.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -837,9 +1108,23 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot/Automation Triggers ⓘ
-                  </p>
+                  <div className="flex">
+                    <p className=" featuresTextPadding">
+                      Bot/Automation Triggers{" "}
+                      <span className="iIcon ps-1 cursor-pointer flex items-center">
+                        {" "}
+                        ⓘ{" "}
+                        <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                          <span className="font-semibold space-y-5">
+                            Bot/Automation Triggers:
+                          </span>{" "}
+                          <br /> Set triggers that automatically activate
+                          actions in your automation processes.
+                        </span>{" "}
+                      </span>
+                    </p>
+                  </div>
+
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
@@ -849,7 +1134,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    External Actions ⓘ
+                    External Actions{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          External Actions:
+                        </span>{" "}
+                        <br /> Automate external actions like sending emails or
+                        updating databases to enhance customer interaction.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -860,7 +1156,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2">
                   <p className=" featuresTextPadding flex items-center">
-                    Abandoned Carts ⓘ
+                    Abandoned Carts{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Abandoned Carts:
+                        </span>{" "}
+                        <br /> Automate external actions like sending emails or
+                        updating databases to enhance customer interaction.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -879,7 +1186,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    WABA & CRM SLA ⓘ
+                    WABA & CRM SLA{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WABA & CRM SLA:
+                        </span>{" "}
+                        <br /> Guaranteed response and resolution times for
+                        WhatsApp API and CRM-related issues.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -889,8 +1207,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot/Automation Support ⓘ
+                  <p className=" featuresTextPadding">
+                    Bot/Automation Support{" "}
+                    <span className="iIcon ps-0 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border bg-white pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Bot/Automation Support:
+                        </span>{" "}
+                        <br /> Access support for troubleshooting or improving
+                        your bots and automation workflows.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding text-red-500">
                     <span className="me-2">
@@ -911,7 +1240,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Messages/Second ⓘ
+                    Messages/Second{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Messages/Second:
+                        </span>{" "}
+                        <br /> The limit on the number of messages that can be
+                        sent per second, ensuring system stability.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -922,7 +1262,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2">
                   <p className=" featuresTextPadding flex items-center">
-                    Monthly FUP Limit ⓘ
+                    Monthly FUP Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Monthly FUP Limit:
+                        </span>{" "}
+                        <br /> The Fair Usage Policy limit for monthly usage,
+                        helping to manage resources effectively.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding ">
                     <span className="me-2">
@@ -965,8 +1316,19 @@ const PricingPage = () => {
                   </h1>
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp API Channel ⓘ
+                  <p className=" featuresTextPadding">
+                    WhatsApp API Channel{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp API Channel
+                        </span>{" "}
+                        <br /> Connect to WhatsApp Business API for seamless
+                        communication with customers.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -977,7 +1339,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Contacts in CRM ⓘ
+                    Contacts in CRM{" "}
+                    <span className="iIcon ps-1 cursor-pointer ">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Contacts in CRM
+                        </span>{" "}
+                        <br /> Store and manage customer data in one place for
+                        easy access and organization.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -988,7 +1361,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Team Members ⓘ
+                    Team Members{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-0 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Team Members
+                        </span>{" "}
+                        <br /> Add and collaborate with team members to enhance
+                        customer support and communication.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -998,8 +1382,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp Conversations Markup ⓘ
+                  <p className=" featuresTextPadding">
+                    WhatsApp Conversations Markup{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp Conversations Markup
+                        </span>{" "}
+                        <br /> Enjoy WhatsApp conversations at Meta’s actual
+                        rates, without additional markup.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1019,8 +1414,20 @@ const PricingPage = () => {
                   </h1>
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp Commerce Store ⓘ
+                  <p className=" featuresTextPadding flex">
+                    WhatsApp Commerce Store{" "}
+                    <span className="iIcon ps-0 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp Commerce Store
+                        </span>{" "}
+                        <br />
+                        Set up a fully integrated e-commerce store within
+                        WhatsApp for easy transactions.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1031,7 +1438,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Products Limit ⓘ
+                    Products Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Products Limit
+                        </span>{" "}
+                        <br /> Manage up to the specified number of products in
+                        your WhatsApp commerce store.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1042,7 +1460,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Orders Limit ⓘ
+                    Orders Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Orders Limit
+                        </span>{" "}
+                        <br />
+                        Handle a set number of orders in the system each month
+                        for efficient tracking.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1053,7 +1483,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 ">
                   <p className=" featuresTextPadding flex items-center">
-                    Abandoned Carts ⓘ
+                    Abandoned Carts{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Abandoned Carts
+                        </span>{" "}
+                        <br />
+                        Retrieve and follow up with customers who leave items in
+                        their carts without completing the purchase.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1074,7 +1516,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Bot Building Blocks ⓘ
+                    Bot Building Blocks{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Bot Building Blocks
+                        </span>{" "}
+                        <br /> Create custom automation workflows using
+                        intuitive building blocks to enhance user engagement.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1084,8 +1537,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot/Automation Triggers ⓘ
+                  <p className=" featuresTextPadding">
+                    Bot/Automation Triggers{" "}
+                    <span className="iIcon ps-0 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Bot/Automation Triggers
+                        </span>{" "}
+                        <br /> Set triggers that automatically activate actions
+                        in your automation processes.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1096,7 +1560,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    External Actions ⓘ
+                    External Actions{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          External Actions
+                        </span>{" "}
+                        <br /> Automate external actions like sending emails or
+                        updating databases to enhance customer interaction.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1115,7 +1590,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    WABA & CRM SLA ⓘ
+                    WABA & CRM SLA{" "}
+                    <span className="iIcon ps-1 cursor-pointer flex items-center">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WABA & CRM SLA
+                        </span>{" "}
+                        <br /> Guaranteed response and resolution times for
+                        WhatsApp API and CRM-related issues.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1125,8 +1611,19 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot/Automation Support ⓘ
+                  <p className=" featuresTextPadding flex">
+                    Bot/Automation Support{" "}
+                    <span className="iIcon ps-0 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Bot/Automation Support
+                        </span>{" "}
+                        <br /> Access support for troubleshooting or improving
+                        your bots and automation workflows.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1147,7 +1644,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Messages/Second ⓘ
+                    Messages/Second{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Messages/Second
+                        </span>{" "}
+                        <br />
+                        The limit on the number of messages that can be sent per
+                        second, ensuring system stability.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1158,7 +1667,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2">
                   <p className=" featuresTextPadding flex items-center">
-                    Monthly FUP Limit ⓘ
+                    Monthly FUP Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Monthly FUP Limit
+                        </span>{" "}
+                        <br /> The Fair Usage Policy limit for monthly usage,
+                        helping to manage resources effectively.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding ">
                     <span className="me-2">
@@ -1169,7 +1689,7 @@ const PricingPage = () => {
                 </div>
               </div>
             </div>
-            <div className="pt-3">
+            {/* <div className="pt-3">
               <div className="feturesTexts">
                 <div className="border-b-2 flex items-end">
                   <h1 className="mb-2 text-lg feturesHead pt-4">
@@ -1199,7 +1719,7 @@ const PricingPage = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* platinum */}
           <div className="pt-10">
@@ -1230,7 +1750,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    WhatsApp API Channel ⓘ
+                    WhatsApp API Channel{" "}
+                    <span className="iIcon ps-0 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp API Channel
+                        </span>{" "}
+                        <br /> Connect to WhatsApp Business API for seamless
+                        communication with customers.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1241,7 +1772,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Contacts in CRM ⓘ
+                    Contacts in CRM{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Contacts in CRM
+                        </span>{" "}
+                        <br />
+                        Store and manage customer data in one place for easy
+                        access and organization.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1252,7 +1795,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Team Members ⓘ
+                    Team Members{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Team Members
+                        </span>{" "}
+                        <br />
+                        Add and collaborate with team members to enhance
+                        customer support and communication.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1262,8 +1817,20 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp Conversations <br /> Markup ⓘ
+                  <p className=" featuresTextPadding">
+                    WhatsApp Conversations <br /> Markup{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp Conversations Markup
+                        </span>{" "}
+                        <br />
+                        Enjoy WhatsApp conversations at Meta’s actual rates,
+                        without additional markup.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1283,8 +1850,20 @@ const PricingPage = () => {
                   </h1>
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    WhatsApp Commerce Store ⓘ
+                  <p className=" featuresTextPadding">
+                    WhatsApp Commerce Store{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WhatsApp Commerce Store
+                        </span>{" "}
+                        <br />
+                        Set up a fully integrated e-commerce store within
+                        WhatsApp for easy transactions.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1295,7 +1874,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Products Limit ⓘ
+                    Products Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Products Limit
+                        </span>{" "}
+                        <br />
+                        Manage up to the specified number of products in your
+                        WhatsApp commerce store.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1306,7 +1897,19 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Orders Limit ⓘ
+                    Orders Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Orders Limit
+                        </span>{" "}
+                        <br />
+                        Handle a set number of orders in the system each month
+                        for efficient tracking.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1317,7 +1920,18 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 ">
                   <p className=" featuresTextPadding flex items-center">
-                    Abandoned Carts ⓘ
+                    Abandoned Carts{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Abandoned Carts
+                        </span>{" "}
+                        <br />
+                        Retrieve and follow up with customers who leave items in their carts without completing the purchase.
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1338,7 +1952,17 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Bot Building Blocks ⓘ
+                    Bot Building Blocks <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        Bot Building Blocks
+                        </span>{" "}
+                        <br />Create custom automation workflows using intuitive building blocks to enhance user engagement.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1348,8 +1972,18 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot/Automation Triggers ⓘ
+                  <p className=" featuresTextPadding">
+                    Bot/Automation Triggers <span className="iIcon pe-2 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        Bot/Automation Triggers
+                        </span>{" "}
+                        <br />Set triggers that automatically activate actions in your automation processes.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1360,7 +1994,17 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    External Actions ⓘ
+                    External Actions <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        External Actions
+                        </span>{" "}
+                        <br />Automate external actions like sending emails or updating databases to enhance customer interaction.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1389,8 +2033,18 @@ const PricingPage = () => {
                   <h1 className="mb-2 text-lg feturesHead pt-4">Support</h1>
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    WABA & CRM SLA ⓘ
+                  <p className=" featuresTextPadding">
+                    WABA & CRM SLA <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        WABA & CRM SLA
+                        </span>{" "}
+                        <br />Guaranteed response and resolution times for WhatsApp API and CRM-related issues.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1400,8 +2054,18 @@ const PricingPage = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot/Automation Support ⓘ
+                  <p className=" featuresTextPadding">
+                    Bot/Automation Support <span className="iIcon pe-2 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        Bot/Automation Support
+                        </span>{" "}
+                        <br />Access support for troubleshooting or improving your bots and automation workflows.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding">
                     <span className="me-2">
@@ -1422,7 +2086,17 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Messages/Second ⓘ
+                    Messages/Second <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        Messages/Second
+                        </span>{" "}
+                        <br />The limit on the number of messages that can be sent per second, ensuring system stability.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -1433,7 +2107,17 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2">
                   <p className=" featuresTextPadding flex items-center">
-                    Monthly FUP Limit ⓘ
+                    Monthly FUP Limit <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                        Monthly FUP Limit
+                        </span>{" "}
+                        <br />The Fair Usage Policy limit for monthly usage, helping to manage resources effectively.
+
+                      </span>{" "}
+                    </span>
                   </p>
                   <p className="featuresDiscription flex items-center  featuresTextPadding ">
                     <span className="me-2">
@@ -1602,10 +2286,7 @@ const PricingPage = () => {
         </div>
         {/* card */}
         <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 pt-6 gap-2 lg:gap-6 xl:gap-6">
-          <div
-           
-            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
-          >
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1624,10 +2305,7 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div
-          
-            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
-          >
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1644,10 +2322,7 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div
-            
-            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
-          >
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1664,10 +2339,7 @@ const PricingPage = () => {
               </p>
             </div>
           </div>
-          <div
-            
-            className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv"
-          >
+          <div className="bg-white p-3 lg:p-5 xl:p-5 border rounded-lg dedicatedCardDiv">
             {/* icon div */}
             <div className="dedicatedIconDiv">
               <img
@@ -1757,9 +2429,7 @@ const PricingPage = () => {
               </div>
             </div>
 
-            <form
-              className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg"
-            >
+            <form className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg">
               <div>
                 <h1 className="schedulaDemoText">Schedule a Demo</h1>
                 <p className="schedulaDemoPera py-3">
@@ -1827,16 +2497,6 @@ const PricingPage = () => {
                 Join 23,000+ businesses already growing with our platform
               </p>
 
-              {/* <div classNameName="pt-6 w-full joinournewsletterInputDiv">
-                <input
-                  className="joinournewsletterInput border-4 w-full"
-                  type="text"
-                  placeholder="Enter your email"
-                />
-                <button className="joinournewsletterSubscribeButton px-8 lg:px-10 xl:px-10 py-2 rounded-full">
-                  Subscribe
-                </button>
-              </div> */}
               <div className="py-4">
                 <button className="flex justify-center items-center readyToButton">
                   Get Started Now{" "}

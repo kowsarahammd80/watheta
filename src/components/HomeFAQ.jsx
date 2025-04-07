@@ -4,22 +4,22 @@ import React, { useState } from "react";
 
 const HomeFAQ = () => {
   const [faqButton, setFaqButton] = useState("genarel");
-  console.log(faqButton);
+  // console.log(faqButton);
   return (
     <div className="py-10 lg:py-20 xl:py-20">
       <section className="mx-5 lg:mx-40 xl:mx-40 md:mx-16">
         {/* head line */}
-        <div className="">
-          <h1 className="homeFaqHEeadLine">
+        <div className="flex justify-center">
+          <h1 className="homeFaqHEeadLine text-center">
             {" "}
             Frequently Asked Questions{" "}
           </h1>
         </div>
         {/* faq */}
         <div className="pt-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3">
+          <div className="">
             {/* button */}
-            <div className="">
+            {/* <div className="">
               <div
                 onClick={() => setFaqButton("genarel")}
                 className={`rounded-lg ${
@@ -84,10 +84,10 @@ const HomeFAQ = () => {
                   Pricing
                 </button>
               </div>
-            </div>
+            </div> */}
             {/* faq */}
-            <div data-aos="zoom-in-down" className="w-full col-span-2">
-              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none w-full">
+            <div className="mx-1 lg:mx-48 xl:mx-48 md:mx-16">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 rounded-none w-full py-3 lg:py-4 xl:py-4">
                 <input type="radio" name="my-accordion-2" defaultChecked />
                 <div className="collapse-title HomeFaqQustion text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of jobs can I find on employin?
@@ -99,7 +99,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 rounded-none py-3 lg:py-4 xl:py-4">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of employers can I find on employin?
@@ -111,7 +111,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 rounded-none py-3 lg:py-4 xl:py-4">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of employers can I find on employin?
@@ -123,7 +123,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 rounded-none py-3 lg:py-4 xl:py-4">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   What kind of employers can I find on employin?
@@ -135,7 +135,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 rounded-none py-3 lg:py-4 xl:py-4">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   Does it really only take 1-2 days to hear back from employers?
@@ -147,7 +147,7 @@ const HomeFAQ = () => {
                   restaurant managers, and more.
                 </div>
               </div>
-              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 border-base-300 rounded-none">
+              <div className="collapse collapse-arrow border border-t-0 border-l-0 border-r-0 rounded-none py-3 lg:py-4 xl:py-4">
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-md lg:text-xl xl:text-xl md:text-lg">
                   Can I schedule interviews with multiple employers at the same
