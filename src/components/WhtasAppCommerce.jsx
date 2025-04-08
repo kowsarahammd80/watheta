@@ -32,41 +32,39 @@ const WhtasAppCommerce = () => {
                   alt=""
                 />
               </span>{" "}
-              WhatsApp Commerce
+              E-commerce on WhatsApp
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Supercharge sales via WhatsApp Commerce
+              Reduce Drop-offs & Boost Orders
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
-              Harness the power of WhatsApp Commerce and transform your sales
-              process, delivering exceptional service right at your customers'
-              fingertips.
+              Add-to-cart, product view, and order—all on WhatsApp
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
-                <p className="persentTextNumber">26%</p>
-                <p className="w-1/2 pt-2 persentText">Uplift in Sales</p>
-              </div>
-              <div>
                 <p className="persentTextNumber">30%</p>
                 <p className="w-1/2 pt-2 persentText">
-                  Decrease in Abandoned Carts
+                  decrease in abandon carts
                 </p>
+              </div>
+              <div>
+                <p className="persentTextNumber">45%</p>
+                <p className="w-1/2 pt-2 persentText">Recurring Sales</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
-                <p className="persentTextNumber">80%</p>
+                <p className="persentTextNumber">22%</p>
                 <p className="w-5/12 pt-2 persentText">
-                  Increase in Recurring Sales
+                  Increase in repeat orders
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <p className="persentTextNumber">40%</p>
                 <p className="w-6/12 pt-2 persentText">
                   Reduction in Operational Costs Y-O-Y
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="pt-5 flex items-center">
               <button className="font-normal flex items-center justify-between bg-white px-8 py-2 rounded-full border cardHover">

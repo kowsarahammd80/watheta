@@ -1,17 +1,16 @@
-"use client"
+"use client";
 
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HomeFeatures = () => {
   useEffect(() => {
     AOS.init({
-         duration: 800,
-         once: false,
-       })
- }, []) 
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <div className="homeFeaturesbg py-5">
       {/* heasdline */}
@@ -27,8 +26,9 @@ const HomeFeatures = () => {
       {/* card */}
       <section className="py-10 mx-5 lg:mx-48 xl:mx-48">
         <div
-         data-aos="zoom-in"
-         className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-8 xl:gap-8">
+          data-aos="zoom-in"
+          className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3 lg:gap-8 xl:gap-8"
+        >
           <div className="pt-5 pb-5 px-2 lg:px-3 xl:px-3 md:px-3 cardBgColor w-full HomeFeturescardShadow rounded-2xl">
             <div className="">
               <div className="flex justify-center">
@@ -43,8 +43,8 @@ const HomeFeatures = () => {
               <div className="text-center">
                 <h1 className="cardFeaturesHeadline text-center">Chatbots</h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Create no-code chatbots within a minute with our drag-and-drop
+                  interface
                 </p>
               </div>
             </div>
@@ -66,8 +66,8 @@ const HomeFeatures = () => {
                   Modular CRM
                 </h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  In-Built CRM enables you to add various tags & attributes to
+                  each customer.
                 </p>
               </div>
             </div>
@@ -85,12 +85,9 @@ const HomeFeatures = () => {
                 </div>
               </div>
               <div className="text-center">
-                <h1 className="cardFeaturesHeadline text-center">
-                  Modular CRM
-                </h1>
+                <h1 className="cardFeaturesHeadline text-center">Team Inbox</h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Centralized communication hub for seamless team communication
                 </p>
               </div>
             </div>
@@ -112,8 +109,8 @@ const HomeFeatures = () => {
                   Broadcaster
                 </h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Broadcast product releases, newsletter, promotional offers
+                  without the risk of getting blocked
                 </p>
               </div>
             </div>
@@ -135,8 +132,8 @@ const HomeFeatures = () => {
                   WhatsApp Commerce
                 </h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Engage your customer, showcase product, facilitate
+                  transactions, directly from whatsapp
                 </p>
               </div>
             </div>
@@ -158,8 +155,8 @@ const HomeFeatures = () => {
                   Drip Campaigns
                 </h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Boosts sales by 63%, retention by 30%, and cuts manpower by
+                  70% with smart drip campaigns and personalized upsell tools.
                 </p>
               </div>
             </div>
@@ -179,8 +176,7 @@ const HomeFeatures = () => {
               <div className="text-center">
                 <h1 className="cardFeaturesHeadline text-center">Connectors</h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Create custom workflows with 1000+ integrations
                 </p>
               </div>
             </div>
@@ -198,10 +194,13 @@ const HomeFeatures = () => {
                 </div>
               </div>
               <div className="text-center">
-                <h1 className="cardFeaturesHeadline text-center">Generative AI</h1>
+                <h1 className="cardFeaturesHeadline text-center">
+                  Generative AI
+                </h1>
                 <p className="text-center pt-3 cardFeaturesPera">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority.
+                  Integrate GenAI into your chatbot to enhance its intelligence
+                  by enabling real-time access to current and relevant
+                  information for smarter responses.
                 </p>
               </div>
             </div>
@@ -210,7 +209,10 @@ const HomeFeatures = () => {
       </section>
       {/* button featuers */}
       <div className="flex justify-center py-5 lg:py-10 xl:py-10 md:py-8">
-        <button className="bg-white px-5 lg:px-6 xl:px-6 py-2 rounded-full flex items-center border HomeFeturescardShadow">View all Features <img src="/images/Group 1000002679.png" alt="" className="ms-3" /></button> 
+        <button className="bg-white px-5 lg:px-6 xl:px-6 py-2 rounded-full flex items-center border HomeFeturescardShadow">
+          View all Features{" "}
+          <img src="/images/Group 1000002679.png" alt="" className="ms-3" />
+        </button>
       </div>
     </div>
   );

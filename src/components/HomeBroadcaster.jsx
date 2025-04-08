@@ -43,14 +43,15 @@ const HomeBroadcaster = () => {
                   alt=""
                 />
               </span>{" "}
-              Broadcaster
+              Broadcast
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Fostering Personalized Communication At Scale
+              Instant bulk messaging for promotions, transactions, and
+              announcements
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
-              The ultimate communication solution for boosting engagement,
-              streamlining your marketing, and driving higher sales.
+              Broadcast product releases, newsletter, promotional offers without
+              the risk of getting blocked
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
@@ -58,22 +59,20 @@ const HomeBroadcaster = () => {
                 <p className="w-1/2 pt-2 persentText">Uptick in Sales</p>
               </div>
               <div>
-                <p className="persentTextNumber">200%</p>
-                <p className="w-7/12 pt-2 persentText">
-                  Higher Click-Through Rate than SMS
-                </p>
+                <p className="persentTextNumber">98%</p>
+                <p className="w-7/12 pt-2 persentText">open rate</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
-                <p className="persentTextNumber">32%</p>
-                <p className="w-1/3 pt-2 persentText">Increase in Responses</p>
+                <p className="persentTextNumber">3x</p>
+                <p className="w-1/3 pt-2 persentText">
+                  More engagement than SMS
+                </p>
               </div>
               <div>
-                <p className="persentTextNumber">200%</p>
-                <p className="w-6/12 pt-2 persentText">
-                  More Cost-Effective than PPC
-                </p>
+                <p className="persentTextNumber">10x</p>
+                <p className="w-6/12 pt-2 persentText">ROI in festive campaigns</p>
               </div>
             </div>
             <div className="pt-5 flex items-center">

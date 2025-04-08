@@ -35,7 +35,7 @@ const HomeDrip = () => {
               Drip Campaigns
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Accelerate the Lead Conversion Process by 50%
+              Automate Nurturing & Upsell
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
               Drip Campaigns tool allows you to effectively guide your prospects
@@ -44,16 +44,14 @@ const HomeDrip = () => {
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
-                <p className="persentTextNumber">60%</p>
+                <p className="persentTextNumber">63%</p>
                 <p className="w-1/2 pt-2 persentText">
                   Acceleration in Sales Closure
                 </p>
               </div>
               <div>
-                <p className="persentTextNumber">23%</p>
-                <p className="w-1/2 pt-2 persentText">
-                  Uplift in Sales Conversion
-                </p>
+                <p className="persentTextNumber">25%–30%</p>
+                <p className="w-1/2 pt-2 persentText">higher retention</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">

@@ -52,9 +52,8 @@ const WhatsAppChatBots = () => {
             Keep your business open 24x7 without human
           </p>
           <p className="whatsAppChatBotsTextPera pt-4">
-            Create chatbots in a matter of minutes using our effortless, no-code
-            flow builder, simply upload your training data and witness our AI
-            perform its magic.
+            Create no-code chatbots within a minute with our drag-and-drop
+            interface
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div>
@@ -93,10 +92,7 @@ const WhatsAppChatBots = () => {
               Read more
             </button>
           </div>
-          <div 
-          data-aos="fade-up" 
-          data-aos-duration="3000" 
-          className="py-8">
+          <div data-aos="fade-up" data-aos-duration="3000" className="py-8">
             <p className="repleacesText">Replaces</p>
             <div className="pt-5 flex items-center gap-1">
               <p className="bg-white px-2 lg:px-5 xl:px-5 py-1 rounded-full repleacesItems flex items-center border cardHover">

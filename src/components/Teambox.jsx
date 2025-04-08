@@ -163,14 +163,12 @@ const Teambox = () => {
                 alt=""
               />
             </span>{" "}
-            Shared Inbox Teambox
+            Omnichannel Inbox
           </button>
-          <p className="KeepYourBusinessText pt-4">
-            Bridge Gap between Customers & Employees
-          </p>
+          <p className="KeepYourBusinessText pt-4">One unified dashboard</p>
           <p className="whatsAppChatBotsTextPera pt-4">
-            Join the Teambox revolution, seamlessly connecting your team with
-            your customers and transforming the way you do business.
+            Manage WhatsApp, Facebook Messenger, Instagram DMs so your team
+            never misses a lead.
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div>
@@ -180,17 +178,17 @@ const Teambox = () => {
               </p>
             </div>
             <div>
-              <p className="persentTextNumber">30%</p>
+              <p className="persentTextNumber">30-50%</p>
               <p className="w-1/2 pt-2 persentText">
-                Rise in Customer Satisfaction
+                Faster first response time.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div>
-              <p className="persentTextNumber">80%</p>
+              <p className="persentTextNumber">33%</p>
               <p className="w-1/3 pt-2 persentText">
-                Reduction in Support Calls
+                Boost CSAT (Customer Satisfaction Score)
               </p>
             </div>
             <div>
