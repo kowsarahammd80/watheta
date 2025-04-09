@@ -17,7 +17,8 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import Teambox from "@/components/Teambox";
+import WhtasAppCommerce from "@/components/WhtasAppCommerce";
 
 const FeturesPage = () => {
   useEffect(() => {
@@ -43,7 +44,10 @@ const FeturesPage = () => {
             </p>
           </div>
           {/* card pc*/}
-          <div data-aos="zoom-in-down" className="hidden lg:block xl:block mx-5 lg:mx-40 xl:mx-40 md:mx-8">
+          <div
+            data-aos="zoom-in-down"
+            className="hidden lg:block xl:block mx-5 lg:mx-40 xl:mx-40 md:mx-8"
+          >
             <section className="pt-16 grid grid-cols-8 xl:grid-cols-8 gap-2">
               <div className="card cardBgColor cardHover cursor-pointer ">
                 <div className="card-body">
@@ -397,10 +401,12 @@ const FeturesPage = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-      </div>
+        </div>
       </div>
       <WhatsAppChatBots />
       <HomeCrm />
+      <Teambox />
+      <WhtasAppCommerce />
       <HomeBroadcaster />
       <HomeDrip />
       <HomeConnectors />

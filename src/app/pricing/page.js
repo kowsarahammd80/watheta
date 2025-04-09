@@ -291,7 +291,7 @@ const PricingPage = () => {
                 </p>
                 <p className="featuresTextPadding border-b flex items-center">
                   WhatsApp Conversations Markup{" "}
-                  <p className="iIcon ps-1 cursor-pointer">
+                  <span className="iIcon ps-1 cursor-pointer">
                     {" "}
                     ⓘ{" "}
                     <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
@@ -301,7 +301,7 @@ const PricingPage = () => {
                       <br /> Enjoy WhatsApp conversations at Meta’s actual
                       rates, without additional markup.
                     </span>{" "}
-                  </p>
+                  </span>
                 </p>
               </div>
               <div className="feturesTexts">

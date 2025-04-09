@@ -23,8 +23,7 @@ import WhyChooseWaTheta from "@/components/WhyChooseWaTheta";
 export default function Home() {
   return (
     <div className="">
-        <HomeHero/>
-        <TrustedCustomers/>
+        <HomeHero/>      
         <HomeFeatures/>
         <WhatsAppChatBots/>
         <HomeCrm/>
@@ -39,6 +38,7 @@ export default function Home() {
         <HomeIntegrations/>
         <Conversational/>
         <ResonToSwitch/>
+        <TrustedCustomers/>
         {/* <HomeBlogs/> */}
         <GettingStarted/>
         <HighPerformer/>

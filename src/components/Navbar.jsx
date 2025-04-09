@@ -10,9 +10,18 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navBar, setNavBar] = useState(false);
-  const pathname = usePathname(); // Get the current route
+  const [isClient, setIsClient] = useState(false);
+  const pathname = usePathname();
 
+  // Ensure we only run browser-dependent logic on the client
   useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  // Scroll background effect
+  useEffect(() => {
+    if (!isClient) return;
+
     const changeBgScroll = () => {
       if (window.scrollY <= 50) {
         setNavBar(false);
@@ -21,16 +30,13 @@ const Navbar = () => {
       }
     };
 
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", changeBgScroll);
-    }
+    changeBgScroll(); // check once on mount
+    window.addEventListener("scroll", changeBgScroll);
 
     return () => {
-      if (typeof window !== "undefined") {
-        window.removeEventListener("scroll", changeBgScroll);
-      }
+      window.removeEventListener("scroll", changeBgScroll);
     };
-  }, []);
+  }, [isClient]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -39,6 +45,10 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
+  // Prevent hydration mismatch
+  if (!isClient) return null;
+
 
   return (
     <div

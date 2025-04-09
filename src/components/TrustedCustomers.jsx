@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const TrustedCustomers = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 mt-24 lg:mt-0 xl:mt-0">
       <div className="mx-10 lg:mx-0 xl:mx-0 md:10">
         <h1 className="text-center pt-4 lg:pt-12 xl:pt-12 md:pt-6 trustedText">
           Trusted by 2000+ Customers in 80+Countries since 2018
