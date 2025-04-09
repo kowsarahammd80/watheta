@@ -1,24 +1,18 @@
 "use client";
 
-import React, { useEffect } from "react";
 import GettingStarted from "@/components/GettingStarted";
-import HighPerformer from "@/components/HighPerformer";
-import HomeBroadcaster from "@/components/HomeBroadcaster";
-import HomeConnectors from "@/components/HomeConnectors";
-import HomeCrm from "@/components/HomeCrm";
-import HomeDrip from "@/components/HomeDrip";
+// import HighPerformer from "@/components/HighPerformer";
 import HomeFAQ from "@/components/HomeFAQ";
-import HomeGenerativeAI from "@/components/HomeGenerativeAI";
-import WhatsAppChatBots from "@/components/WhatsAppChatBots";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import HomeFeatures from "@/components/HomeFeatures";
 import { Navigation } from "swiper/modules";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Teambox from "@/components/Teambox";
-import WhtasAppCommerce from "@/components/WhtasAppCommerce";
+import FeaturesPageFeturs from "@/components/FeaturesPageFeturs";
 
 const FeturesPage = () => {
   useEffect(() => {
@@ -403,16 +397,10 @@ const FeturesPage = () => {
           </div>
         </div>
       </div>
-      <WhatsAppChatBots />
-      <HomeCrm />
-      <Teambox />
-      <WhtasAppCommerce />
-      <HomeBroadcaster />
-      <HomeDrip />
-      <HomeConnectors />
-      <HomeGenerativeAI />
+      {/* <HomeFeatures /> */}
+      <FeaturesPageFeturs/>
       <GettingStarted />
-      <HighPerformer />
+      {/* <HighPerformer /> */}
       <HomeFAQ />
     </div>
   );

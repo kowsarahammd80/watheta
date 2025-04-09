@@ -25,22 +25,22 @@ const HomeDrip = () => {
           <div className="ms-0 lg:ms-0 xl:ms-0 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
               {" "}
-              <span className="wahtsChatbotswhatsLogoDiv me-2">
+              {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
                 <img
                   className="wahtsChatbotswhatsLogo"
                   src="/images/wahts.png"
                   alt=""
                 />
-              </span>{" "}
+              </span>{" "} */}
               Drip Campaigns
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Automate Nurturing & Upsell
+              Automate Nurturing, Upsell more
+              efficiently than ever before.
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
               Drip Campaigns tool allows you to effectively guide your prospects
-              along the buyer's journey, converting leads into customers more
-              efficiently and swiftly than ever before.
+              along the buyer's journey, converting leads into customers more swiftly
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
@@ -50,13 +50,13 @@ const HomeDrip = () => {
                 </p>
               </div>
               <div>
-                <p className="persentTextNumber">25%–30%</p>
+                <p className="persentTextNumber">25–30%</p>
                 <p className="w-1/2 pt-2 persentText">higher retention</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
-                <p className="persentTextNumber">70%</p>
+                <p className="persentTextNumber">77%</p>
                 <p className="w-5/12 pt-2 persentText">Click-Through Rate</p>
               </div>
               <div>

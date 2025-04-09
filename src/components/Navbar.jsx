@@ -74,11 +74,11 @@ const Navbar = () => {
               { name: "Home", href: "/"},
               { name: "Features", href: "/features" },
               { name: "Pricing", href: "/pricing" },
-              { name: "Blogs", href: "/blogs" },
-              { name: "Help", href: "/help" },
+              // { name: "Blogs", href: "/blogs" },
+              { name: "Help", href: "https://docs.watheta.com" },
               { name: "Contact ", href: "/contact" },
-              { name: "Use Case ", href: "/usecase" },
-              { name: "Affiliate ", href: "/affiliate" },
+              // { name: "Use Case ", href: "/usecase" },
+              // { name: "Affiliate ", href: "/affiliate" },
             ].map((link) => (
               <Link
                 key={link.name}
@@ -97,12 +97,16 @@ const Navbar = () => {
 
           {/* Desktop Buttons */}
           <div className="flex justify-end w-auto">
+            <a href="https://dash.watheta.com/login">
             <button className="me-1 lg:me-5 xl:me-5 md:me-5 hidden lg:block xl:block md:hidden">
               Log In
             </button>
+            </a>
+            <a href="https://dash.watheta.com/register">
             <button className="get-started hidden lg:block xl:block md:hidden rounded-3xl text-sm">
               Get Started
             </button>
+            </a>
           </div>
 
           {/* Hamburger Menu */}

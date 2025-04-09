@@ -33,22 +33,20 @@ const HomeConnectors = () => {
           <div className="ms-0 lg:ms-16 xl:ms-16 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
               {" "}
-              <span className="wahtsChatbotswhatsLogoDiv me-2">
+              {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
                 <img
                   className="wahtsChatbotswhatsLogo"
                   src="/images/wahts.png"
                   alt=""
                 />
-              </span>{" "}
+              </span>{" "} */}
               Connectors
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Simplifying Integration With Any Platform
+            Create custom workflows with 1000 plus integrations 
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
-              Harness the power of WhatsApp Commerce and transform your sales
-              process, delivering exceptional service right at your customers'
-              fingertips.
+            Unlock seamless communication with WhatsApp powerful API connectors and webhook integrations, enabling real-time notifications, automation, and efficient customer engagement.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>

@@ -24,13 +24,13 @@ const HomeGenerativeAI = () => {
           <div className="ms-0 lg:ms-0 xl:ms-0 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
               {" "}
-              <span className="wahtsChatbotswhatsLogoDiv me-2">
+              {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
                 <img
                   className="wahtsChatbotswhatsLogo"
                   src="/images/wahts.png"
                   alt=""
                 />
-              </span>{" "}
+              </span>{" "} */}
               Generative AI
             </button>
             <p className="KeepYourBusinessText pt-4">

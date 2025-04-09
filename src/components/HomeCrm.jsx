@@ -25,21 +25,21 @@ const HomeCrm = () => {
         >
           <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
             {" "}
-            <span className="wahtsChatbotswhatsLogoDiv me-2">
+            {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
               <img
                 className="wahtsChatbotswhatsLogo"
                 src="/images/wahts.png"
                 alt=""
               />
-            </span>{" "}
-            WhatsApp CRM
+            </span>{" "} */}
+            Modular CRM
           </button>
           <p className="KeepYourBusinessText pt-4">
-            A Conversational CRM that tells your employees what to do next
+            A Conversational CRM to manage, segment, and convert leads faster
           </p>
           <p className="whatsAppChatBotsTextPera pt-4">
             A WhatsApp-integrated CRM system with Boards, Cards, Leads Funnel,
-            Sheets and performance tracking option.
+            Sheets and performance tracking .
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div>
@@ -211,7 +211,7 @@ const HomeCrm = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
             className="whatsAppChatbotsImg"
-            src="https://watheta.com/wp-content/uploads/2023/09/63febbdf40f8cefd8d79f7e7_Engagement-p-800.png"
+            src="/images/crm.gif"
             alt=""
           />
         </div>

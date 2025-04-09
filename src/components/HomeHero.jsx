@@ -7,22 +7,30 @@ const HomeHero = () => {
         <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-10">
           <div className="flex justify-center lg:justify-center xl:justify-center md:justify-center mx-auto lg:mx-auto xl:mx-auto">
             {/* headline */}
-            <div className="pt-0 lg:pt-24 xl:pt-24">
-              <h1 className="heroNewHeadline max-w-[100%] lg:max-w-[762px] xl:max-w-[762px] text-center lg:text-center xl:text-center">
+            <div className="pt-12 lg:pt-24 xl:pt-24">
+              <h1 className="heroNewHeadline max-w-[100%] lg:max-w-[862px] xl:max-w-[862px] text-center lg:text-center xl:text-center">
                 {" "}
-                Grow Your Business For{" "}
-                <span className="whatsAppApiText">WhatsApp API</span>{" "}
+                
+                Grow Your Business With{" "}
+                <span className="whatsAppApiText">Power of WhatsApp</span>{" "}
               </h1>
               <p className="max-w-[100%] lg:max-w-[762px] xl:mx-w-[762px] text-center lg:text-center xl:text-center pt-3 lg:pt-5 xl:pt-5 newHeroPera">
-                look like readable English. Many desktop publishing packages and
-                web page editors now use Lorem Ipsum as their default model text
+                Connect with customers across all channels through a single,
+                powerful platform. Automate conversations, boost sales, and
+                deliver exceptional support.
               </p>
+              <p className="text-center pt-4 powerText">Powered by Official WhatsApp APIs <span>⚡</span> </p>
               <div>
-                <div className="py-5 lg:py-10 flex justify-center lg:justify-center xl:justify-center lg:gap-5 xl:gap-5 gap-2 md:gap-3">
-                  <button className="homeHeroGetButton">Get Started</button>
-                  <button className="rounded-full homeScheduleButton">
-                    Schedule A Call
-                  </button>
+                <div className="py-5 lg:py-5 xl:py-5 flex justify-center lg:justify-center xl:justify-center lg:gap-5 xl:gap-5 gap-2 md:gap-3">
+                  <a href="https://dash.watheta.com/register">
+                    <button className="homeHeroGetButton">Get Started</button>
+                  </a>
+                  <a href="https://wa.me/8801318231252?text=inquire from wahteta">
+
+                   <button className="rounded-full homeScheduleButton flex items-center">
+                     Schedule A Call <span className="ms-1"><img src="/images/Group 1000002679.png" alt="" /></span>
+                   </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -103,11 +111,15 @@ const HomeHero = () => {
         </div>
         {/* phone images */}
         <div className="block lg:hidden xl:hidden md:hidden">
-           <div className="pt-3">
-               <div className="phoneHeroNewImgDiv">
-                  <img className="phoneHeroNewImg ZoomIn" src="images/phoneHeroNew.png" alt="" />
-               </div>
-           </div>
+          <div className="pt-3">
+            <div className="phoneHeroNewImgDiv">
+              <img
+                className="phoneHeroNewImg ZoomIn"
+                src="images/phoneHeroNew.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

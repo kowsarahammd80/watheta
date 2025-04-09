@@ -143,7 +143,7 @@ const Teambox = () => {
         >
           <img
             className="whatsAppChatbotsImg"
-            src="https://watheta.com/wp-content/uploads/2023/09/wc1.png"
+            src="/images/multyCahnnel.gif"
             alt=""
           />
         </div>
@@ -163,12 +163,12 @@ const Teambox = () => {
                 alt=""
               />
             </span>{" "}
-            Omnichannel Inbox
+            Multichannel Inbox
           </button>
-          <p className="KeepYourBusinessText pt-4">One unified dashboard</p>
+          <p className="KeepYourBusinessText pt-4">Centralize all your customer conversations in one inbox.</p>
           <p className="whatsAppChatBotsTextPera pt-4">
             Manage WhatsApp, Facebook Messenger, Instagram DMs so your team
-            never misses a lead.
+            never misses a lead. Respond faster, close more deals
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div>

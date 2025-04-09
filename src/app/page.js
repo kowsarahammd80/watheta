@@ -41,7 +41,7 @@ export default function Home() {
         <TrustedCustomers/>
         {/* <HomeBlogs/> */}
         <GettingStarted/>
-        <HighPerformer/>
+        {/* <HighPerformer/> */}
         <HomeFAQ/>
     </div>
   );

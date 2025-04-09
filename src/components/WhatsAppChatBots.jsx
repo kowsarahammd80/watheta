@@ -39,21 +39,20 @@ const WhatsAppChatBots = () => {
         >
           <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
             {" "}
-            <span className="wahtsChatbotswhatsLogoDiv me-2">
+            {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
               <img
                 className="wahtsChatbotswhatsLogo"
                 src="/images/wahts.png"
                 alt=""
               />
-            </span>{" "}
-            WhatsApp Chatbots
+            </span>{" "} */}
+            Interactive Chatbot
           </button>
           <p className="KeepYourBusinessText pt-4 ">
             Keep your business open 24x7 without human
           </p>
           <p className="whatsAppChatBotsTextPera pt-4">
-            Create no-code chatbots within a minute with our drag-and-drop
-            interface
+          Easily set up WhatsApp bots that reply instantly, ask the right questions, guide your customers step-by-step, and handle routine tasks
           </p>
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div>

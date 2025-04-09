@@ -53,7 +53,7 @@ const PricingPage = () => {
                 <span className="me-2">
                   <img src="/images/tike.png" alt="" />
                 </span>{" "}
-                WhatsApp messaging at actual Meta rates, no markup
+                WhatsApp messaging at actual Meta rates, with less markup
               </button>
             </div>
             {/* slider */}
@@ -146,9 +146,17 @@ const PricingPage = () => {
         </div>
       </div>
       {/* pricing */}
+      {/* Limited time offer section */}
+      <section className="mx-5 lg:mx-60 xl:mx-96 pt-6">
+        <div className="lmitedBgDiv p-1 rounded-full shadow-md mx-5 lg:mx-64 xl:-64">
+          <h1 className="text-center text-sm">
+            Limited Period Offer - Price Can increase Anytime!
+          </h1>
+        </div>
+      </section>
       <section className="mx-5 lg:mx-40 xl:mx-40 md:mx-16">
         {/* toggole button */}
-        <div className="flex justify-center py-10">
+        {/* <div className="flex justify-center py-10">
           <div className="pricingButtonTaggoleDiv ps-3 pe-1 py-1 space-x-3 rounded-full">
             <button
               onClick={() => setIsToggle("month")}
@@ -170,10 +178,32 @@ const PricingPage = () => {
                 <span>save 15%</span>{" "}
               </span>
             </button>
-            {/* <p className="buttonSaveText">save 15%</p> */}
-            {/* <p className="buttonSaveText"> {
-              isToggle === "year"&& "save 15%"
-              }</p> */}
+            
+          </div>
+        </div> */}
+        {/* new toggole */}
+        <div className="flex justify-center py-10">
+          <div className="pricingButtonTaggoleDiv ps-1 pe-1 py-1 space-x-1 rounded-full">
+            <button
+              onClick={() => setIsToggle("month")}
+              className={` px-5 py-1 rounded-full ${
+                isToggle === "month" && "pricingToggoleButton"
+              }`}
+            >
+              BDT
+            </button>
+            <button
+              onClick={() => setIsToggle("year")}
+              className={`px-5 py-1 rounded-full ${
+                isToggle === "year" && "pricingToggoleButton"
+              }`}
+            >
+              USD
+              {/* <span className="saveText border rounded-full ms-1">
+                {" "}
+                <span>save 15%</span>{" "}
+              </span> */}
+            </button>
           </div>
         </div>
         {/* pricing card section */}
@@ -187,29 +217,31 @@ const PricingPage = () => {
                 <h1 className="packagePlaneNameText">Silver Plan</h1>
 
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "৳ 149.00" : "৳ 299.00"}
+                  {isToggle === "month" ? "৳ 5999" : "$ 50"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per Month" : "Per Annual"}
+                  {isToggle === "month" ? "Per 3 Month" : "Per 3 Month"}
                 </p>
                 {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
                 </p> */}
-                <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
-                  Sign Up Now
-                </button>
+                <a href="https://dash.watheta.com/register" target="_blank">
+                  <button className="text-sm text-white bg-green-500 px-4 py-1 rounded-full mt-2 border cardHover">
+                    Sign Up Now
+                  </button>
+                </a>
               </div>
             </div>
-            <div class="pricing-card -mt-3">
-              <div class="pricing-header">Recommended</div>
-              <div class="pricing-body">
+            <div className="pricing-card -mt-3">
+              <div className="pricing-header">Recommended</div>
+              <div className="pricing-body">
                 <h1 className="packagePlaneNameText pt-0">Gold Plan</h1>
                 <p className="pricingTKText">
                   {" "}
-                  {isToggle === "month" ? "৳ 1500" : "৳ 12000"}{" "}
+                  {isToggle === "month" ? "৳ 9999" : "$ 85"}{" "}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per Month" : "Per Annual"}
+                  {isToggle === "month" ? "Per 6 Month" : "Per 6 Month"}
                 </p>
                 {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -224,10 +256,10 @@ const PricingPage = () => {
                 <h1 className="packagePlaneNameText">Plainum Plan V1</h1>
                 <p className="pricingTKText">
                   {" "}
-                  {isToggle === "month" ? "৳ 2500" : "৳ 20000"}{" "}
+                  {isToggle === "month" ? "৳ 17999" : "$ 150"}{" "}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per Month" : "Per Annual"}
+                  {isToggle === "month" ? "Per Yearly" : "Per Yearly"}
                 </p>
                 {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -418,6 +450,8 @@ const PricingPage = () => {
                   </span>
                 </p>
               </div>
+
+              {/* service */}
               <div className="feturesTexts">
                 <p className="spasingHeght flex items-center"></p>
                 <p className="border-b featuresTextPadding flex items-center">
@@ -452,6 +486,7 @@ const PricingPage = () => {
                   </span>
                 </p>
               </div>
+
               <div className="feturesTexts">
                 <p className="spasingHeght flex items-center"></p>
                 <p className="border-b featuresTextPadding flex items-center">
@@ -488,6 +523,52 @@ const PricingPage = () => {
                   </span>
                 </p>
               </div>
+              <div className="feturesTexts">
+                <p className="spasingHeght flex items-center"></p>
+                <p className="border-b featuresTextPadding flex items-center">
+                  <span className="tex-lg feturesHead pt-4">
+                    Social Media Channels (Add-ons)
+                  </span>
+                </p>
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/communication_15047435.png"
+                      alt=""
+                    />
+                  </span>{" "}
+                  Facebook{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">Facebook:</span>{" "}
+                      <br /> Facebook Business page
+                    </span>{" "}
+                  </span>
+                </p>
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/instagram_2111463.png"
+                      alt=""
+                    />
+                  </span>
+                  Instagram{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Instagram:
+                      </span>{" "}
+                      <br /> Instragram Business profile
+                    </span>{" "}
+                  </span>
+                </p>
+              </div>
             </div>
             {/* silver */}
             <div className="">
@@ -499,7 +580,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  1 WhatsApp API Channel
+                  10 WhatsApp API Channel
                 </p>
                 <p className=" flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -511,13 +592,13 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  5 Team Members
+                  1 Team Members
                 </p>
                 <p className=" flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  No markup on WhatsApp conversations
+                  10% markup on WhatsApp conversations
                 </p>
               </div>
               <div className="feturesTexts">
@@ -535,19 +616,19 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  5000 Products
+                  100 Products
                 </p>
                 <p className="featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  5000 Orders
+                  100 Orders
                 </p>
                 <p className="featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  5000 Abandoned Carts
+                  100 Abandoned Carts
                 </p>
               </div>
               <div className="feturesTexts">
@@ -571,7 +652,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  5000 External Actions
+                  200 External Actions
                 </p>
               </div>
               <div className="feturesTexts">
@@ -610,6 +691,25 @@ const PricingPage = () => {
                   No Conv Monthly FUP Limit
                 </p>
               </div>
+              {/* for social */}
+              <div className="feturesTexts">
+                <p className="spasingHeght flex items-center"></p>
+                <p className="border-b featuresTextPadding flex items-center">
+                  <span className="tex-lg text-white"></span>
+                </p>
+                <p className="featuresDiscription flex items-center border-b featuresTextPadding">
+                  <span className="me-2">
+                    <img src="/images/greenTik.png" alt="" />
+                  </span>
+                  1 Facebook Page
+                </p>
+                <p className="featuresDiscription flex items-center border-b featuresTextPadding">
+                  <span className="me-2">
+                    <img src="/images/greenTik.png" alt="" />
+                  </span>
+                  1 Instagram Page
+                </p>
+              </div>
             </div>
             {/* gold */}
             <div className="border border-green-500 rounded-xl">
@@ -621,7 +721,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  1 WhatsApp API Channel
+                  10 WhatsApp API Channel
                 </p>
                 <p className="ps-3 flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -633,13 +733,13 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  10 Team Members
+                  3 Team Members
                 </p>
                 <p className="ps-3 flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  No markup on WhatsApp conversations
+                  10% markup on WhatsApp conversations
                 </p>
               </div>
               <div className="feturesTexts">
@@ -657,19 +757,19 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  10000 Products
+                  1000 Products
                 </p>
                 <p className="ps-3 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  10000 Orders
+                  1000 Orders
                 </p>
                 <p className="ps-3 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  10000 Abandoned Carts
+                  1000 Abandoned Carts
                 </p>
               </div>
               <div className="feturesTexts">
@@ -693,7 +793,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  10000 External Actions in Bots
+                  1000 External Actions in Bots
                 </p>
               </div>
               <div className="feturesTexts">
@@ -705,7 +805,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  Support In 6 Working Hours
+                  Support In 24 Working Hours
                 </p>
                 <p className="ps-3 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -733,6 +833,26 @@ const PricingPage = () => {
                 </p>
                 <p className="featuresDiscription flex items-center featuresTextPadding"></p>
               </div>
+              {/* for social */}
+              <div className="feturesTexts">
+                <p className="ps-3 spasingHeght flex items-center"></p>
+                {/* <p className="border-b featuresTextPadding flex items-center">
+                  <span className="tex-lg text-white"></span>
+                </p> */}
+                <p className="ps-3 featuresDiscription flex items-center border-t border-b featuresTextPadding">
+                  <span className="me-2">
+                    <img src="/images/greenTik.png" alt="" />
+                  </span>
+                  2 Facebook Page
+                </p>
+                <p className="ps-3 featuresDiscription flex items-center border-b featuresTextPadding">
+                  <span className="me-2">
+                    <img src="/images/greenTik.png" alt="" />
+                  </span>
+                  2 Instagram Page
+                </p>
+                <p className="featuresDiscription flex items-center featuresTextPadding"></p>
+              </div>
             </div>
             {/* platimun */}
             <div className="">
@@ -744,7 +864,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  1 WhatsApp API Channel
+                  10 WhatsApp API Channel
                 </p>
                 <p className="ps-2 flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -756,13 +876,13 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  10 Team Members
+                  5 Team Members
                 </p>
                 <p className="ps-2 flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  No markup on WhatsApp conversations
+                  5% markup on WhatsApp conversations
                 </p>
               </div>
               <div className="feturesTexts">
@@ -774,25 +894,25 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  3 WhatsApp Commerce Store
+                  1 WhatsApp Commerce Store
                 </p>
                 <p className="ps-2 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  20000 Products
+                  5000 Products
                 </p>
                 <p className="ps-2 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  20000 Orders
+                  5000 Orders
                 </p>
                 <p className="ps-2 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  20000 Abandoned Carts
+                  5000 Abandoned Carts
                 </p>
               </div>
               <div className="feturesTexts">
@@ -816,7 +936,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  50000 External Actions in Bots
+                  5000 External Actions in Bots
                 </p>
               </div>
               <div className="feturesTexts">
@@ -828,7 +948,7 @@ const PricingPage = () => {
                   <span className="me-2">
                     <img src="/images/greenTik.png" alt="" />
                   </span>
-                  Support In 2 Working Hours
+                  Support In 6 Working Hours
                 </p>
                 <p className="ps-2 featuresDiscription flex items-center border-b featuresTextPadding">
                   <span className="me-2">
@@ -855,10 +975,45 @@ const PricingPage = () => {
                   No Conv Monthly FUP Limit
                 </p>
               </div>
+              {/* for social */}
+              <div className="feturesTexts">
+                <p className="spasingHeght flex items-center"></p>
+                <p className="ps-2 border-b featuresTextPadding flex items-center">
+                  <span className="tex-lg text-white"></span>
+                </p>
+                <p className="ps-2 featuresDiscription flex items-center border-b featuresTextPadding">
+                  <span className="me-2">
+                    <img src="/images/greenTik.png" alt="" />
+                  </span>
+                  2 Facebook Page
+                </p>
+                <p className="ps-2 featuresDiscription flex items-center border-b featuresTextPadding">
+                  <span className="me-2">
+                    <img src="/images/greenTik.png" alt="" />
+                  </span>
+                  2 Instagram Page
+                </p>
+              </div>
             </div>
           </div>
         </section>
       </section>
+      {/* explore pricing */}
+      {/* <section className="">
+        <div className="text-center">
+          <h1 className="font-semibold text-xl pt-5">Countrywise WhatsApp Conversation Pricing</h1> 
+          <div className="flex justify-center py-2 lg:py-3 xl:py-3 md:py-2">
+          <a href="https://business.whatsapp.com/products/platform-pricing" target="_blank">
+          <button className="get-started px-5 lg:px-6 xl:px-6 py-2 rounded-full flex items-center border HomeFeturescardShadow">
+            Explore Pricing{" "}
+            <img src="/images/Group 1000002679.png" alt="" className="ms-3" />
+          </button>
+          </a>
+        
+      </div>
+        </div>
+      </section> */}
+
       {/* pricing for phone */}
       <section className="mx-5 md:mx-16 block lg:hidden xl:hidden">
         <div className="pb-10 grid grid-cols-1">
@@ -868,10 +1023,10 @@ const PricingPage = () => {
             <div className="silverPlanDiv flex items-center justify-center text-center">
               <div>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "৳ 149.00" : "৳ 99.00"}
+                  {isToggle === "month" ? "৳ 5999" : "$ 50"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per Month" : "Per Annual"}
+                  {isToggle === "month" ? "Per 3 Month" : "Per 3 Month"}
                 </p>
                 {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -908,7 +1063,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    1 WhatsApp API Channel
+                    10 WhatsApp API Channel
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -952,7 +1107,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    5 Team Members
+                    1 Team Members
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
@@ -974,7 +1129,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    No markup on WhatsApp conversations
+                    10% markup on WhatsApp conversations
                   </p>
                 </div>
               </div>
@@ -1028,7 +1183,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    5000 Products
+                    100 Products
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -1050,7 +1205,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    5000 Orders
+                    100 Orders
                   </p>
                 </div>
                 <div className="grid grid-cols-2 ">
@@ -1072,7 +1227,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    5000 Abandoned Carts
+                    100 Abandoned Carts
                   </p>
                 </div>
               </div>
@@ -1151,11 +1306,11 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    5000 External Actions
+                    200 External Actions
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
+                  {/* <p className=" featuresTextPadding flex items-center">
                     Abandoned Carts{" "}
                     <span className="iIcon ps-1 cursor-pointer flex items-center">
                       {" "}
@@ -1168,13 +1323,13 @@ const PricingPage = () => {
                         updating databases to enhance customer interaction.
                       </span>{" "}
                     </span>
-                  </p>
-                  <p className="featuresDiscription flex items-center featuresTextPadding">
+                  </p> */}
+                  {/* <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
                     5000 Abandoned Carts
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -1203,7 +1358,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    Support in 12 Working Hours
+                    Support in 1-3 Working Days
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
@@ -1284,6 +1439,70 @@ const PricingPage = () => {
                 </div>
               </div>
             </div>
+            {/* facebook phone */}
+            <div className="pt-3">
+              <div className="feturesTexts">
+                <div className="border-b-2 flex items-end">
+                  <h1 className="mb-2 text-lg feturesHead pt-4">
+                    Social Media Channels (Add-ons)
+                  </h1>
+                </div>
+                <div className="grid grid-cols-2 w-full border-b">
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/communication_15047435.png"
+                      alt=""
+                    />
+                  </span>{" "}
+                  Facebook{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">Facebook:</span>{" "}
+                      <br /> Facebook Business page
+                    </span>{" "}
+                  </span>
+                </p>
+                  <p className="featuresDiscription flex items-center featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    1 Facebook Page
+                  </p>
+                </div>
+                <div className="grid grid-cols-2">
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/instagram_2111463.png"
+                      alt=""
+                    />
+                  </span>
+                  Instagram{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Instagram:
+                      </span>{" "}
+                      <br /> Instragram Business profile
+                    </span>{" "}
+                  </span>
+                </p>
+                  <p className="featuresDiscription flex items-center  featuresTextPadding border-b">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    1 Instagram Page
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           {/* gold */}
           <div className="pt-10">
@@ -1292,10 +1511,10 @@ const PricingPage = () => {
               <div class="pricing-body">
                 <h1 className="packagePlaneNameText pt-1">Gold Plan</h1>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "৳ 1500" : "৳ 12000"}
+                  {isToggle === "month" ? "৳ 9999" : "$ 85"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per Month" : "Per Annual"}
+                  {isToggle === "month" ? "Per 6 Month" : "Per 6 Month"}
                 </p>
                 {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -1334,7 +1553,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    1 WhatsApp API Channel
+                    10 WhatsApp API Channel
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -1378,7 +1597,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    10 Team Members
+                    3 Team Members
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
@@ -1400,7 +1619,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    No markup on WhatsApp conversations
+                    5% markup on WhatsApp conversations
                   </p>
                 </div>
               </div>
@@ -1455,7 +1674,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    10000 Products
+                    1000 Products
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -1478,7 +1697,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    10000 Orders
+                    1000 Orders
                   </p>
                 </div>
                 <div className="grid grid-cols-2 ">
@@ -1501,7 +1720,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    10000 Abandoned Carts
+                    1000 Abandoned Carts
                   </p>
                 </div>
               </div>
@@ -1577,7 +1796,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    10000 External Actions in Bots
+                    1000 External Actions in Bots
                   </p>
                 </div>
               </div>
@@ -1607,7 +1826,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    Support in 12 Working Hours
+                    Support in 24 Working Hours
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
@@ -1689,6 +1908,70 @@ const PricingPage = () => {
                 </div>
               </div>
             </div>
+            {/* social details */}
+            <div className="pt-3">
+              <div className="feturesTexts">
+                <div className="border-b-2 flex items-end">
+                  <h1 className="mb-2 text-lg feturesHead pt-4">
+                    Social Media Channels (Add-ons)
+                  </h1>
+                </div>
+                <div className="grid grid-cols-2 w-full border-b">
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/communication_15047435.png"
+                      alt=""
+                    />
+                  </span>{" "}
+                  Facebook{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">Facebook:</span>{" "}
+                      <br /> Instragram Business profile
+                    </span>{" "}
+                  </span>
+                </p>
+                  <p className="featuresDiscription flex items-center featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    2 Facebook Page
+                  </p>
+                </div>
+                <div className="grid grid-cols-2">
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/instagram_2111463.png"
+                      alt=""
+                    />
+                  </span>
+                  Instagram{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Instagram:
+                      </span>{" "}
+                      <br /> Instragram Business profile
+                    </span>{" "}
+                  </span>
+                </p>
+                  <p className="featuresDiscription flex items-center  featuresTextPadding border-b">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    2 Instagram Page
+                  </p>
+                </div>
+              </div>
+            </div>
             {/* <div className="pt-3">
               <div className="feturesTexts">
                 <div className="border-b-2 flex items-end">
@@ -1727,10 +2010,10 @@ const PricingPage = () => {
               <div>
                 <h1 className="packagePlaneNameText">Platinum V1</h1>
                 <p className="pricingTKText">
-                  {isToggle === "month" ? "৳ 2500" : "৳ 20000"}
+                  {isToggle === "month" ? "৳ 17999" : "$ 150"}
                 </p>
                 <p className="text-xs opacity-60">
-                  {isToggle === "month" ? "Per Month" : "Per Annual"}
+                  {isToggle === "month" ? "Per Year" : "Per Year"}
                 </p>
                 {/* <p className="text-xs opacity-60">
                   {isToggle === "month" ? "With one time setup charge 1000 BDT" : ""}
@@ -1767,7 +2050,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    3 WhatsApp API Channel
+                    10 WhatsApp API Channel
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -1813,7 +2096,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    25 Team Members
+                    5 Team Members
                   </p>
                 </div>
                 <div className="grid grid-cols-2">
@@ -1869,7 +2152,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    3 WhatsApp Commerce Store
+                    1 WhatsApp Commerce Store
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -1892,7 +2175,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    20000 Products
+                    5000 Products
                   </p>
                 </div>
                 <div className="grid grid-cols-2 border-b">
@@ -1915,7 +2198,7 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    20000 Orders
+                    5000 Orders
                   </p>
                 </div>
                 <div className="grid grid-cols-2 ">
@@ -1929,93 +2212,10 @@ const PricingPage = () => {
                           Abandoned Carts
                         </span>{" "}
                         <br />
-                        Retrieve and follow up with customers who leave items in their carts without completing the purchase.
+                        Retrieve and follow up with customers who leave items in
+                        their carts without completing the purchase.
                       </span>{" "}
                     </span>
-                  </p>
-                  <p className="featuresDiscription flex items-center featuresTextPadding">
-                    <span className="me-2">
-                      <img src="/images/greenTik.png" alt="" />
-                    </span>
-                    20000 Abandoned Carts
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* details */}
-            <div className="pt-3">
-              <div className="feturesTexts">
-                <div className="border-b-2 flex items-end">
-                  <h1 className="mb-2 text-lg feturesHead pt-4">
-                    Bots & Automation
-                  </h1>
-                </div>
-                <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    Bot Building Blocks <span className="iIcon ps-1 cursor-pointer">
-                      {" "}
-                      ⓘ{" "}
-                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
-                        <span className="font-semibold space-y-5">
-                        Bot Building Blocks
-                        </span>{" "}
-                        <br />Create custom automation workflows using intuitive building blocks to enhance user engagement.
-
-                      </span>{" "}
-                    </span>
-                  </p>
-                  <p className="featuresDiscription flex items-center featuresTextPadding">
-                    <span className="me-2">
-                      <img src="/images/greenTik.png" alt="" />
-                    </span>
-                    Upto 150 Blocks Bot Building
-                  </p>
-                </div>
-                <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding">
-                    Bot/Automation Triggers <span className="iIcon pe-2 cursor-pointer">
-                      {" "}
-                      ⓘ{" "}
-                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
-                        <span className="font-semibold space-y-5">
-                        Bot/Automation Triggers
-                        </span>{" "}
-                        <br />Set triggers that automatically activate actions in your automation processes.
-
-                      </span>{" "}
-                    </span>
-                  </p>
-                  <p className="featuresDiscription flex items-center  featuresTextPadding">
-                    <span className="me-2">
-                      <img src="/images/greenTik.png" alt="" />
-                    </span>
-                    10 Million Bots / Automations Triggers
-                  </p>
-                </div>
-                <div className="grid grid-cols-2 border-b">
-                  <p className=" featuresTextPadding flex items-center">
-                    External Actions <span className="iIcon ps-1 cursor-pointer">
-                      {" "}
-                      ⓘ{" "}
-                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
-                        <span className="font-semibold space-y-5">
-                        External Actions
-                        </span>{" "}
-                        <br />Automate external actions like sending emails or updating databases to enhance customer interaction.
-
-                      </span>{" "}
-                    </span>
-                  </p>
-                  <p className="featuresDiscription flex items-center  featuresTextPadding">
-                    <span className="me-2">
-                      <img src="/images/greenTik.png" alt="" />
-                    </span>
-                    50000 External Actions in Bots
-                  </p>
-                </div>
-                <div className="grid grid-cols-2">
-                  <p className=" featuresTextPadding flex items-center">
-                    Abandoned Carts ⓘ
                   </p>
                   <p className="featuresDiscription flex items-center featuresTextPadding">
                     <span className="me-2">
@@ -2030,19 +2230,23 @@ const PricingPage = () => {
             <div className="pt-3">
               <div className="feturesTexts">
                 <div className="border-b-2 flex items-end">
-                  <h1 className="mb-2 text-lg feturesHead pt-4">Support</h1>
+                  <h1 className="mb-2 text-lg feturesHead pt-4">
+                    Bots & Automation
+                  </h1>
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
-                  <p className=" featuresTextPadding">
-                    WABA & CRM SLA <span className="iIcon ps-1 cursor-pointer">
+                  <p className=" featuresTextPadding flex items-center">
+                    Bot Building Blocks{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
                       {" "}
                       ⓘ{" "}
                       <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
                         <span className="font-semibold space-y-5">
-                        WABA & CRM SLA
+                          Bot Building Blocks
                         </span>{" "}
-                        <br />Guaranteed response and resolution times for WhatsApp API and CRM-related issues.
-
+                        <br />
+                        Create custom automation workflows using intuitive
+                        building blocks to enhance user engagement.
                       </span>{" "}
                     </span>
                   </p>
@@ -2050,20 +2254,110 @@ const PricingPage = () => {
                     <span className="me-2">
                       <img src="/images/greenTik.png" alt="" />
                     </span>
-                    Support in 12 Working Hours
+                    Upto 150 Blocks Bot Building
                   </p>
                 </div>
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-2 border-b">
                   <p className=" featuresTextPadding">
-                    Bot/Automation Support <span className="iIcon pe-2 cursor-pointer">
+                    Bot/Automation Triggers{" "}
+                    <span className="iIcon pe-2 cursor-pointer">
                       {" "}
                       ⓘ{" "}
                       <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
                         <span className="font-semibold space-y-5">
-                        Bot/Automation Support
+                          Bot/Automation Triggers
                         </span>{" "}
-                        <br />Access support for troubleshooting or improving your bots and automation workflows.
-
+                        <br />
+                        Set triggers that automatically activate actions in your
+                        automation processes.
+                      </span>{" "}
+                    </span>
+                  </p>
+                  <p className="featuresDiscription flex items-center  featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    10 Million Bots / Automations Triggers
+                  </p>
+                </div>
+                <div className="grid grid-cols-2 border-b">
+                  <p className=" featuresTextPadding flex items-center">
+                    External Actions{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          External Actions
+                        </span>{" "}
+                        <br />
+                        Automate external actions like sending emails or
+                        updating databases to enhance customer interaction.
+                      </span>{" "}
+                    </span>
+                  </p>
+                  <p className="featuresDiscription flex items-center  featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    5000 External Actions in Bots
+                  </p>
+                </div>
+                <div className="grid grid-cols-2">
+                  {/* <p className=" featuresTextPadding flex items-center">
+                    Abandoned Carts ⓘ
+                  </p>
+                  <p className="featuresDiscription flex items-center featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    5000 Abandoned Carts
+                  </p> */}
+                </div>
+              </div>
+            </div>
+            {/* details */}
+            <div className="pt-3">
+              <div className="feturesTexts">
+                <div className="border-b-2 flex items-end">
+                  <h1 className="mb-2 text-lg feturesHead pt-4">Support</h1>
+                </div>
+                <div className="grid grid-cols-2 w-full border-b">
+                  <p className=" featuresTextPadding">
+                    WABA & CRM SLA{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          WABA & CRM SLA
+                        </span>{" "}
+                        <br />
+                        Guaranteed response and resolution times for WhatsApp
+                        API and CRM-related issues.
+                      </span>{" "}
+                    </span>
+                  </p>
+                  <p className="featuresDiscription flex items-center featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    Support in 6 Working Days
+                  </p>
+                </div>
+                <div className="grid grid-cols-2">
+                  <p className=" featuresTextPadding">
+                    Bot/Automation Support{" "}
+                    <span className="iIcon pe-2 cursor-pointer">
+                      {" "}
+                      ⓘ{" "}
+                      <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
+                        <span className="font-semibold space-y-5">
+                          Bot/Automation Support
+                        </span>{" "}
+                        <br />
+                        Access support for troubleshooting or improving your
+                        bots and automation workflows.
                       </span>{" "}
                     </span>
                   </p>
@@ -2086,15 +2380,17 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2 w-full border-b">
                   <p className=" featuresTextPadding flex items-center">
-                    Messages/Second <span className="iIcon ps-1 cursor-pointer">
+                    Messages/Second{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
                       {" "}
                       ⓘ{" "}
                       <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
                         <span className="font-semibold space-y-5">
-                        Messages/Second
+                          Messages/Second
                         </span>{" "}
-                        <br />The limit on the number of messages that can be sent per second, ensuring system stability.
-
+                        <br />
+                        The limit on the number of messages that can be sent per
+                        second, ensuring system stability.
                       </span>{" "}
                     </span>
                   </p>
@@ -2107,15 +2403,17 @@ const PricingPage = () => {
                 </div>
                 <div className="grid grid-cols-2">
                   <p className=" featuresTextPadding flex items-center">
-                    Monthly FUP Limit <span className="iIcon ps-1 cursor-pointer">
+                    Monthly FUP Limit{" "}
+                    <span className="iIcon ps-1 cursor-pointer">
                       {" "}
                       ⓘ{" "}
                       <span className="iIconText border pe-1 ps-5 py-3 ms-5 shadow rounded-md text-sm">
                         <span className="font-semibold space-y-5">
-                        Monthly FUP Limit
+                          Monthly FUP Limit
                         </span>{" "}
-                        <br />The Fair Usage Policy limit for monthly usage, helping to manage resources effectively.
-
+                        <br />
+                        The Fair Usage Policy limit for monthly usage, helping
+                        to manage resources effectively.
                       </span>{" "}
                     </span>
                   </p>
@@ -2128,10 +2426,137 @@ const PricingPage = () => {
                 </div>
               </div>
             </div>
+            <div className="pt-3">
+              <div className="feturesTexts">
+                <div className="border-b-2 flex items-end">
+                  <h1 className="mb-2 text-lg feturesHead pt-4">
+                    Social Media Channels (Add-ons)
+                  </h1>
+                </div>
+                <div className="grid grid-cols-2 w-full border-b">
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/communication_15047435.png"
+                      alt=""
+                    />
+                  </span>{" "}
+                  Facebook{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">Facebook:</span>{" "}
+                      <br /> Facebook Business page
+                    </span>{" "}
+                  </span>
+                </p>
+                  <p className="featuresDiscription flex items-center featuresTextPadding">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    2 Facebook Page
+                  </p>
+                </div>
+                <div className="grid grid-cols-2">
+                <p className="featuresTextPadding border-b flex items-center">
+                  <span className="priceingFacebbokIconDiv me-1">
+                    <img
+                      className="priceingFacebbokIcon"
+                      src="/images/instagram_2111463.png"
+                      alt=""
+                    />
+                  </span>
+                  Instagram{" "}
+                  <span className="iIcon ps-1 cursor-pointer">
+                    {" "}
+                    ⓘ{" "}
+                    <span className="iIconText border bg-white pe-0 ps-5 py-3 ms-5 shadow rounded-md">
+                      <span className="font-semibold space-y-5">
+                        Instragram:
+                      </span>{" "}
+                      <br /> Instragram Business profile
+                    </span>{" "}
+                  </span>
+                </p>
+                  <p className="featuresDiscription flex items-center  featuresTextPadding border-b">
+                    <span className="me-2">
+                      <img src="/images/greenTik.png" alt="" />
+                    </span>
+                    2 Instagram Page
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+      <section className="">
+        <div className="text-center">
+          <h1 className="font-semibold text-xl pt-5">
+            Countrywise WhatsApp Conversation Pricing
+          </h1>
+          <div className="flex justify-center py-2 lg:py-3 xl:py-3 md:py-2">
+            <a
+              href="https://business.whatsapp.com/products/platform-pricing"
+              target="_blank"
+            >
+              <button className="get-started px-5 lg:px-6 xl:px-6 py-2 rounded-full flex items-center border HomeFeturescardShadow">
+                Explore Pricing{" "}
+                <img
+                  src="/images/Group 1000002679.png"
+                  alt=""
+                  className="ms-3"
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      {/* get start business  */}
+
+      <section className="mx-3 lg:mx-48 xl:mx-48 md:mx-16 pt-16 pb-16">
+        <div className="joinOurNewsletterbgImgDiv">
+          <img
+            className="joinOurNewsletterbgImg hidden lg:block xl:block"
+            src="/images/Group 1000002862.png"
+            alt=""
+          />
+          <img
+            className="joinOurNewsletterbgImg block lg:hidden xl:hidden"
+            src="/images/PhoneBgnewsletter.png"
+            alt=""
+          />
+          <div className="joinOurNewsletterContentDiv flex justify-center items-center">
+            <div className="">
+              <div className="flex justify-center">
+                <h1 className="text-white transformYourBusinessText text-center">
+                  Are You looking for Custom or Corporate Package
+                </h1>
+              </div>
+              <p className="text-md lg:text-lg xl:text-lg text-white text-center pt-2 lg:pt-4 xl:pt-4 leading-relaxed mx-5 lg:mx-0 xl:mx-0">
+                Join 23,000+ businesses already growing with our platform
+              </p>
+
+              <div className="py-4">
+                <a href="https://wa.me/8801318231252?text=Looking for WaTheta Custom Package">
+                <button className="flex justify-center items-center readyToButton">
+                  Schedule A Call{" "}
+                  <span className="ms-2 lg:ms-3 xl:ms-3">
+                    <img src="/images/white1000002679.png" alt="" />
+                  </span>{" "}
+                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Aditional */}
+
       <section className="additionalbg py-16">
         <div className="mx-5 lg:mx-48 xl:mx-48 md:mx-16">
           {/* headline */}
@@ -2163,7 +2588,7 @@ const PricingPage = () => {
                   Additional team member access
                 </p>
                 <p className="pt-2 aditionalPrice">
-                  $10 <span className="aditonalpermaoth">/per month</span>
+                  $5 <span className="aditonalpermaoth">/per month</span>
                 </p>
               </div>
             </div>
@@ -2178,13 +2603,13 @@ const PricingPage = () => {
               </div>
               <div className="py-4">
                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
-                  Social Channel
+                  Facebook Channel
                 </h1>
                 <p className="aditionlCardPera pt-1">
                   Additional social media channel
                 </p>
                 <p className="pt-2 aditionalPrice">
-                  $10 <span className="aditonalpermaoth">/per month</span>
+                  $5 <span className="aditonalpermaoth">/per month</span>
                 </p>
               </div>
             </div>
@@ -2205,7 +2630,7 @@ const PricingPage = () => {
                   Additional external actions
                 </p>
                 <p className="pt-2 aditionalPrice">
-                  $10 <span className="aditonalpermaoth">/per month</span>
+                  $5 <span className="aditonalpermaoth">/per 5000 actions</span>
                 </p>
               </div>
             </div>
@@ -2222,12 +2647,9 @@ const PricingPage = () => {
                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
                   Bot Triggers
                 </h1>
-                <p className="aditionlCardPera pt-1">
-                  Additional external actions
-                </p>
+                <p className="aditionlCardPera pt-1">Additional bot trigger</p>
                 <p className="pt-2 aditionalPrice">
-                  $10{" "}
-                  <span className="aditonalpermaoth">/per 25000 triggers</span>
+                  $5 <span className="aditonalpermaoth">/per store</span>
                 </p>
               </div>
             </div>
@@ -2245,11 +2667,10 @@ const PricingPage = () => {
                   Ecom Store
                 </h1>
                 <p className="aditionlCardPera pt-1">
-                  Additional external actions
+                  Additional e-commerce store
                 </p>
                 <p className="pt-2 aditionalPrice">
-                  $10{" "}
-                  <span className="aditonalpermaoth">/per 25000 triggers</span>
+                  $5 <span className="aditonalpermaoth">/per store</span>
                 </p>
               </div>
             </div>
@@ -2264,13 +2685,13 @@ const PricingPage = () => {
               </div>
               <div className="py-4">
                 <h1 className="text-md lg:text-lg xl:text-lg md:text-md font-semibold">
-                  Social Channel
+                  Instagram Channel
                 </h1>
                 <p className="aditionlCardPera pt-1">
                   Additional social media channel
                 </p>
                 <p className="pt-2 aditionalPrice">
-                  $10 <span className="aditonalpermaoth">/per month</span>
+                  $5 <span className="aditonalpermaoth">/per month</span>
                 </p>
               </div>
             </div>
@@ -2301,7 +2722,7 @@ const PricingPage = () => {
                 WABA, CRM, Inbox Support
               </h1>
               <p className="aditionalPrice">
-                $49 <span className="aditonalpermaoth">/per hour</span>
+                $10 <span className="aditonalpermaoth">/per hour</span>
               </p>
             </div>
           </div>
@@ -2318,7 +2739,7 @@ const PricingPage = () => {
             <div>
               <h1 className="dedicatedcardHeadline py-4">Ecommerce Support</h1>
               <p className="aditionalPrice">
-                $99 <span className="aditonalpermaoth">/per hour</span>
+                $20 <span className="aditonalpermaoth">/per hour</span>
               </p>
             </div>
           </div>
@@ -2335,7 +2756,7 @@ const PricingPage = () => {
             <div>
               <h1 className="dedicatedcardHeadline py-4">Bots Support</h1>
               <p className="aditionalPrice">
-                $99 <span className="aditonalpermaoth">/per hour</span>
+                $20 <span className="aditonalpermaoth">/per hour</span>
               </p>
             </div>
           </div>
@@ -2354,7 +2775,7 @@ const PricingPage = () => {
                 Automations Support
               </h1>
               <p className="aditionalPrice">
-                $99 <span className="aditonalpermaoth">/per hour</span>
+                $20 <span className="aditonalpermaoth">/per hour</span>
               </p>
             </div>
           </div>
@@ -2474,7 +2895,7 @@ const PricingPage = () => {
         </div>
       </section>
       {/* Ready to Transform Your Business? */}
-      <section className="mx-3 lg:mx-48 xl:mx-48 md:mx-16 pt-16 pb-16">
+      {/* <section className="mx-3 lg:mx-48 xl:mx-48 md:mx-16 pt-16 pb-16">
         <div className="joinOurNewsletterbgImgDiv">
           <img
             className="joinOurNewsletterbgImg hidden lg:block xl:block"
@@ -2508,7 +2929,7 @@ const PricingPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

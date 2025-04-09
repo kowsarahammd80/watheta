@@ -25,20 +25,20 @@ const WhtasAppCommerce = () => {
           <div className="ms-0 lg:ms-0 xl:ms-0 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
               {" "}
-              <span className="wahtsChatbotswhatsLogoDiv me-2">
+              {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
                 <img
                   className="wahtsChatbotswhatsLogo"
                   src="/images/wahts.png"
                   alt=""
                 />
-              </span>{" "}
-              E-commerce on WhatsApp
+              </span>{" "} */}
+             E-commerce on WhatsApp
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Reduce Drop-offs & Boost Orders
+            Engage your customer, showcase product, facilitate transactions
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
-              Add-to-cart, product view, and order—all on WhatsApp
+            Let your customers browse, add-to-cart, and place orders directly inside WhatsApp No websites. No drop-offs. seamless shopping experience in the app they already use.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>

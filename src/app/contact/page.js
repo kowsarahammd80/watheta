@@ -58,9 +58,11 @@ const ContactPage = () => {
               </button>
             </div> */}
             <div className="flex justify-center py-2 mx-5 lg:mx-5 xl:mx-5 md:mx-16">
-              <button className="text-sm bg-white py-3 px-6 rounded-full cardHover text-green-600 font-semibold">
-                Schedule A Call
-              </button>
+              <a href="https://wa.me/8801318231252?text=Shedule for wahteta">
+                <button className="text-sm bg-white py-3 px-6 rounded-full cardHover text-green-600 font-semibold">
+                  Schedule A Call
+                </button>
+              </a>
             </div>
 
             <div data-aos="fade-up" className="mx-5 lg:mx-60 xl:mx-60 pt-6">
@@ -314,9 +316,7 @@ const ContactPage = () => {
               </div>
             </div>
 
-            <form
-              className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg"
-            >
+            <form className="bg-white p-5 lg:p-10 xl:p-10 rounded-lg">
               <div>
                 <h1 className="schedulaDemoText">Schedule a Demo</h1>
                 <p className="schedulaDemoPera py-3">

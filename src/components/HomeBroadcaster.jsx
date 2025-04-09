@@ -22,7 +22,7 @@ const HomeBroadcaster = () => {
         >
           <img
             className="whatsAppChatbotsImg"
-            src="https://watheta.com/wp-content/uploads/2023/09/63a19d17edec0d79fe28f5df_WhatsApp-Commerce-p-800-1.webp"
+            src="/images/brocust.gif"
             alt=""
           />
         </div>
@@ -36,22 +36,22 @@ const HomeBroadcaster = () => {
           <div className="ms-0 lg:ms-16 xl:ms-16 md:ms-8">
             <button className="whatsAppChatBotsText px-6 py-1 rounded-full border flex items-center cardHover">
               {" "}
-              <span className="wahtsChatbotswhatsLogoDiv me-2">
+              {/* <span className="wahtsChatbotswhatsLogoDiv me-2">
                 <img
                   className="wahtsChatbotswhatsLogo"
                   src="/images/wahts.png"
                   alt=""
                 />
-              </span>{" "}
+              </span>{" "} */}
               Broadcast
             </button>
             <p className="KeepYourBusinessText pt-4">
-              Instant bulk messaging for promotions, transactions, and
-              announcements
+            Broadcast product releases, newsletter, promotional offers 
+              
             </p>
             <p className="whatsAppChatBotsTextPera pt-4">
-              Broadcast product releases, newsletter, promotional offers without
-              the risk of getting blocked
+            Instant bulk messaging for promotions, transactions, and
+            announcements Personalize each message using carousel posts, images, videos
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div>
