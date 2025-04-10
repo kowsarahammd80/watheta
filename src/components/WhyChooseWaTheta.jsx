@@ -22,10 +22,7 @@ const WhyChooseWaTheta = () => {
           </div>
           <div className="flex justify-center lg:justify-end xl:justify-end pt-4">
             <p className="whyChooseWaThetaPera">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
+            WaTheta is the all-in-one platform built to power modern business. It transforms WhatsApp into a streamlined hub for capturing leads, closing sales, automating workflows, and delivering seamless customer support all from a single dashboard
             </p>
           </div>
         </div>
