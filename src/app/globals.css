@@ -35,7 +35,7 @@ body {
 }
 .navLogoDiv {
   width: 12vw;
-  height: 5vh;
+  height: 4.5vh;
 }
 .navLog {
   width: 100%;
@@ -1560,7 +1560,7 @@ object-fit: cover;
   }
   .navLogoDiv {
     width: 100%;
-    height: 3.5vh;
+    height: 4.1vh;
   }
   .navLog {
     width: 100%;
@@ -1878,7 +1878,7 @@ object-fit: cover;
   /* happyclients */
   .HappyClientSaysBg {
     background-color: #292d32;
-    height: 50vh;
+    height: 53vh;
   }
   .happyClientsSaysText {
     font-size: 1.75rem;
@@ -1900,7 +1900,7 @@ object-fit: cover;
     font-weight: 400;
   }
   .happyClientsCardDiv{
-    height: 261px;
+    height: 320px;
   }
   /*  */
   .whaychooseWathetabg {
