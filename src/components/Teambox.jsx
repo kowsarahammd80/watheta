@@ -136,17 +136,20 @@ const Teambox = () => {
 
       <section className="flex flex-col-reverse lg:flex-row xl:flex-row md:flex-col-reverse items-start lg:items-center xl:items-center mx-5 lg:mx-40 xl:mx-40 gap-10 lg:gap-20 xl:gap-20">
         {/* ing contents */}
-        <div
-          data-aos="fade-up"
-          data-aos-duration="3000"
-          className="justify-center items-center whatsAppChatbotsImgDiv"
-        >
-          <img
-            className="whatsAppChatbotsImg"
-            src="/images/multyCahnnel.gif"
-            alt=""
-          />
+        <div className="flex justify-center items-center w-full">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="whatsAppChatbotsImgDiv"
+          >
+            <img
+              className="whatsAppChatbotsImg"
+              src="/images/multyCahnnel.gif"
+              alt=""
+            />
+          </div>
         </div>
+
         {/* text contents */}
         <div
           data-aos="fade-down"
@@ -165,7 +168,9 @@ const Teambox = () => {
             </span>{" "}
             Multichannel Inbox
           </button>
-          <p className="KeepYourBusinessText pt-4">Centralize all your customer conversations in one inbox.</p>
+          <p className="KeepYourBusinessText pt-4">
+            Centralize all your customer conversations in one inbox.
+          </p>
           <p className="whatsAppChatBotsTextPera pt-4">
             Manage WhatsApp, Facebook Messenger, Instagram DMs so your team
             never misses a lead. Respond faster, close more deals

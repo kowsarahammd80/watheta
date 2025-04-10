@@ -57,7 +57,7 @@ const HomeCrm = () => {
             <div>
               <p className="persentTextNumber">40%</p>
               <p className="w-1/2 pt-2 persentText">
-                Effective team coordination  
+                Effective team coordination
               </p>
             </div>
             <div>
@@ -205,15 +205,17 @@ const HomeCrm = () => {
           </div>
         </div>
         {/*  */}
-        <div className="flex justify-center items-center whatsAppChatbotsImgDiv">
-          <img
-            data-aos="fade-down"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            className="whatsAppChatbotsImg"
-            src="/images/crm.gif"
-            alt=""
-          />
+        <div className="flex justify-center items-center">
+          <div className="whatsAppChatbotsImgDiv">
+            <img
+              data-aos="fade-down"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="whatsAppChatbotsImg"
+              src="/images/crm.gif"
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </div>
