@@ -11,7 +11,6 @@ const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
   const pathname = usePathname();
 
-
   // Scroll background effect
   useEffect(() => {
     const changeBgScroll = () => {
@@ -23,7 +22,6 @@ const Navbar = () => {
     };
     window.addEventListener("scroll", changeBgScroll);
   }, []);
-  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -79,10 +77,14 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <button className="block lg:hidden xl:hidden">Log In</button>
-            <button className="get-started block lg:hidden xl:hidden rounded-3xl">
-              Get Started
-            </button>
+            <a href="https://dash.watheta.com/login">
+              <button className="block lg:hidden xl:hidden">Log In</button>
+            </a>
+            <a href="https://dash.watheta.com/register">
+              <button className="get-started block lg:hidden xl:hidden rounded-3xl">
+                Get Started
+              </button>
+            </a>
           </ul>
 
           {/* Desktop Buttons */}
