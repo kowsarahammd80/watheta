@@ -148,7 +148,7 @@ const PricingPage = () => {
       {/* pricing */}
       {/* Limited time offer section */}
       <section className="mx-5 lg:mx-60 xl:mx-96 pt-6">
-        <div className="lmitedBgDiv p-1 rounded-full shadow-md mx-5 lg:mx-64 xl:-64">
+        <div className="lmitedBgDiv p-1 rounded-full shadow-md mx-5">
           <h1 className="text-center text-sm">
             Limited Period Offer - Price Can increase Anytime!
           </h1>

@@ -6,22 +6,14 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [navBar, setNavBar] = useState(false);
-  const [isClient, setIsClient] = useState(false);
   const pathname = usePathname();
 
-  // Ensure we only run browser-dependent logic on the client
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   // Scroll background effect
   useEffect(() => {
-    if (!isClient) return;
-
     const changeBgScroll = () => {
       if (window.scrollY <= 50) {
         setNavBar(false);
@@ -29,14 +21,9 @@ const Navbar = () => {
         setNavBar(true);
       }
     };
-
-    changeBgScroll(); // check once on mount
     window.addEventListener("scroll", changeBgScroll);
-
-    return () => {
-      window.removeEventListener("scroll", changeBgScroll);
-    };
-  }, [isClient]);
+  }, []);
+  
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -47,12 +34,12 @@ const Navbar = () => {
   };
 
   // Prevent hydration mismatch
-  if (!isClient) return null;
-
 
   return (
     <div
-      className={`fixed z-50 w-full ${navBar ? "bg-white/30 backdrop-blur-2xl" : "bg-transparent"}`}
+      className={`fixed z-50 w-full ${
+        navBar ? "bg-white/30 backdrop-blur-2xl" : "bg-transparent"
+      }`}
     >
       {/* mx-1 lg:mx-20 xl:mx-32 md:mx-5 */}
       <div className="mx-1 lg:mx-20 xl:mx-32 md:mx-5">
@@ -69,9 +56,12 @@ const Navbar = () => {
           </Link>
 
           {/* Navigation Links */}
-          <ul onClick={closeMenu} className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+          <ul
+            onClick={closeMenu}
+            className={`nav-links ${isMenuOpen ? "active" : ""}`}
+          >
             {[
-              { name: "Home", href: "/"},
+              { name: "Home", href: "/" },
               { name: "Features", href: "/features" },
               { name: "Pricing", href: "/pricing" },
               // { name: "Blogs", href: "/blogs" },
@@ -84,8 +74,8 @@ const Navbar = () => {
                 key={link.name}
                 href={link.href}
                 className={`nav-item ${pathname === link.href ? "active" : ""}`}
-              > 
-              {/* <p>{link.name}</p> */}
+              >
+                {/* <p>{link.name}</p> */}
                 {link.name}
               </Link>
             ))}
@@ -98,14 +88,14 @@ const Navbar = () => {
           {/* Desktop Buttons */}
           <div className="flex justify-end w-auto">
             <a href="https://dash.watheta.com/login">
-            <button className="me-1 lg:me-5 xl:me-5 md:me-5 hidden lg:block xl:block md:hidden">
-              Log In
-            </button>
+              <button className="me-1 lg:me-5 xl:me-5 md:me-5 hidden lg:block xl:block md:hidden">
+                Log In
+              </button>
             </a>
             <a href="https://dash.watheta.com/register">
-            <button className="get-started hidden lg:block xl:block md:hidden rounded-3xl text-sm">
-              Get Started
-            </button>
+              <button className="get-started hidden lg:block xl:block md:hidden rounded-3xl text-sm">
+                Get Started
+              </button>
             </a>
           </div>
 

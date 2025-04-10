@@ -5,6 +5,7 @@ import JoinOurNewsLetter from "@/components/JoinOurNewsLetter";
 import Link from "next/link";
 import React, { useState } from "react";
 
+
 const BlogSingleDetails = () => {
   const [inthisButton, setinthisButton] = useState("algorithm");
   return (

@@ -7,7 +7,7 @@ const HomeHero = () => {
         <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-10">
           <div className="flex justify-center lg:justify-center xl:justify-center md:justify-center mx-auto lg:mx-auto xl:mx-auto">
             {/* headline */}
-            <div className="pt-12 lg:pt-24 xl:pt-24">
+            <div className="pt-12 lg:pt-16 xl:pt-16">
               <h1 className="heroNewHeadline max-w-[100%] lg:max-w-[862px] xl:max-w-[862px] text-center lg:text-center xl:text-center">
                 {" "}
                 
