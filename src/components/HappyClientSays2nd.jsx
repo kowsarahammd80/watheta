@@ -12,13 +12,13 @@ const clientsReviews = [
     name: "Mufassal Saif",
     role: "Founder/ Ceo, ACS Future School",
     img: "/images/mufassal.jpg",
-    text: "“Before WaTheta, we used emails and social posts to reach students — but most of them never even saw our messages. Once we started using WhatsApp broadcasts, everything changed. We reached over 4,000 students with a single course update, and more than 85% opened it within minutes. Enrollment reminders, class schedules, and offers now go straight to their phones — no delays, no confusion. It’s personal, instant, and insanely effective for student engagement.”",
+    text: "“We reached over 4,000 students with a single course update, and more than 85% opened it within minutes. Enrollment reminders, class schedules, and offers now go straight to their phones — no delays, no confusion. It’s personal, instant, and insanely effective for student engagement.”",
   },
   {
     name: "Md Shariful Islam",
     role: "Brand And Marketing Head, Ratul Properties",
     img: "/images/Shariful.jpg",
-    text: "“There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form, by injected humour”",
+    text: "“Our clients love the personalized experience they get through WhatsApp. We can send them property updates, photos, and answer their questions instantly. It feels like we're always available, which builds trust and speeds up the sales cycle”",
   },
   {
     name: "Sameer Sddique",
@@ -96,9 +96,7 @@ const HappyClientSays2nd = () => {
                       {/* pera */}
                       <div className="py-4 px-3">
                         <p className="clientSaySliderPera">
-                          “There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration in some
-                          form, by injected humour”
+                          {client.text}
                         </p>
                       </div>
                     </div>
