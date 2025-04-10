@@ -205,7 +205,7 @@ const HomeCrm = () => {
           </div>
         </div>
         {/*  */}
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center w-full">
           <div className="whatsAppChatbotsImgDiv">
             <img
               data-aos="fade-down"

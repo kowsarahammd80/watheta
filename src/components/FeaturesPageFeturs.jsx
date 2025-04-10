@@ -1,25 +1,27 @@
 "use client";
 
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const FeaturesPageFeturs = () => {
-     useEffect(() => {
-        AOS.init({
-          duration: 800,
-          once: false,
-        });
-      }, []);
-    return (
-        <div className="homeFeaturesbg py-5">
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
+  return (
+    <div className="homeFeaturesbg py-5">
       {/* heasdline */}
       <div className="">
         <h1 className="text-center pt-10 HomeFeturesHeadline">Our Features</h1>
         <div className="flex justify-center w-full">
-          <p className="text-center pt-2 mx-5 lg:mx-0 xl:mx-0 md:mx-0 w-full lg:w-1/4 xl:w-1/4 md:w-8/12 homeFeaturHedlindPera">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration
+          <p className="text-center pt-2 mx-5 lg:mx-0 xl:mx-0 md:mx-0 w-full lg:w-7/12 xl:w-7/12 md:w-8/12 homeFeaturHedlindPera">
+            Everything you need to capture leads, convert faster, and retain
+            customers — all in one platform. From smart automation to real-time
+            CRM, WaTheta gives you the tools to run your business directly
+            through WhatsApp. Designed for simplicity. Built for performance.
           </p>
         </div>
       </div>
@@ -308,7 +310,7 @@ const FeaturesPageFeturs = () => {
         </Link> */}
       </div>
     </div>
-    );
+  );
 };
 
 export default FeaturesPageFeturs;

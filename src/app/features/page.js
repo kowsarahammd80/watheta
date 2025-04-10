@@ -36,8 +36,8 @@ const FeturesPage = () => {
           <div className="mx-5 lg:mx-40 xl:mx-40 md:mx-8">
             <h1 className="featuresHeadline">Features</h1>
             <p className="text-xl featuresPera pt-2 lg:pt-5">
-              look like readable English. Many desktop publishing packages and
-              web page editors now use Lorem Ipsum as their default model text
+              Everything you need to capture leads, convert faster, and retain
+              customers — all in one platform.
             </p>
           </div>
           {/* card pc*/}
@@ -278,7 +278,7 @@ const FeturesPage = () => {
               </SwiperSlide>
 
               <SwiperSlide className="">
-            <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv rounded-lg">
+                <div className="py-4 px-2 cardBgColor cardHover cursor-pointer FeaturesCardDiv rounded-lg">
                   <div className="">
                     <div className="flex justify-center">
                       <div className="featuresCardLogoDiv">
